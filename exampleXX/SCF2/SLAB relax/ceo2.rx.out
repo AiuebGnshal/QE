@@ -1,0 +1,3641 @@
+
+     Program PWSCF v.6.1 (svn rev. 13369) starts on 15May2018 at  1: 0:30 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Serial multi-threaded version, running on    4 processor cores
+     Reading input from ceo2.rx.in
+Warning: card CE    5.417000    5.417000    0.000000 ignored
+Warning: card CE    5.417000    5.417000   26.001598 ignored
+Warning: card CE   16.250999   -5.417000    0.000000 ignored
+Warning: card CE   16.250999   -5.417000   26.001598 ignored
+Warning: card CE    5.417000    5.417000    5.416999 ignored
+Warning: card CE   16.250999   -5.417000    5.416999 ignored
+Warning: card CE    5.417000   -5.417000    0.000000 ignored
+Warning: card CE    5.417000   -5.417000   26.001598 ignored
+Warning: card CE   16.250999    5.417000    0.000000 ignored
+Warning: card CE   16.250999    5.417000   26.001598 ignored
+Warning: card CE    5.417000   -5.417000    5.416999 ignored
+Warning: card CE   16.250999    5.417000    5.416999 ignored
+Warning: card CE   10.834000    0.000000    0.000000 ignored
+Warning: card CE   10.834000    0.000000   26.001598 ignored
+Warning: card CE   10.834000    0.000000    5.416999 ignored
+Warning: card CE    2.708500    0.000000    2.708500 ignored
+Warning: card CE    2.708500    0.000000    8.125500 ignored
+Warning: card CE    8.125500    5.417000    2.708500 ignored
+Warning: card CE    8.125500    5.417000    8.125500 ignored
+Warning: card CE    8.125500   -5.417000    2.708500 ignored
+Warning: card CE    8.125500   -5.417000    8.125500 ignored
+Warning: card CE   13.542500    0.000000    2.708500 ignored
+Warning: card CE   13.542500    0.000000    8.125500 ignored
+Warning: card CE    5.417000    2.708500    2.708500 ignored
+Warning: card CE    5.417000    2.708500    8.125500 ignored
+Warning: card CE   10.834000    8.125500    2.708500 ignored
+Warning: card CE   10.834000    8.125500    8.125500 ignored
+Warning: card CE   10.834000   -2.708500    2.708500 ignored
+Warning: card CE   10.834000   -2.708500    8.125500 ignored
+Warning: card CE   16.250999    2.708500    2.708500 ignored
+Warning: card CE   16.250999    2.708500    8.125500 ignored
+Warning: card CE    2.708500   -2.708500    0.000000 ignored
+Warning: card CE    2.708500   -2.708500   26.001598 ignored
+Warning: card CE   13.542500    8.125500    0.000000 ignored
+Warning: card CE   13.542500    8.125500   26.001598 ignored
+Warning: card CE    2.708500   -2.708500    5.416999 ignored
+Warning: card CE   13.542500    8.125500    5.416999 ignored
+Warning: card CE    8.125500    2.708500    0.000000 ignored
+Warning: card CE    8.125500    2.708500   26.001598 ignored
+Warning: card CE    8.125500    2.708500    5.416999 ignored
+Warning: card CE    8.125500   -8.125500    0.000000 ignored
+Warning: card CE    8.125500   -8.125500   26.001598 ignored
+Warning: card CE   18.959499    2.708500    0.000000 ignored
+Warning: card CE   18.959499    2.708500   26.001598 ignored
+Warning: card CE    8.125500   -8.125500    5.416999 ignored
+Warning: card CE   18.959499    2.708500    5.416999 ignored
+Warning: card CE   13.542500   -2.708500    0.000000 ignored
+Warning: card CE   13.542500   -2.708500   26.001598 ignored
+Warning: card CE   13.542500   -2.708500    5.416999 ignored
+Warning: card CE    5.417000    0.000000    0.000000 ignored
+Warning: card CE    5.417000    0.000000   26.001598 ignored
+Warning: card CE    5.417000    0.000000    5.416999 ignored
+Warning: card CE   10.834000    5.417000    0.000000 ignored
+Warning: card CE   10.834000    5.417000   26.001598 ignored
+Warning: card CE   10.834000    5.417000    5.416999 ignored
+Warning: card CE   10.834000   -5.417000    0.000000 ignored
+Warning: card CE   10.834000   -5.417000   26.001598 ignored
+Warning: card CE   10.834000   -5.417000    5.416999 ignored
+Warning: c
+     Program PWSCF v.6.1 (svn rev. 13369) starts on 15May2018 at  1: 0:30 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Serial multi-threaded version, running on    4 processor cores
+     Reading input from ceo2.rx.in
+Warning: card CE    5.417000    5.417000    0.000000 ignored
+Warning: card CE    5.417000    5.417000   26.001598 ignored
+Warning: card CE   16.250999   -5.417000    0.000000 ignored
+Warning: card CE   16.250999   -5.417000   26.001598 ignored
+Warning: card CE    5.417000    5.417000    5.416999 ignored
+Warning: card CE   16.250999   -5.417000    5.416999 ignored
+Warning: card CE    5.417000   -5.417000    0.000000 ignored
+Warning: card CE    5.417000   -5.417000   26.001598 ignored
+Warning: card CE   16.250999    5.417000    0.000000 ignored
+Warning: card CE   16.250999    5.417000   26.001598 ignored
+Warning: card CE    5.417000   -5.417000    5.416999 ignored
+Warning: card CE   16.250999    5.417000    5.416999 ignored
+Warning: card CE   10.834000    0.000000    0.000000 ignored
+Warning: card CE   10.834000    0.000000   26.001598 ignored
+Warning: card CE   10.834000    0.000000    5.416999 ignored
+Warning: card CE    2.708500    0.000000    2.708500 ignored
+Warning: card CE    2.708500    0.000000    8.125500 ignored
+Warning: card CE    8.125500    5.417000    2.708500 ignored
+Warning: card CE    8.125500    5.417000    8.125500 ignored
+Warning: card CE    8.125500   -5.417000    2.708500 ignored
+Warning: card CE    8.125500   -5.417000    8.125500 ignored
+Warning: card CE   13.542500    0.000000    2.708500 ignored
+Warning: card CE   13.542500    0.000000    8.125500 ignored
+Warning: card CE    5.417000    2.708500    2.708500 ignored
+Warning: card CE    5.417000    2.708500    8.125500 ignored
+Warning: card CE   10.834000    8.125500    2.708500 ignored
+Warning: card CE   10.834000    8.125500    8.125500 ignored
+Warning: card CE   10.834000   -2.708500    2.708500 ignored
+Warning: card CE   10.834000   -2.708500    8.125500 ignored
+Warning: card CE   16.250999    2.708500    2.708500 ignored
+Warning: card CE   16.250999    2.708500    8.125500 ignored
+Warning: card CE    2.708500   -2.708500    0.000000 ignored
+Warning: card CE    2.708500   -2.708500   26.001598 ignored
+Warning: card CE   13.542500    8.125500    0.000000 ignored
+Warning: card CE   13.542500    8.125500   26.001598 ignored
+Warning: card CE    2.708500   -2.708500    5.416999 ignored
+Warning: card CE   13.542500    8.125500    5.416999 ignored
+Warning: card CE    8.125500    2.708500    0.000000 ignored
+Warning: card CE    8.125500    2.708500   26.001598 ignored
+Warning: card CE    8.125500    2.708500    5.416999 ignored
+Warning: card CE    8.125500   -8.125500    0.000000 ignored
+Warning: card CE    8.125500   -8.125500   26.001598 ignored
+Warning: card CE   18.959499    2.708500    0.000000 ignored
+Warning: card CE   18.959499    2.708500   26.001598 ignored
+Warning: card CE    8.125500   -8.125500    5.416999 ignored
+Warning: card CE   18.959499    2.708500    5.416999 ignored
+Warning: card CE   13.542500   -2.708500    0.000000 ignored
+Warning: card CE   13.542500   -2.708500   26.001598 ignored
+Warning: card CE   13.542500   -2.708500    5.416999 ignored
+Warning: card CE    5.417000    0.000000    0.000000 ignored
+Warning: card CE    5.417000    0.000000   26.001598 ignored
+Warning: card CE    5.417000    0.000000    5.416999 ignored
+Warning: card CE   10.834000    5.417000    0.000000 ignored
+Warning: card CE   10.834000    5.417000   26.001598 ignored
+Warning: card CE   10.834000    5.417000    5.416999 ignored
+Warning: card CE   10.834000   -5.417000    0.000000 ignored
+Warning: card CE   10.834000   -5.417000   26.001598 ignored
+Warning: card CE   10.834000   -5.417000    5.416999 ignored
+Warning: c
+     Program PWSCF v.6.1 (svn rev. 13369) starts on 15May2018 at  1: 0:30 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Serial multi-threaded version, running on    4 processor cores
+     Reading input from ceo2.rx.in
+Warning: card CE    5.417000    5.417000    0.000000 ignored
+Warning: card CE    5.417000    5.417000   26.001598 ignored
+Warning: card CE   16.250999   -5.417000    0.000000 ignored
+Warning: card CE   16.250999   -5.417000   26.001598 ignored
+Warning: card CE    5.417000    5.417000    5.416999 ignored
+Warning: card CE   16.250999   -5.417000    5.416999 ignored
+Warning: card CE    5.417000   -5.417000    0.000000 ignored
+Warning: card CE    5.417000   -5.417000   26.001598 ignored
+Warning: card CE   16.250999    5.417000    0.000000 ignored
+Warning: card CE   16.250999    5.417000   26.001598 ignored
+Warning: card CE    5.417000   -5.417000    5.416999 ignored
+Warning: card CE   16.250999    5.417000    5.416999 ignored
+Warning: card CE   10.834000    0.000000    0.000000 ignored
+Warning: card CE   10.834000    0.000000   26.001598 ignored
+Warning: card CE   10.834000    0.000000    5.416999 ignored
+Warning: card CE    2.708500    0.000000    2.708500 ignored
+Warning: card CE    2.708500    0.000000    8.125500 ignored
+Warning: card CE    8.125500    5.417000    2.708500 ignored
+ard CE   16.250999    0.000000    0.000000 ignored
+Warning: card CE   16.250999    0.000000   26.001598 ignored
+Warning: card CE   16.250999    0.000000    5.416999 ignored
+Warning: card CE    8.125500    0.000000    2.708500 ignored
+Warning: card CE    8.125500    0.000000    8.125500 ignored
+Warning: card CE   13.542500    5.417000    2.708500 ignored
+Warning: card CE   13.542500    5.417000    8.125500 ignored
+Warning: card CE   13.542500   -5.417000    2.708500 ignored
+Warning: card CE   13.542500   -5.417000    8.125500 ignored
+Warning: card CE   18.959499    0.000000    2.708500 ignored
+Warning: card CE   18.959499    0.000000    8.125500 ignored
+Warning: card CE    5.417000   -2.708500    2.708500 ignored
+Warning: card CE    5.417000   -2.708500    8.125500 ignored
+Warning: card CE   10.834000    2.708500    2.708500 ignored
+Warning: card CE   10.834000    2.708500    8.125500 ignored
+Warning: card CE   10.834000   -8.125500    2.708500 ignored
+Warning: card CE   10.834000   -8.125500    8.125500 ignored
+Warning: card CE   16.250999   -2.708500    2.708500 ignored
+Warning: card CE   16.250999   -2.708500    8.125500 ignored
+Warning: card CE    2.708500    2.708500    0.000000 ignored
+Warning: card CE    2.708500    2.708500   26.001598 ignored
+Warning: card CE   13.542500   -8.125500    0.000000 ignored
+Warning: card CE   13.542500   -8.125500   26.001598 ignored
+Warning: card CE    2.708500    2.708500    5.416999 ignored
+Warning: card CE   13.542500   -8.125500    5.416999 ignored
+Warning: card CE    8.125500    8.125500    0.000000 ignored
+Warning: card CE    8.125500    8.125500   26.001598 ignored
+Warning: card CE   18.959499   -2.708500    0.000000 ignored
+Warning: card CE   18.959499   -2.708500   26.001598 ignored
+Warning: card CE    8.125500    8.125500    5.416999 ignored
+Warning: card CE   18.959499   -2.708500    5.416999 ignored
+Warning: card CE    8.125500   -2.708500    0.000000 ignored
+Warning: card CE    8.125500   -2.708500   26.001598 ignored
+Warning: card CE    8.125500   -2.708500    5.416999 ignored
+Warning: card CE   13.542500    2.708500    0.000000 ignored
+Warning: card CE   13.542500    2.708500   26.001598 ignored
+Warning: card CE   13.542500    2.708500    5.416999 ignored
+Warning: card  O    1.354250   -1.354250    1.354250 ignored
+Warning: card  O   12.188250    9.479750    1.354250 ignored
+Warning: card  O    1.354250   -1.354250    6.771249 ignored
+Warning: card  O   12.188250    9.479750    6.771249 ignored
+Warning: card  O    6.771250    4.062750    1.354250 ignored
+Warning: card  O    6.771250    4.062750    6.771249 ignored
+Warning: card  O    6.771250   -6.771250    1.354250 ignored
+Warning: card  O   17.605249    4.062750    1.354250 ignored
+Warning: card  O    6.771250   -6.771250    6.771249 ignored
+Warning: card  O   17.605249    4.062750    6.771249 ignored
+Warning: card  O   12.188250   -1.354250    1.354250 ignored
+Warning: card  O   12.188250   -1.354250    6.771249 ignored
+Warning: card  O    4.062750   -4.062750    4.062750 ignored
+Warning: card  O   14.896749    6.771250    4.062750 ignored
+Warning: card  O    4.062750   -4.062750    9.479749 ignored
+Warning: card  O   14.896749    6.771250    9.479749 ignored
+Warning: card  O    9.479750    1.354250    4.062750 ignored
+Warning: card  O    9.479750    1.354250    9.479749 ignored
+Warning: card  O    9.479750   -9.479750    4.062750 ignored
+Warning: card  O   20.313749    1.354250    4.062750 ignored
+Warning: card  O    9.479750   -9.479750    9.479749 ignored
+Warning: card  O   20.313749    1.354250    9.479749 ignored
+Warning: card  O   14.896749   -4.062750    4.062750 ignored
+Warning: card  O   14.896749   -4.062750    9.479749 ignored
+Warning: card  O    4.062750   -4.062750    1.354250 ignored
+Warning: card  O   14.896749    6.771250    1.354250 ignored
+Warning: card  O    4.062750   -4.062750    6.771249 ignored
+Warning: card  O   14.896749    6.771250    6.771249 ignored
+Warning: card  O    9.479750    1.354250    1.354250 ignored
+Warning: card  O    9.479750    1.354250    6.771249 ignored
+Warning: card  O  ard CE   16.250999    0.000000    0.000000 ignored
+Warning: card CE   16.250999    0.000000   26.001598 ignored
+Warning: card CE   16.250999    0.000000    5.416999 ignored
+Warning: card CE    8.125500    0.000000    2.708500 ignored
+Warning: card CE    8.125500    0.000000    8.125500 ignored
+Warning: card CE   13.542500    5.417000    2.708500 ignored
+Warning: card CE   13.542500    5.417000    8.125500 ignored
+Warning: card CE   13.542500   -5.417000    2.708500 ignored
+Warning: card CE   13.542500   -5.417000    8.125500 ignored
+Warning: card CE   18.959499    0.000000    2.708500 ignored
+Warning: card CE   18.959499    0.000000    8.125500 ignored
+Warning: card CE    5.417000   -2.708500    2.708500 ignored
+Warning: card CE    5.417000   -2.708500    8.125500 ignored
+Warning: card CE   10.834000    2.708500    2.708500 ignored
+Warning: card CE   10.834000    2.708500    8.125500 ignored
+Warning: card CE   10.834000   -8.125500    2.708500 ignored
+Warning: card CE   10.834000   -8.125500    8.125500 ignored
+Warning: card CE   16.250999   -2.708500    2.708500 ignored
+Warning: card CE   16.250999   -2.708500    8.125500 ignored
+Warning: card CE    2.708500    2.708500    0.000000 ignored
+Warning: card CE    2.708500    2.708500   26.001598 ignored
+Warning: card CE   13.542500   -8.125500    0.000000 ignored
+Warning: card CE   13.542500   -8.125500   26.001598 ignored
+Warning: card CE    2.708500    2.708500    5.416999 ignored
+Warning: card CE   13.542500   -8.125500    5.416999 ignored
+Warning: card CE    8.125500    8.125500    0.000000 ignored
+Warning: card CE    8.125500    8.125500   26.001598 ignored
+Warning: card CE   18.959499   -2.708500    0.000000 ignored
+Warning: card CE   18.959499   -2.708500   26.001598 ignored
+Warning: card CE    8.125500    8.125500    5.416999 ignored
+Warning: card CE   18.959499   -2.708500    5.416999 ignored
+Warning: card CE    8.125500   -2.708500    0.000000 ignored
+Warning: card CE    8.125500   -2.708500   26.001598 ignored
+Warning: card CE    8.125500   -2.708500    5.416999 ignored
+Warning: card CE   13.542500    2.708500    0.000000 ignored
+Warning: card CE   13.542500    2.708500   26.001598 ignored
+Warning: card CE   13.542500    2.708500    5.416999 ignored
+Warning: card  O    1.354250   -1.354250    1.354250 ignored
+Warning: card  O   12.188250    9.479750    1.354250 ignored
+Warning: card  O    1.354250   -1.354250    6.771249 ignored
+Warning: card  O   12.188250    9.479750    6.771249 ignored
+Warning: card  O    6.771250    4.062750    1.354250 ignored
+Warning: card  O    6.771250    4.062750    6.771249 ignored
+Warning: card  O    6.771250   -6.771250    1.354250 ignored
+Warning: card  O   17.605249    4.062750    1.354250 ignored
+Warning: card  O    6.771250   -6.771250    6.771249 ignored
+Warning: card  O   17.605249    4.062750    6.771249 ignored
+  9.479750   -9.479750    1.354250 ignored
+Warning: card  O   20.313749    1.354250    1.354250 ignored
+Warning: card  O    9.479750   -9.479750    6.771249 ignored
+Warning: card  O   20.313749    1.354250    6.771249 ignored
+Warning: card  O   14.896749   -4.062750    1.354250 ignored
+Warning: card  O   14.896749   -4.062750    6.771249 ignored
+Warning: card  O    1.354250   -1.354250    4.062750 ignored
+Warning: card  O   12.188250    9.479750    4.062750 ignored
+Warning: card  O    1.354250   -1.354250    9.479749 ignored
+Warning: card  O   12.188250    9.479750    9.479749 ignored
+Warning: card  O    6.771250    4.062750    4.062750 ignored
+Warning: card  O    6.771250    4.062750    9.479749 ignored
+Warning: card  O    6.771250   -6.771250    4.062750 ignored
+Warning: card  O   17.605249    4.062750    4.062750 ignored
+Warning: card  O    6.771250   -6.771250    9.479749 ignored
+Warning: card  O   17.605249    4.062750    9.479749 ignored
+Warning: card  O   12.188250   -1.354250    4.062750 ignored
+Warning: card  O   12.188250   -1.354250    9.479749 ignored
+Warning: card  O    1.354250    1.354250    4.062750 ignored
+Warning: card  O   12.188250   -9.479750    4.062750 ignored
+Warning: card  O    1.354250    1.354250    9.479749 ignored
+Warning: card  O   12.188250   -9.479750    9.479749 ignored
+Warning: card  O    6.771250    6.771250    4.062750 ignored
+Warning: card  O   17.605249   -4.062750    4.062750 ignored
+Warning: card  O    6.771250    6.771250    9.479749 ignored
+Warning: card  O   17.605249   -4.062750    9.479749 ignored
+Warning: card  O    6.771250   -4.062750    4.062750 ignored
+Warning: card  O    6.771250   -4.062750    9.479749 ignored
+Warning: card  O   12.188250    1.354250    4.062750 ignored
+Warning: card  O   12.188250    1.354250    9.479749 ignored
+Warning: card  O    4.062750    4.062750    1.354250 ignored
+Warning: card  O   14.896749   -6.771250    1.354250 ignored
+Warning: card  O    4.062750    4.062750    6.771249 ignored
+Warning: card  O   14.896749   -6.771250    6.771249 ignored
+Warning: card  O    9.479750    9.479750    1.354250 ignored
+Warning: card  O   20.313749   -1.354250    1.354250 ignored
+Warning: card  O    9.479750    9.479750    6.771249 ignored
+Warning: card  O   20.313749   -1.354250    6.771249 ignored
+Warning: card  O    9.479750   -1.354250    1.354250 ignored
+Warning: card  O    9.479750   -1.354250    6.771249 ignored
+Warning: card  O   14.896749    4.062750    1.354250 ignored
+Warning: card  O   14.896749    4.062750    6.771249 ignored
+Warning: card  O    4.062750    4.062750    4.062750 ignored
+Warning: card  O   14.896749   -6.771250    4.062750 ignored
+Warning: card  O    4.062750    4.062750    9.479749 ignored
+Warning: card  O   14.896749   -6.771250    9.479749 ignored
+Warning: card  O    9.479750    9.479750    4.062750 ignored
+Warning: card  O   20.313749   -1.354250    4.062750 ignored
+Warning: card  O    9.479750    9.479750    9.479749 ignored
+Warning: card  O   20.313749   -1.354250    9.479749 ignored
+Warning: card  O    9.479750   -1.354250    4.062750 ignored
+Warning: card  O    9.479750   -1.354250    9.479749 ignored
+Warning: card  O   14.896749    4.062750    4.062750 ignored
+Warning: card  O   14.896749    4.062750    9.479749 ignored
+Warning: card  O    1.354250    1.354250    1.354250 ignored
+Warning: card  O   12.188250   -9.479750    1.354250 ignored
+Warning: card  O    1.354250    1.354250    6.771249 ignored
+Warning: card  O   12.188250   -9.479750    6.771249 ignored
+Warning: card  O    6.771250    6.771250    1.354250 ignored
+Warning: card  O   17.605249   -4.062750    1.354250 ignored
+Warning: card  O    6.771250    6.771250    6.771249 ignored
+Warning: card  O   17.605249   -4.062750    6.771249 ignored
+Warning: card  O    6.771250   -4.062750    1.354250 ignored
+Warning: card  O    6.771250   -4.062750    6.771249 ignored
+Warning: card  O   12.188250    1.354250    1.354250 ignored
+Warning: card  O   12.188250    1.354250    6.771249 ignored
+Warning: card  O    4.062750   -1.354250    4.062750 ignored
+Warning: card  O    4.0627Warning: card CE    8.125500    5.417000    8.125500 ignored
+Warning: card CE    8.125500   -5.417000    2.708500 ignored
+Warning: card CE    8.125500   -5.417000    8.125500 ignored
+Warning: card CE   13.542500    0.000000    2.708500 ignored
+Warning: card CE   13.542500    0.000000    8.125500 ignored
+Warning: card CE    5.417000    2.708500    2.708500 ignored
+Warning: card CE    5.417000    2.708500    8.125500 ignored
+Warning: card CE   10.834000    8.125500    2.708500 ignored
+Warning: card CE   10.834000    8.125500    8.125500 ignored
+Warning: card CE   10.834000   -2.708500    2.708500 ignored
+Warning: card CE   10.834000   -2.708500    8.125500 ignored
+Warning: card CE   16.250999    2.708500    2.708500 ignored
+Warning: card CE   16.250999    2.708500    8.125500 ignored
+Warning: card CE    2.708500   -2.708500    0.000000 ignored
+Warning: card CE    2.708500   -2.708500   26.001598 ignored
+Warning: card CE   13.542500    8.125500    0.000000 ignored
+Warning: card CE   13.542500    8.125500   26.001598 ignored
+Warning: card CE    2.708500   -2.708500    5.416999 ignored
+Warning: card CE   13.542500    8.125500    5.416999 ignored
+50   -1.354250    9.479749 ignored
+Warning: card  O    9.479750    4.062750    4.062750 ignored
+Warning: card  O    9.479750    4.062750    9.479749 ignored
+Warning: card  O    9.479750   -6.771250    4.062750 ignored
+Warning: card  O    9.479750   -6.771250    9.479749 ignored
+Warning: card  O   14.896749   -1.354250    4.062750 ignored
+Warning: card  O   14.896749   -1.354250    9.479749 ignored
+Warning: card  O    4.062750   -1.354250    1.354250 ignored
+Warning: card  O    4.062750   -1.354250    6.771249 ignored
+Warning: card  O    9.479750    4.062750    1.354250 ignored
+Warning: card  O    9.479750    4.062750    6.771249 ignored
+Warning: card  O    9.479750   -6.771250    1.354250 ignored
+Warning: card  O    9.479750   -6.771250    6.771249 ignored
+Warning: card  O   14.896749   -1.354250    1.354250 ignored
+Warning: card  O   14.896749   -1.354250    6.771249 ignored
+Warning: card  O    4.062750    1.354250    1.354250 ignored
+Warning: card  O    4.062750    1.354250    6.771249 ignored
+Warning: card  O    9.479750    6.771250    1.354250 ignored
+Warning: card  O    9.479750    6.771250    6.771249 ignored
+Warning: card  O    9.479750   -4.062750    1.354250 ignored
+Warning: card  O    9.479750   -4.062750    6.771249 ignored
+Warning: card  O   14.896749    1.354250    1.354250 ignored
+Warning: card  O   14.896749    1.354250    6.771249 ignored
+Warning: card  O    4.062750    1.354250    4.062750 ignored
+Warning: card  O    4.062750    1.354250    9.479749 ignored
+Warning: card  O    9.479750    6.771250    4.062750 ignored
+Warning: card  O    9.479750    6.771250    9.479749 ignored
+Warning: card  O    9.479750   -4.062750    4.062750 ignored
+Warning: card  O    9.479750   -4.062750    9.479749 ignored
+Warning: card  O   14.896749    1.354250    4.062750 ignored
+Warning: card  O   14.896749    1.354250    9.479749 ignored
+Warning: card  O    6.771250    1.354250    4.062750 ignored
+Warning: card  O    6.771250    1.354250    9.479749 ignored
+Warning: card  O   12.188250    6.771250    4.062750 ignored
+Warning: card  O   12.188250    6.771250    9.479749 ignored
+Warning: card  O   12.188250   -4.062750    4.062750 ignored
+Warning: card  O   12.188250   -4.062750    9.479749 ignored
+Warning: card  O   17.605249    1.354250    4.062750 ignored
+Warning: card  O   17.605249    1.354250    9.479749 ignored
+Warning: card  O    6.771250    1.354250    1.354250 ignored
+Warning: card  O    6.771250    1.354250    6.771249 ignored
+Warning: card  O   12.188250    6.771250    1.354250 ignored
+Warning: card  O   12.188250    6.771250    6.771249 ignored
+Warning: card  O   12.188250   -4.062750    1.354250 ignored
+Warning: card  O   12.188250   -4.062750    6.771249 ignored
+Warning: card  O   17.605249    1.354250    1.354250 ignored
+Warning: card  O   17.605249    1.354250    6.771249 ignored
+Warning: card  O    6.771250   -1.354250    1.354250 ignored
+Warning: card  O    6.771250   -1.354250    6.771249 ignored
+Warning: card  O   12.188250    4.062750    1.354250 ignored
+Warning: card  O   12.188250    4.062750    6.771249 ignored
+Warning: card  O   12.188250   -6.771250    1.354250 ignored
+Warning: card  O   12.188250   -6.771250    6.771249 ignored
+Warning: card  O   17.605249   -1.354250    1.354250 ignored
+Warning: card  O   17.605249   -1.354250    6.771249 ignored
+Warning: card  O    6.771250   -1.354250    4.062750 ignored
+Warning: card  O    6.771250   -1.354250    9.479749 ignored
+Warning: card  O   12.188250    4.062750    4.062750 ignored
+Warning: card  O   12.188250    4.062750    9.479749 ignored
+Warning: card  O   12.188250   -6.771250    4.062750 ignored
+Warning: card  O   12.188250   -6.771250    9.479749 ignored
+Warning: card  O   17.605249   -1.354250    4.062750 ignored
+Warning: card  O   17.605249   -1.354250    9.479749 ignored
+     Message from routine read_cards :
+     DEPRECATED: no units specified in CELL_PARAMETERS card
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseWarning: card CE    8.125500    2.708500    0.000000 ignored
+Warning: card CE    8.125500    2.708500   26.001598 ignored
+udopotentials (lmaxx) =  3
+Warning: card CE    8.125500    2.708500    5.416999 ignored
+Warning: card CE    8.125500   -8.125500    0.000000 ignored
+Warning: card CE    8.125500   -8.125500   26.001598 ignored
+Warning: card CE   18.959499    2.708500    0.000000 ignored
+Warning: card CE   18.959499    2.708500   26.001598 ignored
+Warning: card CE    8.125500   -8.125500    5.416999 ignored
+Warning: card CE   18.959499    2.708500    5.416999 ignored
+Warning: card CE   13.542500   -2.708500    0.000000 ignored
+Warning: card CE   13.542500   -2.708500   26.001598 ignored
+Warning: card CE   13.542500   -2.708500    5.416999 ignored
+Warning: card CE    5.417000    0.000000    0.000000 ignored
+Warning: card CE    5.417000    0.000000   26.001598 ignored
+Warning: card CE    5.417000    0.000000    5.416999 ignored
+Warning: card CE   10.834000    5.417000    0.000000 ignored
+Warning: card CE   10.834000    5.417000   26.001598 ignored
+Warning: card CE   10.834000    5.417000    5.416999 ignored
+Warning: card CE   10.834000   -5.417000    0.000000 ignored
+Warning: card CE   10.834000   -5.417000   26.001598 ignored
+Warning: card CE   10.834000   -5.417000    5.416999 ignored
+Warning: card CE   16.250999    0.000000    0.000000 ignored
+Warning: card CE   16.250999    0.000000   26.001598 ignored
+Warning: card CE   16.250999    0.000000    5.416999 ignored
+Warning: card CE    8.125500    0.000000    2.708500 ignored
+Warning: card CE    8.125500    0.000000    8.125500 ignored
+Warning: card CE   13.542500    5.417000    2.708500 ignored
+Warning: card CE   13.542500    5.417000    8.125500 ignored
+Warning: card CE   13.542500   -5.417000    2.708500 ignored
+Warning: card CE   13.542500   -5.417000    8.125500 ignored
+Warning: card CE   18.959499    0.000000    2.708500 ignored
+Warning: card CE   18.959499    0.000000    8.125500 ignored
+Warning: card CE    5.417000   -2.708500    2.708500 ignored
+Warning: card CE    5.417000   -2.708500    8.125500 ignored
+Warning: card CE   10.834000    2.708500    2.708500 ignored
+Warning: card CE   10.834000    2.708500    8.125500 ignored
+Warning: card CE   10.834000   -8.125500    2.708500 ignored
+Warning: card CE   10.834000   -8.125500    8.125500 ignored
+Warning: card CE   16.250999   -2.708500    2.708500 ignored
+Warning: card CE   16.250999   -2.708500    8.125500 ignored
+Warning: card CE    2.708500    2.708500    0.000000 ignored
+Warning: card CE    2.708500    2.708500   26.001598 ignored
+Warning: card CE   13.542500   -8.125500    0.000000 ignored
+Warning: card CE   13.542500   -8.125500   26.001598 ignored
+Warning: card CE    2.708500    2.708500    5.416999 ignored
+Warning: card CE   13.542500   -8.125500    5.416999 ignored
+Warning: card CE    8.125500    8.125500    0.000000 ignored
+Warning: card CE    8.125500    8.125500   26.001598 ignored
+Warning: card CE   18.959499   -2.708500    0.000000 ignored
+Warning: card CE   18.959499   -2.708500   26.001598 ignored
+Warning: card CE    8.125500    8.125500    5.416999 ignored
+Warning: card CE   18.959499   -2.708500    5.416999 ignored
+Warning: card CE    8.125500   -2.708500    0.000000 ignored
+Warning: card CE    8.125500   -2.708500   26.001598 ignored
+Warning: card CE    8.125500   -2.708500    5.416999 ignored
+Warning: card CE   13.542500    2.708500    0.000000 ignored
+Warning: card CE   13.542500    2.708500   26.001598 ignored
+Warning: card CE   13.542500    2.708500    5.416999 ignored
+Warning: card  O    1.354250   -1.354250    1.354250 ignored
+Warning: card  O   12.188250    9.479750    1.354250 ignored
+Warning: card  O    1.354250   -1.354250    6.771249 ignored
+Warning: card  O   12.188250    9.479750    6.771249 ignored
+Warning: card  O    6.771250    4.062750    1.354250 ignored
+Warning: card  O    6.771250    4.062750    6.771249 ignored
+Warning: card  O    6.771250   -6.771250    1.354250 ignored
+Warning: card  O   17.605249    4.062750    1.354250 ignored
+Warning: card  O    6.771250   -6.771250    6.771249 ignored
+Warning: card  O   17.605249    4.062750    6.771249 ignored
+Warning: card  O   12.188250   -1.354250    1.354250 ignored
+Warning: card  O   12.188250   -1.354250    6.771249 ignored
+Warning: card  O    4.062750   -4.062750    4.062750 ignored
+Warning: card  O   14.896749    6.771250    4.062750 ignored
+Warning: card  O    4.062750   -4.062750    9.479749 ignored
+Warning: card  O   14.896749    6.771250    9.479749 ignored
+Warning: card  O    9.479750    1.354250    4.062750 ignored
+Warning: card  O    9.479750    1.354250    9.479749 ignored
+Warning: card  O    9.479750   -9.479750    4.062750 ignored
+Warning: card  O   20.313749    1.354250    4.062750 ignored
+Warning: card  O    9.479750   -9.479750    9.479749 ignored
+Warning: card  O   20.313749    1.354250    9.479749 ignored
+Warning: card  O   14.896749   -4.062750    4.062750 ignored
+Warning: card  O   14.896749   -4.062750    9.479749 ignored
+Warning: card  O    4.062750   -4.062750    1.354250 ignored
+Warning: card  O   14.896749    6.771250    1.354250 ignored
+Warning: card  O    4.062750   -4.062750    6.771249 ignored
+Warning: card  O   14.896749    6.771250    6.771249 ignored
+Warning: card  O    9.479750    1.354250    1.354250 ignored
+Warning: card  O    9.479750    1.354250    6.771249 ignored
+Warning: card  O    9.479750   -9.479750    1.354250 ignored
+Warning: card  O   20.313749    1.354250    1.354250 ignored
+Warning: card  O    9.479750   -9.479750    6.771249 ignored
+Warning: card  O   20.313749    1.354250    6.771249 ignored
+Warning: card  O   14.896749   -4.062750    1.354250 ignored
+Warning: card  O   14.896749   -4.062750    6.771249 ignored
+Warning: card  O    1.354250   -1.354250    4.062750 ignored
+Warning: card  O   12.188250    9.479750    4.062750 ignored
+Warning: card  O    1.354250   -1.354250    9.479749 ignored
+Warning: card  O   12.188250    9.479750    9.479749 ignored
+Warning: card  O    6.771250    4.062750    4.062750 ignored
+Warning: card  O    6.771250    4.062750    9.479749 ignored
+Warning: card  O    6.771250   -6.771250    4.062750 ignored
+Warning: card  O   17.605249    4.062750    4.062750 ignored
+Warning: card  O    6.771250   -6.771250    9.479749 ignored
+Warning: card  O   17.605249    4.062750    9.479749 ignored
+Warning: card  O   12.188250   -1.354250    4.062750 ignored
+Warning: card  O   12.188250   -1.354250    9.479749 ignored
+Warning: card  O    1.354250    1.354250    4.062750 ignored
+Warning: card  O   12.188250   -9.479750    4.062750 ignored
+Warning: card  O    1.354250    1.354250    9.479749 ignored
+Warning: card  O   12.188250   -9.479750    9.479749 ignored
+Warning: card  O    6.771250    6.771250    4.062750 ignored
+Warning: card  O   17.605249   -4.062750    4.062750 ignored
+Warning: card  O    6.771250    6.771250    9.479749 ignored
+Warning: card  O   17.605249   -4.062750    9.479749 ignored
+Warning: card  O    6.771250   -4.062750    4.062750 ignored
+Warning: card  O    6.771250   -4.062750    9.479749 ignored
+Warning: card  O   12.188250    1.354250    4.062750 ignored
+Warning: card  O   12.188250    1.354250    9.479749 ignored
+Warning: card  O    4.062750    4.062750    1.354250 ignored
+Warning: card  O   14.896749   -6.771250    1.354250 ignored
+Warning: card  O    4.062750    4.062750    6.771249 ignored
+Warning: card  O   14.896749   -6.771250    6.771249 ignored
+Warning: card  O    9.479750    9.479750    1.354250 ignored
+Warning: card  O   20.313749   -1.354250    1.354250 ignored
+Warning: card  O    9.479750    9.479750    6.771249 ignored
+Warning: card  O   20.313749   -1.354250    6.771249 ignored
+Warning: card  O    9.479750   -1.354250    1.354250 ignored
+Warning: card  O    9.479750   -1.354250    6.771249 ignored
+Warning: card  O   14.896749    4.062750    1.354250 ignored
+Warning: card  O   14.896749    4.062750    6.771249 ignored
+Warning: card  O    4.062750    4.062750    4.062750 ignored
+Warning: card  O   14.896749   -6.771250    4.062750 ignored
+Warning: card  O    4.062750    4.062750    9.479749 ignored
+Warning: card  O   14.896749   -6.771250    9.479749 ignored
+Warning: card  O    9.479750    9.479750    4.062750 ignored
+Warning: card  O   20.313749   -1.354250    4.062750 ignored
+Warning: card  O    9.479750    9.479750    9.479749 ignored
+Warning: card  O   20.313749   -1.354250    9.479749 ignored
+Warning: card  O    9.479750   -1.354250    4.062750 ignored
+Warning: card  O    9.479750   -1.354250    9.479749 ignored
+Warning: card  O   14.896749    4.062750    4.062750 ignored
+Warning: card  O   14.896749    4.062750    9.479749 ignored
+Warning: card  O    1.354250    1.354250    1.354250 ignored
+Warning: card  O   12.188250   -9.479750    1.354250 ignored
+Warning: card  O    1.354250    1.354250    6.771249 ignored
+Warning: card  O   12.188250   -9.479750    6.771249 ignored
+Warning: card  O    6.771250    6.771250    1.354250 ignored
+Warning: card  O   17.605249   -4.062750    1.354250 ignored
+Warning: card  O    6.771250    6.771250    6.771249 ignored
+Warning: card  O   17.605249   -4.062750    6.771249 ignored
+Warning: card  O    6.771250   -4.062750    1.354250 ignored
+Warning: card  O    6.771250   -4.062750    6.771249 ignored
+Warning: card  O   12.188250    1.354250    1.354250 ignored
+Warning: card  O   12.188250    1.354250    6.771249 ignored
+Warning: card  O    4.062750   -1.354250    4.062750 ignored
+Warning: card  O    4.062750   -1.354250    9.479749 ignored
+Warning: card  O    9.479750    4.062750    4.062750 ignored
+Warning: card  O    9.479750    4.062750    9.479749 ignored
+Warning: card  O    9.479750   -6.771250    4.062750 ignored
+Warning: card  O    9.479750   -6.771250    9.479749 ignored
+Warning: card  O   14.896749   -1.354250    4.062750 ignored
+Warning: card  O   14.896749   -1.354250    9.479749 ignored
+Warning: card  O    4.062750   -1.354250    1.354250 ignored
+Warning: card  O    4.062750   -1.354250    6.771249 ignored
+Warning: card  O    9.479750    4.062750    1.354250 ignored
+Warning: card  O    9.479750    4.062750    6.771249 ignored
+Warning: card  O    9.479750   -6.771250    1.354250 ignored
+
+     Program PWSCF v.6.1 (svn rev. 13369) starts on 15May2018 at  1: 0:30 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Serial multi-threaded version, running on    4 processor cores
+     Reading input from ceo2.rx.in
+Warning: card CE    5.417000    5.417000    0.000000 ignored
+Warning: card CE    5.417000    5.417000   26.001598 ignored
+Warning: card CE   16.250999   -5.417000    0.000000 ignored
+Warning: card CE   16.250999   -5.417000   26.001598 ignored
+Warning: card CE    5.417000    5.417000    5.416999 ignored
+Warning: card CE   16.250999   -5.417000    5.416999 ignored
+Warning: card CE    5.417000   -5.417000    0.000000 ignored
+Warning: card CE    5.417000   -5.417000   26.001598 ignored
+Warning: card CE   16.250999    5.417000    0.000000 ignored
+Warning: card CE   16.250999    5.417000   26.001598 ignored
+Warning: card CE    5.417000   -5.417000    5.416999 ignored
+Warning: card CE   16.250999    5.417000    5.416999 ignored
+Warning: card CE   10.834000    0.000000    0.000000 ignored
+Warning: card CE   10.834000    0.000000   26.001598 ignored
+Warning: card CE   10.834000    0.000000    5.416999 ignored
+Warning: card  O   12.188250   -1.354250    1.354250 ignored
+Warning: card  O   12.188250   -1.354250    6.771249 ignored
+Warning: card  O    4.062750   -4.062750    4.062750 ignored
+Warning: card  O   14.896749    6.771250    4.062750 ignored
+Warning: card  O    4.062750   -4.062750    9.479749 ignored
+Warning: card  O   14.896749    6.771250    9.479749 ignored
+Warning: card  O    9.479750    1.354250    4.062750 ignored
+Warning: card  O    9.479750    1.354250    9.479749 ignored
+Warning: card  O    9.479750   -9.479750    4.062750 ignored
+Warning: card  O   20.313749    1.354250    4.062750 ignored
+Warning: card  O    9.479750   -9.479750    9.479749 ignored
+Warning: card  O   20.313749    1.354250    9.479749 ignored
+Warning: card  O   14.896749   -4.062750    4.062750 ignored
+Warning: card  O   14.896749   -4.062750    9.479749 ignored
+Warning: card  O    4.062750   -4.062750    1.354250 ignored
+Warning: card  O   14.896749    6.771250    1.354250 ignored
+Warning: card  O    4.062750   -4.062750    6.771249 ignored
+Warning: card  O   14.896749    6.771250    6.771249 ignored
+Warning: card  O    9.479750    1.354250    1.354250 ignored
+Warning: card  O    9.479750    1.354250    6.771249 ignored
+Warning: card  O    9.479750   -9.479750    1.354250 ignored
+Warning: card  O   20.313749    1.354250    1.354250 ignored
+Warning: card  O    9.479750   -9.479750    6.771249 ignored
+Warning: card  O   20.313749    1.354250    6.771249 ignored
+Warning: card  O   14.896749   -4.062750    1.354250 ignored
+Warning: card  O   14.896749   -4.062750    6.771249 ignored
+Warning: card  O    1.354250   -1.354250    4.062750 ignored
+Warning: card  O   12.188250    9.479750    4.062750 ignored
+Warning: card  O    1.354250   -1.354250    9.479749 ignored
+Warning: card  O   12.188250    9.479750    9.479749 ignored
+Warning: card  O    6.771250    4.062750    4.062750 ignored
+Warning: card  O    6.771250    4.062750    9.479749 ignored
+Warning: card  O    6.771250   -6.771250    4.062750 ignored
+Warning: card  O   17.605249    4.062750    4.062750 ignored
+Warning: card  O    6.771250   -6.771250    9.479749 ignored
+Warning: card  O   17.605249    4.062750    9.479749 ignored
+Warning: card  O   12.188250   -1.354250    4.062750 ignored
+Warning: card  O   12.188250   -1.354250    9.479749 ignored
+Warning: card  O    1.354250    1.354250    4.062750 ignored
+Warning: card  O   12.188250   -9.479750    4.062750 ignored
+Warning: card  O    1.354250    1.354250    9.479749 ignored
+Warning: card  O   12.188250   -9.479750    9.479749 ignored
+Warning: card  O    6.771250    6.771250    4.062750 ignored
+Warning: card  O   17.605249   -4.062750    4.062750 ignored
+Warning: card  O    6.771250    6.771250    9.479749 ignored
+Warning: card  O   17.605249   -4.062750    9.479749 ignored
+Warning: card  O    6.771250   -4.062750    4.062750 ignored
+Warning: card  O    6.771250   -4.062750    9.479749 ignored
+Warning: card  O   12.188250    1.354250    4.062750 ignored
+Warning: card  O   12.188250    1.354250    9.479749 ignored
+Warning: card  O    4.062750    4.062750    1.354250 ignored
+Warning: card  O   14.896749   -6.771250    1.354250 ignored
+Warning: card  O    4.062750    4.062750    6.771249 ignored
+Warning: card  O   14.896749   -6.771250    6.771249 ignored
+Warning: card  O    9.479750    9.479750    1.354250 ignored
+Warning: card  O   20.313749   -1.354250    1.354250 ignored
+Warning: card  O    9.479750    9.479750    6.771249 ignored
+Warning: card  O   20.313749   -1.354250    6.771249 ignored
+Warning: card  O    9.479750   -1.354250    1.354250 ignored
+Warning: card  O    9.479750   -1.354250    6.771249 ignored
+Warning: card  O   14.896749    4.062750    1.354250 ignored
+Warning: card  O   14.896749    4.062750    6.771249 ignored
+Warning: card  O    4.062750    4.062750    4.062750 ignored
+Warning: card  O   14.896749   -6.771250    4.062750 ignored
+Warning: card  O    4.062750    4.062750    9.479749 ignored
+Warning: card  O   14.896749   -6.771250    9.479749 ignored
+Warning: card  O    9.479750    9.479750    4.062750 ignored
+Warning: card  O   20.313749   -1.354250    4.062750 ignored
+Warning: card  O    9.479750    9.479750    9.479749 ignored
+Warning: card  O   20.313749   -1.354250    9.479749 ignored
+Warning: card  O    9.479750   -1.354250    4.062750 ignored
+Warning: card  O    9.479750   -1.354250    9.479749 ignored
+Warning: card  O   14.896749    4.062750    4.062750 ignored
+Warning: card  O   14.896749    4.062750    9.479749 ignored
+Warning: card  O    1.354250    1.354250    1.354250 ignored
+Warning: card  O   12.188250   -9.479750    1.354250 ignored
+Warning: card  O    1.354250    1.354250    6.771249 ignored
+Warning: card  O   12.188250   -9.479750    6.771249 ignored
+Warning: card  O    6.771250    6.771250    1.354250 ignored
+Warning: card  O   17.605249   -4.062750    1.354250 ignored
+Warning: card  O    6.771250    6.771250    6.771249 ignored
+Warning: card  O   17.605249   -4.062750    6.771249 ignored
+Warning: card  O    6.771250   -4.062750    1.354250 ignored
+Warning: card  O    6.771250   -4.062750    6.771249 ignored
+Warning: card  O   12.188250    1.354250    1.354250 ignored
+Warning: card  O   12.188250    1.354250    6.771249 ignored
+Warning: card  O    4.062750   -1.354250    4.062750 ignored
+Warning: card  O    4.062750   -1.354250    9.479749 ignored
+Warning: card  O    9.479750    4.062750    4.062750 ignored
+Warning: card  O    9.479750    4.062750    9.479749 ignored
+Warning: card  O    9.479750   -6.771250    4.062750 ignored
+Warning: card  O    9.479750   -6.771250    9.479749 ignored
+Warning: card  O   14.896749   -1.354250    4.062750 ignored
+Warning: card  O   14.896749   -1.354250    9.479749 ignored
+Warning: card  O    4.062750   -1.354250    1.354250 ignored
+Warning: card  O    4.062750   -1.354250    6.771249 ignored
+Warning: card  O    9.479750    4.062750    1.354250 ignored
+Warning: card  O    9.479750    4.062750    6.771249 ignored
+Warning: card  O    9.479750   -6.771250    1.354250 ignored
+Warning: card  O    9.479750   -6.771250    6.771249 ignored
+Warning: card  O   14.896749   -1.354250    1.354250 ignored
+Warning: card  O   14.896749   -1.354250    6.771249 ignored
+Warning: card  O    4.062750    1.354250    1.354250 ignored
+Warning: card  O    4.062750    1.354250    6.771249 ignored
+Warning: card  O    9.479750    6.771250    1.354250 ignored
+Warning: card  O    9.479750    6.771250    6.771249 ignored
+Warning: card  O    9.479750   -4.062750    1.354250 ignored
+Warning: card  O    9.479750   -4.062750    6.771249 ignored
+Warning: card  O   14.896749    1.354250    1.354250 ignored
+Warning: card  O   14.896749    1.354250    6.771249 ignored
+Warning: card  O    4.062750    1.354250    4.062750 ignored
+Warning: card  O    4.062750    1.354250    9.479749 ignored
+Warning: card  O    9.479750    6.771250    4.062750 ignored
+Warning: card  O    9.479750    6.771250    9.479749 ignored
+Warning: card  O    9.479750   -4.062750    4.062750 ignored
+Warning: card  O    9.479750   -4.062750    9.479749 ignored
+Warning: card  O   14.896749    1.354250    4.062750 ignored
+Warning: card  O   14.896749    1.354250    9.479749 ignored
+Warning: card  O    6.771250    1.354250    4.062750 ignored
+Warning: card  O    6.771250    1.354250    9.479749 ignored
+Warning: card  O   12.188250    6.771250    4.062750 ignored
+Warning: card  O   12.188250    6.771250    9.479749 ignored
+Warning: card  O   12.188250   -4.062750    4.062750 ignored
+Warning: card  O   12.188250   -4.062750    9.479749 ignored
+Warning: card  O   17.605249    1.354250    4.062750 ignored
+Warning: card  O   17.605249    1.354250    9.479749 ignored
+Warning: card  O    6.771250    1.354250    1.354250 ignored
+Warning: card  O    6.771250    1.354250    6.771249 ignored
+Warning: card  O   12.188250    6.771250    1.354250 ignored
+Warning: card  O   12.188250    6.771250    6.771249 ignored
+Warning: card  O   12.188250   -4.062750    1.354250 ignored
+Warning: card  O   12.188250   -4.062750    6.771249 ignored
+Warning: card  O   17.605249    1.354250    1.354250 ignored
+Warning: card  O   17.605249    1.354250    6.771249 ignored
+Warning: card  O    6.771250   -1.354250    1.354250 ignored
+Warning: card  O    6.771250   -1.354250    6.771249 ignored
+Warning: card  O   12.188250    4.062750    1.354250 ignored
+Warning: card  O   12.188250    4.062750    6.771249 ignored
+Warning: card  O   12.188250   -6.771250    1.354250 ignored
+Warning: card  O   12.188250   -6.771250    6.771249 ignored
+Warning: card  O   17.605249   -1.354250    1.354250 ignored
+Warning: card  O   17.605249   -1.354250    6.771249 ignored
+Warning: card  O    6.771250   -1.354250    4.062750 ignored
+Warning: card  O    6.771250   -1.354250    9.479749 ignored
+Warning: card  O   12.188250    4.062750    4.062750 ignored
+Warning: card  O   12.188250    4.062750    9.479749 ignored
+Warning: card  O   12.188250   -6.771250    4.062750 ignored
+Warning: card  O   12.188250   -6.771250    9.479749 ignored
+Warning: card  O   17.605249   -1.354250    4.062750 ignored
+Warning: card  O   17.605249   -1.354250    9.479749 ignored
+     Message from routine read_cards :
+     DEPRECATED: no units specified in CELL_PARAMETERS card
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  3
+Warning: card CE    2.708500    0.000000    2.708500 ignored
+Warning: card CE    2.708500    0.000000    8.125500 ignored
+Warning: card CE    8.125500    5.417000    2.708500 ignored
+Warning: card CE    8.125500    5.417000    8.125500 ignored
+Warning: card CE    8.125500   -5.417000    2.708500 ignored
+Warning: card CE    8.125500   -5.417000    8.125500 ignored
+Warning: card CE   13.542500    0.000000    2.708500 ignored
+Warning: card CE   13.542500    0.000000    8.125500 ignored
+Warning: card CE    5.417000    2.708500    2.708500 ignored
+Warning: card CE    5.417000    2.708500    8.125500 ignored
+Warning: card CE   10.834000    8.125500    2.708500 ignored
+Warning: card CE   10.834000    8.125500    8.125500 ignored
+Warning: card CE   10.834000   -2.708500    2.708500 ignored
+Warning: card CE   10.834000   -2.708500    8.125500 ignored
+Warning: card CE   16.250999    2.708500    2.708500 ignored
+Warning: card CE   16.250999    2.708500    8.125500 ignored
+Warning: card CE    2.708500   -2.708500    0.000000 ignored
+Warning: card CE    2.708500   -2.708500   26.001598 ignored
+Warning: card CE   13.542500    8.125500    0.000000 ignored
+Warning: card CE   13.542500    8.125500   26.001598 ignored
+Warning: card CE    2.708500   -2.708500    5.416999 ignored
+Warning: card CE   13.542500    8.125500    5.416999 ignored
+Warning: card CE    8.125500    2.708500    0.000000 ignored
+Warning: card  O    9.479750   -6.771250    6.771249 ignored
+Warning: card CE    8.125500    2.708500   26.001598 ignored
+Warning: card  O   14.896749   -1.354250    1.354250 ignored
+Warning: card  O   14.896749   -1.354250    6.771249 ignored
+Warning: card  O    4.062750    1.354250    1.354250 ignored
+Warning: card  O    4.062750    1.354250    6.771249 ignored
+Warning: card  O    9.479750    6.771250    1.354250 ignored
+Warning: card  O    9.479750    6.771250    6.771249 ignored
+Warning: card  O    9.479750   -4.062750    1.354250 ignored
+Warning: card  O    9.479750   -4.062750    6.771249 ignored
+Warning: card  O   14.896749    1.354250    1.354250 ignored
+Warning: card  O   14.896749    1.354250    6.771249 ignored
+Warning: card  O    4.062750    1.354250    4.062750 ignored
+Warning: card  O    4.062750    1.354250    9.479749 ignored
+Warning: card  O    9.479750    6.771250    4.062750 ignored
+Warning: card  O    9.479750    6.771250    9.479749 ignored
+Warning: card  O    9.479750   -4.062750    4.062750 ignored
+Warning: card  O    9.479750   -4.062750    9.479749 ignored
+Warning: card  O   14.896749    1.354250    4.062750 ignored
+Warning: card  O   14.896749    1.354250    9.479749 ignored
+Warning: card  O    6.771250    1.354250    4.062750 ignored
+Warning: card  O    6.771250    1.354250    9.479749 ignored
+Warning: card  O   12.188250    6.771250    4.062750 ignored
+Warning: card  O   12.188250    6.771250    9.479749 ignored
+Warning: card  O   12.188250   -4.062750    4.062750 ignored
+Warning: card  O   12.188250   -4.062750    9.479749 ignored
+Warning: card  O   17.605249    1.354250    4.062750 ignored
+Warning: card  O   17.605249    1.354250    9.479749 ignored
+Warning: card  O    6.771250    1.354250    1.354250 ignored
+Warning: card  O    6.771250    1.354250    6.771249 ignored
+Warning: card  O   12.188250    6.771250    1.354250 ignored
+Warning: card  O   12.188250    6.771250    6.771249 ignored
+Warning: card  O   12.188250   -4.062750    1.354250 ignored
+Warning: card  O   12.188250   -4.062750    6.771249 ignored
+Warning: card  O   17.605249    1.354250    1.354250 ignored
+Warning: card  O   17.605249    1.354250    6.771249 ignored
+Warning: card  O    6.771250   -1.354250    1.354250 ignored
+Warning: card  O    6.771250   -1.354250    6.771249 ignored
+Warning: card  O   12.188250    4.062750    1.354250 ignored
+Warning: card  O   12.188250    4.062750    6.771249 ignored
+Warning: card  O   12.188250   -6.771250    1.354250 ignored
+Warning: card  O   12.188250   -6.771250    6.771249 ignored
+Warning: card  O   17.605249   -1.354250    1.354250 ignored
+Warning: card  O   17.605249   -1.354250    6.771249 ignored
+Warning: card  O    6.771250   -1.354250    4.062750 ignored
+Warning: card  O    6.771250   -1.354250    9.479749 ignored
+Warning: card  O   12.188250    4.062750    4.062750 ignored
+Warning: card  O   12.188250    4.062750    9.479749 ignored
+Warning: card  O   12.188250   -6.771250    4.062750 ignored
+Warning: card  O   12.188250   -6.771250    9.479749 ignored
+Warning: card  O   17.605249   -1.354250    4.062750 ignored
+Warning: card  O   17.605249   -1.354250    9.479749 ignored
+     Message from routine read_cards :
+     DEPRECATED: no units specified in CELL_PARAMETERS card
+Warning: card CE    8.125500    2.708500    5.416999 ignored
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  3
+Warning: card CE    8.125500   -8.125500    0.000000 ignored
+Warning: card CE    8.125500   -8.125500   26.001598 ignored
+Warning: card CE   18.959499    2.708500    0.000000 ignored
+Warning: card CE   18.959499    2.708500   26.001598 ignored
+Warning: card CE    8.125500   -8.125500    5.416999 ignored
+Warning: card CE   18.959499    2.708500    5.416999 ignored
+Warning: card CE   13.542500   -2.708500    0.000000 ignored
+Warning: card CE   13.542500   -2.708500   26.001598 ignored
+Warning: card CE   13.542500   -2.708500    5.416999 ignored
+Warning: card CE    5.417000    0.000000    0.000000 ignored
+Warning: card CE    5.417000    0.000000   26.001598 ignored
+Warning: card CE    5.417000    0.000000    5.416999 ignored
+Warning: card CE   10.834000    5.417000    0.000000 ignored
+Warning: card CE   10.834000    5.417000   26.001598 ignored
+Warning: card CE   10.834000    5.417000    5.416999 ignored
+Warning: card CE   10.834000   -5.417000    0.000000 ignored
+Warning: card CE   10.834000   -5.417000   26.001598 ignored
+Warning: card CE   10.834000   -5.417000    5.416999 ignored
+Warning: card CE   16.250999    0.000000    0.000000 ignored
+Warning: card CE   16.250999    0.000000   26.001598 ignored
+Warning: card CE   16.250999    0.000000    5.416999 ignored
+Warning: card CE    8.125500    0.000000    2.708500 ignored
+Warning: card CE    8.125500    0.000000    8.125500 ignored
+Warning: card CE   13.542500    5.417000    2.708500 ignored
+Warning: card CE   13.542500    5.417000    8.125500 ignored
+Warning: card CE   13.542500   -5.417000    2.708500 ignored
+Warning: card CE   13.542500   -5.417000    8.125500 ignored
+Warning: card CE   18.959499    0.000000    2.708500 ignored
+Warning: card CE   18.959499    0.000000    8.125500 ignored
+Warning: card CE    5.417000   -2.708500    2.708500 ignored
+Warning: card CE    5.417000   -2.708500    8.125500 ignored
+Warning: card CE   10.834000    2.708500    2.708500 ignored
+Warning: card CE   10.834000    2.708500    8.125500 ignored
+Warning: card CE   10.834000   -8.125500    2.708500 ignored
+Warning: card CE   10.834000   -8.125500    8.125500 ignored
+Warning: card CE   16.250999   -2.708500    2.708500 ignored
+Warning: card CE   16.250999   -2.708500    8.125500 ignored
+Warning: card CE    2.708500    2.708500    0.000000 ignored
+Warning: card CE    2.708500    2.708500   26.001598 ignored
+Warning: card CE   13.542500   -8.125500    0.000000 ignored
+Warning: card CE   13.542500   -8.125500   26.001598 ignored
+Warning: card CE    2.708500    2.708500    5.416999 ignored
+Warning: card CE   13.542500   -8.125500    5.416999 ignored
+Warning: card CE    8.125500    8.125500    0.000000 ignored
+Warning: card CE    8.125500    8.125500   26.001598 ignored
+Warning: card CE   18.959499   -2.708500    0.000000 ignored
+Warning: card CE   18.959499   -2.708500   26.001598 ignored
+Warning: card CE    8.125500    8.125500    5.416999 ignored
+Warning: card CE   18.959499   -2.708500    5.416999 ignored
+Warning: card CE    8.125500   -2.708500    0.000000 ignored
+Warning: card CE    8.125500   -2.708500   26.001598 ignored
+Warning: card CE    8.125500   -2.708500    5.416999 ignored
+Warning: card CE   13.542500    2.708500    0.000000 ignored
+Warning: card CE   13.542500    2.708500   26.001598 ignored
+Warning: card CE   13.542500    2.708500    5.416999 ignored
+Warning: card  O    1.354250   -1.354250    1.354250 ignored
+Warning: card  O   12.188250    9.479750    1.354250 ignored
+Warning: card  O    1.354250   -1.354250    6.771249 ignored
+Warning: card  O   12.188250    9.479750    6.771249 ignored
+Warning: card  O    6.771250    4.062750    1.354250 ignored
+Warning: card  O    6.771250    4.062750    6.771249 ignored
+Warning: card  O    6.771250   -6.771250    1.354250 ignored
+Warning: card  O   17.605249    4.062750    1.354250 ignored
+Warning: card  O    6.771250   -6.771250    6.771249 ignored
+Warning: card  O   17.605249    4.062750    6.771249 ignored
+Warning: card  O   12.188250   -1.354250    1.354250 ignored
+Warning: card  O   12.188250   -1.354250    6.771249 ignored
+Warning: card  O    4.062750   -4.062750    4.062750 ignored
+Warning: card  O   14.896749    6.771250    4.062750 ignored
+Warning: card  O    4.062750   -4.062750    9.479749 ignored
+Warning: card  O   14.896749    6.771250    9.479749 ignored
+Warning: card  O    9.479750    1.354250    4.062750 ignored
+Warning: card  O    9.479750    1.354250    9.479749 ignored
+Warning: card  O    9.479750   -9.479750    4.062750 ignored
+Warning: card  O   20.313749    1.354250    4.062750 ignored
+Warning: card  O    9.479750   -9.479750    9.479749 ignored
+Warning: card  O   20.313749    1.354250    9.479749 ignored
+Warning: card  O   14.896749   -4.062750    4.062750 ignored
+Warning: card  O   14.896749   -4.062750    9.479749 ignored
+Warning: card  O    4.062750   -4.062750    1.354250 ignored
+Warning: card  O   14.896749    6.771250    1.354250 ignored
+Warning: card  O    4.062750   -4.062750    6.771249 ignored
+Warning: card  O   14.896749    6.771250    6.771249 ignored
+Warning: card  O    9.479750    1.354250    1.354250 ignored
+Warning: card  O    9.479750    1.354250    6.771249 ignored
+Warning: card  O    9.479750   -9.479750    1.354250 ignored
+Warning: card  O   20.313749    1.354250    1.354250 ignored
+Warning: card  O    9.479750   -9.479750    6.771249 ignored
+Warning: card  O   20.313749    1.354250    6.771249 ignored
+Warning: card  O   14.896749   -4.062750    1.354250 ignored
+Warning: card  O   14.896749   -4.062750    6.771249 ignored
+Warning: card  O    1.354250   -1.354250    4.062750 ignored
+Warning: card  O   12.188250    9.479750    4.062750 ignored
+Warning: card  O    1.354250   -1.354250    9.479749 ignored
+Warning: card  O   12.188250    9.479750    9.479749 ignored
+Warning: card  O    6.771250    4.062750    4.062750 ignored
+Warning: card  O    6.771250    4.062750    9.479749 ignored
+Warning: card  O    6.771250   -6.771250    4.062750 ignored
+Warning: card  O   17.605249    4.062750    4.062750 ignored
+Warning: card  O    6.771250   -6.771250    9.479749 ignored
+Warning: card  O   17.605249    4.062750    9.479749 ignored
+Warning: card  O   12.188250   -1.354250    4.062750 ignored
+Warning: card  O   12.188250   -1.354250    9.479749 ignored
+Warning: card  O    1.354250    1.354250    4.062750 ignored
+Warning: card  O   12.188250   -9.479750    4.062750 ignored
+Warning: card  O    1.354250    1.354250    9.479749 ignored
+Warning: card  O   12.188250   -9.479750    9.479749 ignored
+Warning: card  O    6.771250    6.771250    4.062750 ignored
+Warning: card  O   17.605249   -4.062750    4.062750 ignored
+Warning: card  O    6.771250    6.771250    9.479749 ignored
+Warning: card  O   17.605249   -4.062750    9.479749 ignored
+Warning: card  O    6.771250   -4.062750    4.062750 ignored
+Warning: card  O    6.771250   -4.062750    9.479749 ignored
+Warning: card  O   12.188250    1.354250    4.062750 ignored
+Warning: card  O   12.188250    1.354250    9.479749 ignored
+Warning: card  O    4.062750    4.062750    1.354250 ignored
+Warning: card  O   14.896749   -6.771250    1.354250 ignored
+Warning: card  O    4.062750    4.062750    6.771249 ignored
+Warning: card  O   14.896749   -6.771250    6.771249 ignored
+Warning: card  O    9.479750    9.479750    1.354250 ignored
+Warning: card  O   20.313749   -1.354250    1.354250 ignored
+Warning: card  O    9.479750    9.479750    6.771249 ignored
+Warning: card  O   20.313749   -1.354250    6.771249 ignored
+Warning: card  O    9.479750   -1.354250    1.354250 ignored
+Warning: card  O    9.479750   -1.354250    6.771249 ignored
+Warning: card  O   14.896749    4.062750    1.354250 ignored
+Warning: card  O   14.896749    4.062750    6.771249 ignored
+Warning: card  O    4.062750    4.062750    4.062750 ignored
+Warning: card  O   14.896749   -6.771250    4.062750 ignored
+Warning: card  O    4.062750    4.062750    9.479749 ignored
+Warning: card  O   14.896749   -6.771250    9.479749 ignored
+Warning: card  O    9.479750    9.479750    4.062750 ignored
+Warning: card  O   20.313749   -1.354250    4.062750 ignored
+Warning: card  O    9.479750    9.479750    9.479749 ignored
+Warning: card  O   20.313749   -1.354250    9.479749 ignored
+Warning: card  O    9.479750   -1.354250    4.062750 ignored
+Warning: card  O    9.479750   -1.354250    9.479749 ignored
+Warning: card  O   14.896749    4.062750    4.062750 ignored
+Warning: card  O   14.896749    4.062750    9.479749 ignored
+Warning: card  O    1.354250    1.354250    1.354250 ignored
+Warning: card  O   12.188250   -9.479750    1.354250 ignored
+Warning: card  O    1.354250    1.354250    6.771249 ignored
+Warning: card  O   12.188250   -9.479750    6.771249 ignored
+Warning: card  O    6.771250    6.771250    1.354250 ignored
+Warning: card  O   17.605249   -4.062750    1.354250 ignored
+Warning: card  O    6.771250    6.771250    6.771249 ignored
+Warning: card  O   17.605249   -4.062750    6.771249 ignored
+Warning: card  O    6.771250   -4.062750    1.354250 ignored
+Warning: card  O    6.771250   -4.062750    6.771249 ignored
+Warning: card  O   12.188250    1.354250    1.354250 ignored
+Warning: card  O   12.188250    1.354250    6.771249 ignored
+Warning: card  O    4.062750   -1.354250    4.062750 ignored
+Warning: card  O    4.062750   -1.354250    9.479749 ignored
+Warning: card  O    9.479750    4.062750    4.062750 ignored
+Warning: card  O    9.479750    4.062750    9.479749 ignored
+Warning: card  O    9.479750   -6.771250    4.062750 ignored
+Warning: card  O    9.479750   -6.771250    9.479749 ignored
+Warning: card  O   14.896749   -1.354250    4.062750 ignored
+Warning: card  O   14.896749   -1.354250    9.479749 ignored
+Warning: card  O    4.062750   -1.354250    1.354250 ignored
+Warning: card  O    4.062750   -1.354250    6.771249 ignored
+Warning: card  O    9.479750    4.062750    1.354250 ignored
+Warning: card  O    9.479750    4.062750    6.771249 ignored
+Warning: card  O    9.479750   -6.771250    1.354250 ignored
+Warning: card  O    9.479750   -6.771250    6.771249 ignored
+Warning: card  O   14.896749   -1.354250    1.354250 ignored
+Warning: card  O   14.896749   -1.354250    6.771249 ignored
+Warning: card  O    4.062750    1.354250    1.354250 ignored
+Warning: card  O    4.062750    1.354250    6.771249 ignored
+Warning: card  O    9.479750    6.771250    1.354250 ignored
+Warning: card  O    9.479750    6.771250    6.771249 ignored
+Warning: card  O    9.479750   -4.062750    1.354250 ignored
+Warning: card  O    9.479750   -4.062750    6.771249 ignored
+Warning: card  O   14.896749    1.354250    1.354250 ignored
+Warning: card  O   14.896749    1.354250    6.771249 ignored
+Warning: card  O    4.062750    1.354250    4.062750 ignored
+Warning: card  O    4.062750    1.354250    9.479749 ignored
+Warning: card  O    9.479750    6.771250    4.062750 ignored
+Warning: card  O    9.479750    6.771250    9.479749 ignored
+Warning: card  O    9.479750   -4.062750    4.062750 ignored
+Warning: card  O    9.479750   -4.062750    9.479749 ignored
+Warning: card  O   14.896749    1.354250    4.062750 ignored
+Warning: card  O   14.896749    1.354250    9.479749 ignored
+Warning: card  O    6.771250    1.354250    4.062750 ignored
+Warning: card  O    6.771250    1.354250    9.479749 ignored
+Warning: card  O   12.188250    6.771250    4.062750 ignored
+Warning: card  O   12.188250    6.771250    9.479749 ignored
+Warning: card  O   12.188250   -4.062750    4.062750 ignored
+Warning: card  O   12.188250   -4.062750    9.479749 ignored
+Warning: card  O   17.605249    1.354250    4.062750 ignored
+Warning: card  O   17.605249    1.354250    9.479749 ignored
+Warning: card  O    6.771250    1.354250    1.354250 ignored
+Warning: card  O    6.771250    1.354250    6.771249 ignored
+Warning: card  O   12.188250    6.771250    1.354250 ignored
+Warning: card  O   12.188250    6.771250    6.771249 ignored
+Warning: card  O   12.188250   -4.062750    1.354250 ignored
+Warning: card  O   12.188250   -4.062750    6.771249 ignored
+Warning: card  O   17.605249    1.354250    1.354250 ignored
+Warning: card  O   17.605249    1.354250    6.771249 ignored
+Warning: card  O    6.771250   -1.354250    1.354250 ignored
+Warning: card  O    6.771250   -1.354250    6.771249 ignored
+Warning: card  O   12.188250    4.062750    1.354250 ignored
+Warning: card  O   12.188250    4.062750    6.771249 ignored
+Warning: card  O   12.188250   -6.771250    1.354250 ignored
+Warning: card  O   12.188250   -6.771250    6.771249 ignored
+Warning: card  O   17.605249   -1.354250    1.354250 ignored
+Warning: card  O   17.605249   -1.354250    6.771249 ignored
+Warning: card  O    6.771250   -1.354250    4.062750 ignored
+Warning: card  O    6.771250   -1.354250    9.479749 ignored
+Warning: card  O   12.188250    4.062750    4.062750 ignored
+Warning: card  O   12.188250    4.062750    9.479749 ignored
+Warning: card  O   12.188250   -6.771250    4.062750 ignored
+Warning: card  O   12.188250   -6.771250    9.479749 ignored
+Warning: card  O   17.605249   -1.354250    4.062750 ignored
+Warning: card  O   17.605249   -1.354250    9.479749 ignored
+     Message from routine read_cards :
+     DEPRECATED: no units specified in CELL_PARAMETERS card
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  3
+               file O.pbe-mt_fhi.UPF: wavefunction(s)  4f renormalized
+               file O.pbe-mt_fhi.UPF: wavefunction(s)  4f renormalized
+               file O.pbe-mt_fhi.UPF: wavefunction(s)  4f renormalized
+               file O.pbe-mt_fhi.UPF: wavefunction(s)  4f renormalized
+               file Ce.pbe-mt_fhi.UPF: wavefunction(s)  6p renormalized
+     Message from routine setup:
+     no reason to have ecutrho>4*ecutwfc
+               file Ce.pbe-mt_fhi.UPF: wavefunction(s)  6p renormalized
+     Message from routine setup:
+     no reason to have ecutrho>4*ecutwfc
+               file Ce.pbe-mt_fhi.UPF: wavefunction(s)  6p renormalized
+     Message from routine setup:
+     no reason to have ecutrho>4*ecutwfc
+               file Ce.pbe-mt_fhi.UPF: wavefunction(s)  6p renormalized
+     Message from routine setup:
+     no reason to have ecutrho>4*ecutwfc
+
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum        5329    2661    725               292427   103311   14531
+
+
+     Title: 
+     CeO2                                                                       
+
+
+     bravais-lattice index     =            0
+     lattice parameter (alat)  =      10.2253  a.u.
+     unit-cell volume          =    1069.1268 (a.u.)^3
+     number of atoms/cell      =           12
+     number of atomic types    =            2
+     number of electrons       =        48.00
+     number of Kohn-Sham states=           82
+     kinetic-energy cutoff     =      80.0000  Ry
+     charge density cutoff     =     640.0000  Ry
+     convergence threshold     =      1.0E-08
+     mixing beta               =       0.7000
+     number of iterations used =            8  plain     mixing
+     Exchange-correlation      = PBE ( 1  4  3  4 0 0)
+     nstep                     =         1000
+
+
+     celldm(1)=  10.225308  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (   1.000000   0.000000   0.000000 )  
+               a(2) = (   0.000000   1.000000   0.000000 )  
+               a(3) = (   0.000000   0.000000   1.000000 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.000000  0.000000  0.000000 )  
+               b(2) = (  0.000000  1.000000  0.000000 )  
+               b(3) = (  0.000000  0.000000  1.000000 )  
+
+
+     PseudoPot. # 1 for  O read from file:
+     /home/dmitry/qe/qe-6.1/pseudo/O.pbe-mt_fhi.UPF
+     MD5 check sum: 2ddb684ddb3c5d7407f47e9cdd68296a
+     Pseudo is Norm-conserving, Zval =  6.0
+     Generated using FHI98PP, converted with fhi2upf.x v.5.0.2
+     Using radial grid of  473 points,  3 beta functions with: 
+                l(1) =   0
+                l(2) =   1
+                l(3) =   3
+
+     PseudoPot. # 2 for Ce read from file:
+     /home/dmitry/qe/qe-6.1/pseudo/Ce.pbe-mt_fhi.UPF
+     MD5 check sum: 1b15565eaeb76444e6dff07a3ca2f97f
+     Pseudo is Norm-conserving, Zval =  4.0
+     Generated using FHI98PP, converted with fhi2upf.x v.5.0.2
+
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum        5329    2661    725               292427   103311   14531
+
+
+     Title: 
+     CeO2                                                                       
+
+
+     bravais-lattice index     =            0
+     lattice parameter (alat)  =      10.2253  a.u.
+     unit-cell volume          =    1069.1268 (a.u.)^3
+     number of atoms/cell      =           12
+     number of atomic types    =            2
+     number of electrons       =        48.00
+     number of Kohn-Sham states=           82
+     kinetic-energy cutoff     =      80.0000  Ry
+     charge density cutoff     =     640.0000  Ry
+     convergence threshold     =      1.0E-08
+     mixing beta               =       0.7000
+     number of iterations used =            8  plain     mixing
+     Exchange-correlation      = PBE ( 1  4  3  4 0 0)
+     nstep                     =         1000
+
+
+     celldm(1)=  10.225308  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (   1.000000   0.000000   0.000000 )  
+               a(2) = (   0.000000   1.000000   0.000000 )  
+               a(3) = (   0.000000   0.000000   1.000000 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.000000  0.000000  0.000000 )  
+               b(2) = (  0.000000  1.000000  0.000000 )  
+     Using radial grid of  555 points,  3 beta functions with: 
+               b(3) = (  0.000000  0.000000  1.000000 )  
+
+
+     PseudoPot. # 1 for  O read from file:
+     /home/dmitry/qe/qe-6.1/pseudo/O.pbe-mt_fhi.UPF
+     MD5 check sum: 2ddb684ddb3c5d7407f47e9cdd68296a
+     Pseudo is Norm-conserving, Zval =  6.0
+     Generated using FHI98PP, converted with fhi2upf.x v.5.0.2
+     Using radial grid of  473 points,  3 beta functions with: 
+                l(1) =   0
+                l(2) =   1
+                l(3) =   3
+
+     PseudoPot. # 2 for Ce read from file:
+     /home/dmitry/qe/qe-6.1/pseudo/Ce.pbe-mt_fhi.UPF
+     MD5 check sum: 1b15565eaeb76444e6dff07a3ca2f97f
+     Pseudo is Norm-conserving, Zval =  4.0
+     Generated using FHI98PP, converted with fhi2upf.x v.5.0.2
+     Using radial grid of  555 points,  3 beta functions with: 
+                l(1) =   1
+                l(2) =   2
+                l(3) =   3
+
+     atomic species   valence    mass     pseudopotential
+        O              6.00    15.99900      O( 1.00)
+        Ce             4.00   140.12000     Ce( 1.00)
+
+     Starting magnetic structure 
+     atomic species   magnetization
+        O            0.500
+        Ce           0.000
+
+      2 Sym. Ops. (no inversion) found
+
+                l(1) =   1
+                l(2) =   2
+                l(3) =   3
+
+     atomic species   valence    mass     pseudopotential
+        O              6.00    15.99900      O( 1.00)
+        Ce             4.00   140.12000     Ce( 1.00)
+
+     Starting magnetic structure 
+     atomic species   magnetization
+        O            0.500
+        Ce           0.000
+
+      2 Sym. Ops. (no inversion) found
+
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1           Ce  tau(   1) = (   0.0000000   0.0000000   0.0000000  )
+         2           Ce  tau(   2) = (   0.0000000   0.0000000   4.8053221  )
+         3           Ce  tau(   3) = (   2.0022177   2.0022177   0.0000000  )
+         4           Ce  tau(   4) = (   2.0022177   2.0022177   4.8053221  )
+         5           Ce  tau(   5) = (   2.0022177  -2.0022177   0.0000000  )
+         6           Ce  tau(   6) = (   2.0022177  -2.0022177   4.8053221  )
+         7           Ce  tau(   7) = (   4.0044352   0.0000000   0.0000000  )
+         8           Ce  tau(   8) = (   4.0044352   0.0000000   4.8053221  )
+         9           Ce  tau(   9) = (   0.0000000   0.0000000   1.0011087  )
+        10           Ce  tau(  10) = (   2.0022177   2.0022177   1.0011087  )
+        11           Ce  tau(  11) = (   2.0022177  -2.0022177   1.0011087  )
+        12           Ce  tau(  12) = (   4.0044352   0.0000000   1.0011087  )
+
+     number of k points=    10  Marzari-Vanderbilt smearing, width (Ry)=  0.0010
+                       cart. coord. in units 2pi/alat
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.0370370
+        k(    2) = (   0.0000000   0.0000000   0.3333333), wk =   0.0740741
+        k(    3) = (   0.0000000   0.3333333   0.3333333), wk =   0.1481481
+        k(    4) = (   0.3333333   0.3333333   0.3333333), wk =   0.1481481
+        k(    5) = (   0.3333333   0.0000000   0.0000000), wk =   0.0740741
+        k(    6) = (   0.0000000   0.3333333   0.0000000), wk =   0.0740741
+        k(    7) = (   0.3333333   0.0000000  -0.3333333), wk =   0.0740741
+        k(    8) = (  -0.3333333   0.0000000  -0.3333333), wk =   0.0740741
+        k(    9) = (   0.3333333  -0.3333333   0.0000000), wk =   0.1481481
+        k(   10) = (   0.3333333  -0.3333333  -0.3333333), wk =   0.1481481
+
+     Dense  grid:   292427 G-vectors     FFT dimensions: (  90,  90,  90)
+
+     Smooth grid:   103311 G-vectors     FFT dimensions: (  60,  60,  60)
+
+     Estimated max dynamical RAM per process >     730.36MB
+
+     Generating pointlists ...
+     new r_m :   0.4125 (alat units)  4.2179 (a.u.) for type    1
+
+   Cartesian axes
+     new r_m :   0.0005 (alat units)  0.0047 (a.u.) for type    2
+
+     site n.     atom                  positions (alat units)
+         1           Ce  tau(   1) = (   0.0000000   0.0000000   0.0000000  )
+         2           Ce  tau(   2) = (   0.0000000   0.0000000   4.8053221  )
+         3           Ce  tau(   3) = (   2.0022177   2.0022177   0.0000000  )
+         4           Ce  tau(   4) = (   2.0022177   2.0022177   4.8053221  )
+         5           Ce  tau(   5) = (   2.0022177  -2.0022177   0.0000000  )
+         6           Ce  tau(   6) = (   2.0022177  -2.0022177   4.8053221  )
+         7           Ce  tau(   7) = (   4.0044352   0.0000000   0.0000000  )
+         8           Ce  tau(   8) = (   4.0044352   0.0000000   4.8053221  )
+         9           Ce  tau(   9) = (   0.0000000   0.0000000   1.0011087  )
+        10           Ce  tau(  10) = (   2.0022177   2.0022177   1.0011087  )
+        11           Ce  tau(  11) = (   2.0022177  -2.0022177   1.0011087  )
+        12           Ce  tau(  12) = (   4.0044352   0.0000000   1.0011087  )
+
+     number of k points=    10  Marzari-Vanderbilt smearing, width (Ry)=  0.0010
+                       cart. coord. in units 2pi/alat
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.0370370
+        k(    2) = (   0.0000000   0.0000000   0.3333333), wk =   0.0740741
+        k(    3) = (   0.0000000   0.3333333   0.3333333), wk =   0.1481481
+        k(    4) = (   0.3333333   0.3333333   0.3333333), wk =   0.1481481
+        k(    5) = (   0.3333333   0.0000000   0.0000000), wk =   0.0740741
+        k(    6) = (   0.0000000   0.3333333   0.0000000), wk =   0.0740741
+        k(    7) = (   0.3333333   0.0000000  -0.3333333), wk =   0.0740741
+        k(    8) = (  -0.3333333   0.0000000  -0.3333333), wk =   0.0740741
+        k(    9) = (   0.3333333  -0.3333333   0.0000000), wk =   0.1481481
+        k(   10) = (   0.3333333  -0.3333333  -0.3333333), wk =   0.1481481
+
+     Dense  grid:   292427 G-vectors     FFT dimensions: (  90,  90,  90)
+
+     Smooth grid:   103311 G-vectors     FFT dimensions: (  60,  60,  60)
+
+     Estimated max dynamical RAM per process >     730.36MB
+     Generating pointlists ...
+     new r_m :   0.4125 (alat units)  4.2179 (a.u.) for type    1
+     new r_m :   0.0005 (alat units)  0.0047 (a.u.) for type    2
+
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum        5329    2661    725               292427   103311   14531
+
+
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum        5329    2661    725               292427   103311   14531
+
+
+     Title: 
+     CeO2                                                                       
+
+
+     bravais-lattice index     =            0
+
+     Title: 
+     CeO2                                                                       
+
+
+     bravais-lattice index     =            0
+     lattice parameter (alat)  =      10.2253  a.u.
+     unit-cell volume          =    1069.1268 (a.u.)^3
+     number of atoms/cell      =           12
+     number of atomic types    =            2
+     lattice parameter (alat)  =      10.2253  a.u.
+     unit-cell volume          =    1069.1268 (a.u.)^3
+     number of atoms/cell      =           12
+     number of atomic types    =            2
+     number of electrons       =        48.00
+     number of Kohn-Sham states=           82
+     kinetic-energy cutoff     =      80.0000  Ry
+     charge density cutoff     =     640.0000  Ry
+     number of electrons       =        48.00
+     number of Kohn-Sham states=           82
+     kinetic-energy cutoff     =      80.0000  Ry
+     charge density cutoff     =     640.0000  Ry
+     convergence threshold     =      1.0E-08
+     mixing beta               =       0.7000
+     number of iterations used =            8  plain     mixing
+     Exchange-correlation      = PBE ( 1  4  3  4 0 0)
+     nstep                     =         1000
+
+
+     convergence threshold     =      1.0E-08
+     mixing beta               =       0.7000
+     number of iterations used =            8  plain     mixing
+     Exchange-correlation      = PBE ( 1  4  3  4 0 0)
+     nstep                     =         1000
+
+
+     celldm(1)=  10.225308  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     celldm(1)=  10.225308  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (   1.000000   0.000000   0.000000 )  
+               a(2) = (   0.000000   1.000000   0.000000 )  
+               a(3) = (   0.000000   0.000000   1.000000 )  
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (   1.000000   0.000000   0.000000 )  
+               a(2) = (   0.000000   1.000000   0.000000 )  
+               a(3) = (   0.000000   0.000000   1.000000 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.000000  0.000000  0.000000 )  
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.000000  0.000000  0.000000 )  
+               b(2) = (  0.000000  1.000000  0.000000 )  
+               b(3) = (  0.000000  0.000000  1.000000 )  
+
+
+     PseudoPot. # 1 for  O read from file:
+               b(2) = (  0.000000  1.000000  0.000000 )  
+               b(3) = (  0.000000  0.000000  1.000000 )  
+
+
+     PseudoPot. # 1 for  O read from file:
+     /home/dmitry/qe/qe-6.1/pseudo/O.pbe-mt_fhi.UPF
+     MD5 check sum: 2ddb684ddb3c5d7407f47e9cdd68296a
+     /home/dmitry/qe/qe-6.1/pseudo/O.pbe-mt_fhi.UPF
+     MD5 check sum: 2ddb684ddb3c5d7407f47e9cdd68296a
+     Pseudo is Norm-conserving, Zval =  6.0
+     Generated using FHI98PP, converted with fhi2upf.x v.5.0.2
+     Using radial grid of  473 points,  3 beta functions with: 
+                l(1) =   0
+                l(2) =   1
+                l(3) =   3
+
+     Pseudo is Norm-conserving, Zval =  6.0
+     Generated using FHI98PP, converted with fhi2upf.x v.5.0.2
+     Using radial grid of  473 points,  3 beta functions with: 
+                l(1) =   0
+                l(2) =   1
+                l(3) =   3
+
+     PseudoPot. # 2 for Ce read from file:
+     /home/dmitry/qe/qe-6.1/pseudo/Ce.pbe-mt_fhi.UPF
+     MD5 check sum: 1b15565eaeb76444e6dff07a3ca2f97f
+     Pseudo is Norm-conserving, Zval =  4.0
+     Generated using FHI98PP, converted with fhi2upf.x v.5.0.2
+     Using radial grid of  555 points,  3 beta functions with: 
+                l(1) =   1
+                l(2) =   2
+                l(3) =   3
+     PseudoPot. # 2 for Ce read from file:
+     /home/dmitry/qe/qe-6.1/pseudo/Ce.pbe-mt_fhi.UPF
+     MD5 check sum: 1b15565eaeb76444e6dff07a3ca2f97f
+     Pseudo is Norm-conserving, Zval =  4.0
+     Generated using FHI98PP, converted with fhi2upf.x v.5.0.2
+     Using radial grid of  555 points,  3 beta functions with: 
+                l(1) =   1
+                l(2) =   2
+                l(3) =   3
+
+     atomic species   valence    mass     pseudopotential
+        O              6.00    15.99900      O( 1.00)
+        Ce             4.00   140.12000     Ce( 1.00)
+
+     Starting magnetic structure 
+     atomic species   magnetization
+
+     atomic species   valence    mass     pseudopotential
+        O              6.00    15.99900      O( 1.00)
+        Ce             4.00   140.12000     Ce( 1.00)
+
+     Starting magnetic structure 
+     atomic species   magnetization
+        O            0.500
+        Ce           0.000
+
+      2 Sym. Ops. (no inversion) found
+
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+        O            0.500
+        Ce           0.000
+
+      2 Sym. Ops. (no inversion) found
+
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1           Ce  tau(   1) = (   0.0000000   0.0000000   0.0000000  )
+         2           Ce  tau(   2) = (   0.0000000   0.0000000   4.8053221  )
+         3           Ce  tau(   3) = (   2.0022177   2.0022177   0.0000000  )
+         4           Ce  tau(   4) = (   2.0022177   2.0022177   4.8053221  )
+         5           Ce  tau(   5) = (   2.0022177  -2.0022177   0.0000000  )
+         1           Ce  tau(   1) = (   0.0000000   0.0000000   0.0000000  )
+         2           Ce  tau(   2) = (   0.0000000   0.0000000   4.8053221  )
+         3           Ce  tau(   3) = (   2.0022177   2.0022177   0.0000000  )
+         4           Ce  tau(   4) = (   2.0022177   2.0022177   4.8053221  )
+         5           Ce  tau(   5) = (   2.0022177  -2.0022177   0.0000000  )
+         6           Ce  tau(   6) = (   2.0022177  -2.0022177   4.8053221  )
+         7           Ce  tau(   7) = (   4.0044352   0.0000000   0.0000000  )
+         6           Ce  tau(   6) = (   2.0022177  -2.0022177   4.8053221  )
+         7           Ce  tau(   7) = (   4.0044352   0.0000000   0.0000000  )
+         8           Ce  tau(   8) = (   4.0044352   0.0000000   4.8053221  )
+         9           Ce  tau(   9) = (   0.0000000   0.0000000   1.0011087  )
+        10           Ce  tau(  10) = (   2.0022177   2.0022177   1.0011087  )
+         8           Ce  tau(   8) = (   4.0044352   0.0000000   4.8053221  )
+         9           Ce  tau(   9) = (   0.0000000   0.0000000   1.0011087  )
+        10           Ce  tau(  10) = (   2.0022177   2.0022177   1.0011087  )
+        11           Ce  tau(  11) = (   2.0022177  -2.0022177   1.0011087  )
+        12           Ce  tau(  12) = (   4.0044352   0.0000000   1.0011087  )
+
+     number of k points=    10  Marzari-Vanderbilt smearing, width (Ry)=  0.0010
+        11           Ce  tau(  11) = (   2.0022177  -2.0022177   1.0011087  )
+        12           Ce  tau(  12) = (   4.0044352   0.0000000   1.0011087  )
+
+     number of k points=    10  Marzari-Vanderbilt smearing, width (Ry)=  0.0010
+                       cart. coord. in units 2pi/alat
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.0370370
+        k(    2) = (   0.0000000   0.0000000   0.3333333), wk =   0.0740741
+                       cart. coord. in units 2pi/alat
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.0370370
+        k(    2) = (   0.0000000   0.0000000   0.3333333), wk =   0.0740741
+        k(    3) = (   0.0000000   0.3333333   0.3333333), wk =   0.1481481
+        k(    4) = (   0.3333333   0.3333333   0.3333333), wk =   0.1481481
+        k(    5) = (   0.3333333   0.0000000   0.0000000), wk =   0.0740741
+        k(    6) = (   0.0000000   0.3333333   0.0000000), wk =   0.0740741
+        k(    3) = (   0.0000000   0.3333333   0.3333333), wk =   0.1481481
+        k(    4) = (   0.3333333   0.3333333   0.3333333), wk =   0.1481481
+        k(    5) = (   0.3333333   0.0000000   0.0000000), wk =   0.0740741
+        k(    6) = (   0.0000000   0.3333333   0.0000000), wk =   0.0740741
+        k(    7) = (   0.3333333   0.0000000  -0.3333333), wk =   0.0740741
+        k(    8) = (  -0.3333333   0.0000000  -0.3333333), wk =   0.0740741
+        k(    9) = (   0.3333333  -0.3333333   0.0000000), wk =   0.1481481
+        k(    7) = (   0.3333333   0.0000000  -0.3333333), wk =   0.0740741
+        k(    8) = (  -0.3333333   0.0000000  -0.3333333), wk =   0.0740741
+        k(    9) = (   0.3333333  -0.3333333   0.0000000), wk =   0.1481481
+        k(   10) = (   0.3333333  -0.3333333  -0.3333333), wk =   0.1481481
+
+     Dense  grid:   292427 G-vectors     FFT dimensions: (  90,  90,  90)
+
+     Smooth grid:   103311 G-vectors     FFT dimensions: (  60,  60,  60)
+        k(   10) = (   0.3333333  -0.3333333  -0.3333333), wk =   0.1481481
+
+     Dense  grid:   292427 G-vectors     FFT dimensions: (  90,  90,  90)
+
+     Smooth grid:   103311 G-vectors     FFT dimensions: (  60,  60,  60)
+
+     Estimated max dynamical RAM per process >     730.36MB
+
+     Estimated max dynamical RAM per process >     730.36MB
+     Generating pointlists ...
+     Generating pointlists ...
+     new r_m :   0.4125 (alat units)  4.2179 (a.u.) for type    1
+     new r_m :   0.0005 (alat units)  0.0047 (a.u.) for type    2
+     new r_m :   0.4125 (alat units)  4.2179 (a.u.) for type    1
+     new r_m :   0.0005 (alat units)  0.0047 (a.u.) for type    2
+
+     Initial potential from superposition of free atoms
+
+     Initial potential from superposition of free atoms
+
+     Initial potential from superposition of free atoms
+
+     Initial potential from superposition of free atoms
+
+     starting charge   47.88638, renormalised to   48.00000
+
+     starting charge   47.88638, renormalised to   48.00000
+     Starting wfc are  192 randomized atomic wfcs
+
+     starting charge   47.88638, renormalised to   48.00000
+
+     starting charge   47.88638, renormalised to   48.00000
+     Starting wfc are  192 randomized atomic wfcs
+     Starting wfc are  192 randomized atomic wfcs
+     Starting wfc are  192 randomized atomic wfcs
+
+     total cpu time spent up to now is     1224.5 secs
+
+     per-process dynamical memory:   557.6 Mb
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is     1225.1 secs
+
+     per-process dynamical memory:   557.6 Mb
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is     1225.8 secs
+
+     per-process dynamical memory:   557.6 Mb
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is     1232.2 secs
+
+     per-process dynamical memory:   557.6 Mb
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.00E-02,  avg # of iterations =  6.2
+     ethr =  1.00E-02,  avg # of iterations =  6.2
+     ethr =  1.00E-02,  avg # of iterations =  6.2
+     ethr =  1.00E-02,  avg # of iterations =  6.2
+
+     total cpu time spent up to now is     3566.3 secs
+
+     total energy              =   36008.02293150 Ry
+     Harris-Foulkes estimate   =   35863.55610984 Ry
+     estimated scf accuracy    <     170.58190042 Ry
+
+     total magnetization       =     0.00 Bohr mag/cell
+     absolute magnetization    =     0.00 Bohr mag/cell
+
+     iteration #  2     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is     3578.2 secs
+
+     total energy              =   36008.02293150 Ry
+     Harris-Foulkes estimate   =   35863.55610984 Ry
+     estimated scf accuracy    <     170.58190042 Ry
+
+     total magnetization       =     0.00 Bohr mag/cell
+     absolute magnetization    =     0.00 Bohr mag/cell
+
+     iteration #  2     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is     3585.5 secs
+
+     total energy              =   36008.02293150 Ry
+     Harris-Foulkes estimate   =   35863.55610984 Ry
+     estimated scf accuracy    <     170.58190042 Ry
+
+     total magnetization       =     0.00 Bohr mag/cell
+     absolute magnetization    =     0.00 Bohr mag/cell
+
+     iteration #  2     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is     3596.6 secs
+
+     total energy              =   36008.02293150 Ry
+     Harris-Foulkes estimate   =   35863.55610984 Ry
+     estimated scf accuracy    <     170.58190042 Ry
+
+     total magnetization       =     0.00 Bohr mag/cell
+     absolute magnetization    =     0.00 Bohr mag/cell
+
+     iteration #  2     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.00E-02,  avg # of iterations =  5.0
+     ethr =  1.00E-02,  avg # of iterations =  5.0
+     ethr =  1.00E-02,  avg # of iterations =  5.0
+     ethr =  1.00E-02,  avg # of iterations =  5.0
+
+     total cpu time spent up to now is     5096.9 secs
+
+     total energy              =   35980.60799927 Ry
+     Harris-Foulkes estimate   =   35974.09366200 Ry
+     estimated scf accuracy    <       9.08331535 Ry
+
+     total magnetization       =    -0.00 Bohr mag/cell
+     absolute magnetization    =     0.01 Bohr mag/cell
+
+     iteration #  3     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is     5101.9 secs
+
+     total energy              =   35980.60799927 Ry
+     Harris-Foulkes estimate   =   35974.09366200 Ry
+     estimated scf accuracy    <       9.08331535 Ry
+
+     total magnetization       =    -0.00 Bohr mag/cell
+     absolute magnetization    =     0.01 Bohr mag/cell
+
+     iteration #  3     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is     5104.2 secs
+
+     total energy              =   35980.60799927 Ry
+     Harris-Foulkes estimate   =   35974.09366200 Ry
+     estimated scf accuracy    <       9.08331535 Ry
+
+     total magnetization       =    -0.00 Bohr mag/cell
+     absolute magnetization    =     0.01 Bohr mag/cell
+
+     iteration #  3     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is     5106.4 secs
+
+     total energy              =   35980.60799927 Ry
+     Harris-Foulkes estimate   =   35974.09366200 Ry
+     estimated scf accuracy    <       9.08331535 Ry
+
+     total magnetization       =    -0.00 Bohr mag/cell
+     absolute magnetization    =     0.01 Bohr mag/cell
+
+     iteration #  3     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.00E-02,  avg # of iterations =  2.2
+     ethr =  1.00E-02,  avg # of iterations =  2.2
+     ethr =  1.00E-02,  avg # of iterations =  2.2
+     ethr =  1.00E-02,  avg # of iterations =  2.2
+
+     total cpu time spent up to now is     6057.8 secs
+
+     total energy              =   35979.49619324 Ry
+     Harris-Foulkes estimate   =   35978.80913776 Ry
+     estimated scf accuracy    <       1.53015258 Ry
+
+     total magnetization       =    -0.01 Bohr mag/cell
+     absolute magnetization    =     0.01 Bohr mag/cell
+
+     iteration #  4     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is     6058.0 secs
+
+     total energy              =   35979.49619324 Ry
+     Harris-Foulkes estimate   =   35978.80913776 Ry
+     estimated scf accuracy    <       1.53015258 Ry
+
+     total magnetization       =    -0.01 Bohr mag/cell
+     absolute magnetization    =     0.01 Bohr mag/cell
+
+     iteration #  4     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is     6064.3 secs
+
+     total energy              =   35979.49619324 Ry
+     Harris-Foulkes estimate   =   35978.80913776 Ry
+     estimated scf accuracy    <       1.53015258 Ry
+
+     total magnetization       =    -0.01 Bohr mag/cell
+     absolute magnetization    =     0.01 Bohr mag/cell
+
+     iteration #  4     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is     6071.8 secs
+
+     total energy              =   35979.49619324 Ry
+     Harris-Foulkes estimate   =   35978.80913776 Ry
+     estimated scf accuracy    <       1.53015258 Ry
+
+     total magnetization       =    -0.01 Bohr mag/cell
+     absolute magnetization    =     0.01 Bohr mag/cell
+
+     iteration #  4     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  3.19E-03,  avg # of iterations =  1.5
+     ethr =  3.19E-03,  avg # of iterations =  1.5
+     ethr =  3.19E-03,  avg # of iterations =  1.5
+     ethr =  3.19E-03,  avg # of iterations =  1.5
+
+     total cpu time spent up to now is     6902.4 secs
+
+     total energy              =   35979.26817935 Ry
+     Harris-Foulkes estimate   =   35979.21869233 Ry
+     estimated scf accuracy    <       0.10450085 Ry
+
+     total magnetization       =    -0.01 Bohr mag/cell
+     absolute magnetization    =     0.01 Bohr mag/cell
+
+     iteration #  5     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is     6903.1 secs
+
+     total energy              =   35979.26817935 Ry
+     Harris-Foulkes estimate   =   35979.21869233 Ry
+     estimated scf accuracy    <       0.10450085 Ry
+
+     total magnetization       =    -0.01 Bohr mag/cell
+     absolute magnetization    =     0.01 Bohr mag/cell
+
+     iteration #  5     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is     6910.4 secs
+
+     total energy              =   35979.26817935 Ry
+     Harris-Foulkes estimate   =   35979.21869233 Ry
+     estimated scf accuracy    <       0.10450085 Ry
+
+     total magnetization       =    -0.01 Bohr mag/cell
+     absolute magnetization    =     0.01 Bohr mag/cell
+
+     iteration #  5     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is     6913.6 secs
+
+     total energy              =   35979.26817935 Ry
+     Harris-Foulkes estimate   =   35979.21869233 Ry
+     estimated scf accuracy    <       0.10450085 Ry
+
+     total magnetization       =    -0.01 Bohr mag/cell
+     absolute magnetization    =     0.01 Bohr mag/cell
+
+     iteration #  5     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  2.18E-04,  avg # of iterations =  8.9
+     ethr =  2.18E-04,  avg # of iterations =  8.9
+     ethr =  2.18E-04,  avg # of iterations =  8.9
+     ethr =  2.18E-04,  avg # of iterations =  8.9
+
+     total cpu time spent up to now is     8093.9 secs
+
+     total energy              =   35979.24839031 Ry
+     Harris-Foulkes estimate   =   35979.23821007 Ry
+     estimated scf accuracy    <       0.02378794 Ry
+
+     total magnetization       =    -0.03 Bohr mag/cell
+     absolute magnetization    =     0.03 Bohr mag/cell
+
+     iteration #  6     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is     8104.2 secs
+
+     total energy              =   35979.24839031 Ry
+     Harris-Foulkes estimate   =   35979.23821007 Ry
+     estimated scf accuracy    <       0.02378794 Ry
+
+     total magnetization       =    -0.03 Bohr mag/cell
+     absolute magnetization    =     0.03 Bohr mag/cell
+
+     iteration #  6     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is     8105.0 secs
+
+     total energy              =   35979.24839031 Ry
+     Harris-Foulkes estimate   =   35979.23821007 Ry
+     estimated scf accuracy    <       0.02378794 Ry
+
+     total magnetization       =    -0.03 Bohr mag/cell
+     absolute magnetization    =     0.03 Bohr mag/cell
+
+     iteration #  6     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is     8105.7 secs
+
+     total energy              =   35979.24839031 Ry
+     Harris-Foulkes estimate   =   35979.23821007 Ry
+     estimated scf accuracy    <       0.02378794 Ry
+
+     total magnetization       =    -0.03 Bohr mag/cell
+     absolute magnetization    =     0.03 Bohr mag/cell
+
+     iteration #  6     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  4.96E-05,  avg # of iterations =  4.5
+     ethr =  4.96E-05,  avg # of iterations =  4.5
+     ethr =  4.96E-05,  avg # of iterations =  4.5
+     ethr =  4.96E-05,  avg # of iterations =  4.5
+
+     total cpu time spent up to now is     9020.4 secs
+
+     total energy              =   35979.24249531 Ry
+     Harris-Foulkes estimate   =   35979.24106741 Ry
+     estimated scf accuracy    <       0.00444762 Ry
+
+     total magnetization       =    -0.15 Bohr mag/cell
+     absolute magnetization    =     0.15 Bohr mag/cell
+
+     iteration #  7     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is     9033.4 secs
+
+     total energy              =   35979.24249531 Ry
+     Harris-Foulkes estimate   =   35979.24106741 Ry
+     estimated scf accuracy    <       0.00444762 Ry
+
+     total magnetization       =    -0.15 Bohr mag/cell
+     absolute magnetization    =     0.15 Bohr mag/cell
+
+     iteration #  7     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is     9034.7 secs
+
+     total energy              =   35979.24249531 Ry
+     Harris-Foulkes estimate   =   35979.24106741 Ry
+     estimated scf accuracy    <       0.00444762 Ry
+
+     total magnetization       =    -0.15 Bohr mag/cell
+     absolute magnetization    =     0.15 Bohr mag/cell
+
+     iteration #  7     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is     9035.9 secs
+
+     total energy              =   35979.24249531 Ry
+     Harris-Foulkes estimate   =   35979.24106741 Ry
+     estimated scf accuracy    <       0.00444762 Ry
+
+     total magnetization       =    -0.15 Bohr mag/cell
+     absolute magnetization    =     0.15 Bohr mag/cell
+
+     iteration #  7     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     c_bands:  1 eigenvalues not converged
+     c_bands:  1 eigenvalues not converged
+     c_bands:  1 eigenvalues not converged
+     c_bands:  1 eigenvalues not converged
+     ethr =  9.27E-06,  avg # of iterations =  8.8
+     ethr =  9.27E-06,  avg # of iterations =  8.8
+     ethr =  9.27E-06,  avg # of iterations =  8.8
+     ethr =  9.27E-06,  avg # of iterations =  8.8
+
+     total cpu time spent up to now is    10112.7 secs
+
+     total energy              =   35979.24115615 Ry
+     Harris-Foulkes estimate   =   35979.24171334 Ry
+     estimated scf accuracy    <       0.00018502 Ry
+
+     total magnetization       =    -0.34 Bohr mag/cell
+     absolute magnetization    =     0.34 Bohr mag/cell
+
+     iteration #  8     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is    10140.3 secs
+
+     total energy              =   35979.24115615 Ry
+     Harris-Foulkes estimate   =   35979.24171334 Ry
+     estimated scf accuracy    <       0.00018502 Ry
+
+     total magnetization       =    -0.34 Bohr mag/cell
+     absolute magnetization    =     0.34 Bohr mag/cell
+
+     iteration #  8     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is    10144.7 secs
+
+     total energy              =   35979.24115615 Ry
+     Harris-Foulkes estimate   =   35979.24171334 Ry
+     estimated scf accuracy    <       0.00018502 Ry
+
+     total magnetization       =    -0.34 Bohr mag/cell
+     absolute magnetization    =     0.34 Bohr mag/cell
+
+     iteration #  8     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is    10145.6 secs
+
+     total energy              =   35979.24115615 Ry
+     Harris-Foulkes estimate   =   35979.24171334 Ry
+     estimated scf accuracy    <       0.00018502 Ry
+
+     total magnetization       =    -0.34 Bohr mag/cell
+     absolute magnetization    =     0.34 Bohr mag/cell
+
+     iteration #  8     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  3.85E-07,  avg # of iterations =  5.8
+     ethr =  3.85E-07,  avg # of iterations =  5.8
+     ethr =  3.85E-07,  avg # of iterations =  5.8
+     ethr =  3.85E-07,  avg # of iterations =  5.8
+
+     total cpu time spent up to now is    11175.7 secs
+
+     total energy              =   35979.24113917 Ry
+     Harris-Foulkes estimate   =   35979.24119154 Ry
+     estimated scf accuracy    <       0.00002411 Ry
+
+     total magnetization       =    -0.30 Bohr mag/cell
+     absolute magnetization    =     0.31 Bohr mag/cell
+
+     iteration #  9     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is    11199.9 secs
+
+     total energy              =   35979.24113917 Ry
+     Harris-Foulkes estimate   =   35979.24119154 Ry
+     estimated scf accuracy    <       0.00002411 Ry
+
+     total magnetization       =    -0.30 Bohr mag/cell
+     absolute magnetization    =     0.31 Bohr mag/cell
+
+     iteration #  9     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is    11210.4 secs
+
+     total energy              =   35979.24113917 Ry
+     Harris-Foulkes estimate   =   35979.24119154 Ry
+     estimated scf accuracy    <       0.00002411 Ry
+
+     total magnetization       =    -0.30 Bohr mag/cell
+     absolute magnetization    =     0.31 Bohr mag/cell
+
+     iteration #  9     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is    11220.5 secs
+
+     total energy              =   35979.24113917 Ry
+     Harris-Foulkes estimate   =   35979.24119154 Ry
+     estimated scf accuracy    <       0.00002411 Ry
+
+     total magnetization       =    -0.30 Bohr mag/cell
+     absolute magnetization    =     0.31 Bohr mag/cell
+
+     iteration #  9     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  5.02E-08,  avg # of iterations =  2.0
+     ethr =  5.02E-08,  avg # of iterations =  2.0
+     ethr =  5.02E-08,  avg # of iterations =  2.0
+     ethr =  5.02E-08,  avg # of iterations =  2.0
+
+     total cpu time spent up to now is    12045.8 secs
+
+     total energy              =   35979.24110945 Ry
+     Harris-Foulkes estimate   =   35979.24111770 Ry
+     estimated scf accuracy    <       0.00000081 Ry
+
+     total magnetization       =    -0.30 Bohr mag/cell
+     absolute magnetization    =     0.32 Bohr mag/cell
+
+     iteration # 10     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is    12076.1 secs
+
+     total energy              =   35979.24110945 Ry
+     Harris-Foulkes estimate   =   35979.24111770 Ry
+     estimated scf accuracy    <       0.00000081 Ry
+
+     total magnetization       =    -0.30 Bohr mag/cell
+     absolute magnetization    =     0.32 Bohr mag/cell
+
+     iteration # 10     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is    12086.2 secs
+
+     total energy              =   35979.24110945 Ry
+     Harris-Foulkes estimate   =   35979.24111770 Ry
+     estimated scf accuracy    <       0.00000081 Ry
+
+     total magnetization       =    -0.30 Bohr mag/cell
+     absolute magnetization    =     0.32 Bohr mag/cell
+
+     iteration # 10     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is    12095.4 secs
+
+     total energy              =   35979.24110945 Ry
+     Harris-Foulkes estimate   =   35979.24111770 Ry
+     estimated scf accuracy    <       0.00000081 Ry
+
+     total magnetization       =    -0.30 Bohr mag/cell
+     absolute magnetization    =     0.32 Bohr mag/cell
+
+     iteration # 10     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.68E-09,  avg # of iterations =  4.0
+     ethr =  1.68E-09,  avg # of iterations =  4.0
+     ethr =  1.68E-09,  avg # of iterations =  4.0
+     ethr =  1.68E-09,  avg # of iterations =  4.0
+
+     total cpu time spent up to now is    13001.8 secs
+
+     total energy              =   35979.24110513 Ry
+     Harris-Foulkes estimate   =   35979.24110641 Ry
+     estimated scf accuracy    <       0.00000012 Ry
+
+     total magnetization       =    -0.30 Bohr mag/cell
+     absolute magnetization    =     0.32 Bohr mag/cell
+
+     iteration # 11     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is    13044.0 secs
+
+     total energy              =   35979.24110513 Ry
+     Harris-Foulkes estimate   =   35979.24110641 Ry
+     estimated scf accuracy    <       0.00000012 Ry
+
+     total magnetization       =    -0.30 Bohr mag/cell
+     absolute magnetization    =     0.32 Bohr mag/cell
+
+     iteration # 11     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is    13050.8 secs
+
+     total energy              =   35979.24110513 Ry
+     Harris-Foulkes estimate   =   35979.24110641 Ry
+     estimated scf accuracy    <       0.00000012 Ry
+
+     total magnetization       =    -0.30 Bohr mag/cell
+     absolute magnetization    =     0.32 Bohr mag/cell
+
+     iteration # 11     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is    13055.4 secs
+
+     total energy              =   35979.24110513 Ry
+     Harris-Foulkes estimate   =   35979.24110641 Ry
+     estimated scf accuracy    <       0.00000012 Ry
+
+     total magnetization       =    -0.30 Bohr mag/cell
+     absolute magnetization    =     0.32 Bohr mag/cell
+
+     iteration # 11     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  2.49E-10,  avg # of iterations =  2.3
+     ethr =  2.49E-10,  avg # of iterations =  2.3
+     ethr =  2.49E-10,  avg # of iterations =  2.3
+     ethr =  2.49E-10,  avg # of iterations =  2.3
+
+     total cpu time spent up to now is    13876.2 secs
+
+     total energy              =   35979.24110442 Ry
+     Harris-Foulkes estimate   =   35979.24110458 Ry
+     estimated scf accuracy    <       0.00000005 Ry
+
+     total magnetization       =    -0.30 Bohr mag/cell
+     absolute magnetization    =     0.32 Bohr mag/cell
+
+     iteration # 12     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is    13915.4 secs
+
+     total energy              =   35979.24110442 Ry
+     Harris-Foulkes estimate   =   35979.24110458 Ry
+     estimated scf accuracy    <       0.00000005 Ry
+
+     total magnetization       =    -0.30 Bohr mag/cell
+     absolute magnetization    =     0.32 Bohr mag/cell
+
+     iteration # 12     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is    13931.8 secs
+
+     total energy              =   35979.24110442 Ry
+     Harris-Foulkes estimate   =   35979.24110458 Ry
+     estimated scf accuracy    <       0.00000005 Ry
+
+     total magnetization       =    -0.30 Bohr mag/cell
+     absolute magnetization    =     0.32 Bohr mag/cell
+
+     iteration # 12     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+
+     total cpu time spent up to now is    13936.2 secs
+
+     total energy              =   35979.24110442 Ry
+     Harris-Foulkes estimate   =   35979.24110458 Ry
+     estimated scf accuracy    <       0.00000005 Ry
+
+     total magnetization       =    -0.30 Bohr mag/cell
+     absolute magnetization    =     0.32 Bohr mag/cell
+
+     iteration # 12     ecut=    80.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.11E-10,  avg # of iterations =  3.0
+     ethr =  1.11E-10,  avg # of iterations =  3.0
+     ethr =  1.11E-10,  avg # of iterations =  3.0
+     ethr =  1.11E-10,  avg # of iterations =  3.0
+
+     Magnetic moment per site:
+     atom:    1    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    2    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    3    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    4    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    5    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    6    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    7    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    8    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    9    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:   10    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:   11    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:   12    charge:    0.0000    magn:    0.0000    constr:    0.0000
+
+     total cpu time spent up to now is    14752.6 secs
+
+     End of self-consistent calculation
+
+ ------ SPIN UP ------------
+
+
+          k = 0.0000 0.0000 0.0000 ( 12965 PWs)   bands (ev):
+
+  ******************-973.5595-973.5580-951.2365-951.2365-928.0347-285.1175
+  -285.1175-230.8843-230.8829-191.8094-172.4136-172.4135-111.2878-111.2821
+  -102.3828-102.3828 -46.5885   6.7970  11.2071  12.1325  12.8993  12.8993
+    14.1867  15.3564  16.3570  16.3570  16.3730  17.1948  18.1383  18.4532
+    18.9620  18.9620  19.1399  19.1741  19.1742  22.2268  23.3904  23.3904
+    23.6231  23.8201  24.5803  24.5803  24.7457  28.4166  28.6054  29.6830
+    29.8130  30.0941  30.0942  30.1552  30.9803  31.1751  31.1751  31.9684
+    31.9685  32.1171  32.2082  32.2082  32.4813  32.6529  33.2677  33.9712
+    34.2363  34.7710  34.7710  35.4952  35.9227  36.3293  36.3293  37.2262
+    37.3391  37.3391  37.9271  38.0877  38.3058  38.3058  38.5522  38.7640
+    38.8258  39.0288
+
+          k = 0.0000 0.0000 0.3333 ( 12913 PWs)   bands (ev):
+
+  ******************-973.5593-973.5579-951.2364-951.2364-928.0345-285.1175
+  -285.1175-230.8842-230.8828-191.8091-172.4135-172.4135-111.2878-111.2821
+  -102.3827-102.3827 -46.5987   6.9352  10.9251  11.3841  13.0923  13.0923
+    14.2032  15.1603  15.1603  15.7811  16.5118  17.6434  18.1499  18.9582
+    18.9582  19.3810  20.7271  20.7271  20.7500  21.7929  22.8426  22.8426
+    23.4816  24.4781  25.0404  25.5658  26.5656  26.5656  27.7320  27.7320
+    28.1571  28.6968  29.0325  29.3279  29.5760  30.9067  30.9067  31.4558
+    31.4558  31.7763  31.9454  32.1269  32.1270  33.3476  34.3282  34.5133
+    34.5133  34.7448  34.8928  34.9691  35.8238  35.8238  36.3103  36.3161
+    36.3161  36.8521  37.3968  39.3863  39.4195  39.4195  39.5016  39.5379
+    40.0974  40.6443
+
+          k = 0.0000 0.3333 0.3333 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5593-973.5579-951.2364-951.2363-928.0345-285.1175
+  -285.1174-230.8842-230.8828-191.8091-172.4135-172.4134-111.2878-111.2821
+  -102.3827-102.3827 -46.5985   7.5709   9.9845  11.4072  12.8257  13.5494
+    13.9916  14.7031  15.2509  16.0200  16.7879  16.8180  17.4159  18.7407
+    19.6500  20.0295  20.6477  21.3932  22.2460  22.2820  22.8625  23.6664
+    23.9872  24.4128  24.8853  25.2152  25.2439  26.0526  26.8251  26.9612
+    27.7584  27.9142  28.6551  28.9838  29.4404  29.9378  29.9539  30.2782
+    30.8617  31.1748  32.1409  32.9245  32.9765  33.6032  33.7702  34.7135
+    34.7865  35.2673  35.6053  35.7053  36.1148  36.4253  36.7857  37.1145
+    38.1269  38.4096  39.1708  39.1752  39.5307  40.1084  40.1663  40.2451
+    40.5390  40.6518
+
+          k = 0.3333 0.3333 0.3333 ( 12932 PWs)   bands (ev):
+
+  ******************-973.5595-973.5579-951.2365-951.2364-928.0346-285.1175
+  -285.1175-230.8842-230.8829-191.8092-172.4135-172.4135-111.2878-111.2821
+  -102.3827-102.3827 -46.5983   8.2968  10.0747  11.1614  12.1700  12.7110
+    12.9880  14.6126  15.3173  16.3024  17.4617  17.6779  18.3244  19.2747
+    19.7360  19.8360  20.8605  21.7832  22.0636  22.2553  22.5772  22.8376
+    23.1522  24.3038  24.6481  24.9122  25.5725  26.2765  26.4837  27.1396
+    27.3725  27.8162  28.4936  28.6094  28.6402  29.3501  30.2358  30.3070
+    31.2666  32.1822  32.3792  32.9564  33.2401  33.6537  33.6557  34.2092
+    34.8554  35.0141  35.7494  35.8526  36.5552  37.0145  37.4689  37.9607
+    38.1016  38.1341  38.4862  38.4937  39.0658  39.4739  39.9286  40.5970
+    40.7319  40.9698
+
+          k = 0.3333 0.0000 0.0000 ( 12913 PWs)   bands (ev):
+
+  ******************-973.5594-973.5579-951.2364-951.2363-928.0347-285.1175
+  -285.1174-230.8842-230.8828-191.8094-172.4135-172.4135-111.2878-111.2821
+  -102.3828-102.3828 -46.5883   7.4396   9.7836  12.4212  13.3671  13.7672
+    14.4916  14.7427  14.7438  15.7117  16.3044  17.1992  17.6695  18.3015
+    18.6712  19.8494  20.5213  20.5780  20.7245  21.2842  21.4955  22.1346
+    24.8833  24.9610  25.5411  25.7689  26.2611  26.8530  26.9026  27.7618
+    28.8217  29.0409  29.9141  30.2389  30.4106  30.4262  30.8494  30.8842
+    31.1229  31.5747  32.0473  32.4734  32.9850  33.3095  33.9204  34.0377
+    34.6807  34.8199  34.9157  35.0722  35.4166  35.5184  36.1517  36.4934
+    36.6441  37.2351  37.3606  37.6235  38.0558  39.7075  39.8818  40.2179
+    40.3393  40.9025
+
+          k = 0.0000 0.3333 0.0000 ( 12913 PWs)   bands (ev):
+
+  ******************-973.5594-973.5579-951.2364-951.2363-928.0347-285.1175
+  -285.1174-230.8842-230.8828-191.8094-172.4135-172.4135-111.2878-111.2821
+  -102.3828-102.3828 -46.5883   7.4396   9.7836  12.4212  13.3671  13.7672
+    14.4916  14.7427  14.7438  15.7117  16.3044  17.1992  17.6695  18.3015
+    18.6712  19.8494  20.5213  20.5780  20.7245  21.2842  21.4955  22.1346
+    24.8833  24.9610  25.5411  25.7689  26.2611  26.8530  26.9026  27.7618
+    28.8217  29.0409  29.9141  30.2389  30.4106  30.4262  30.8494  30.8842
+    31.1229  31.5747  32.0473  32.4734  32.9851  33.3095  33.9204  34.0377
+    34.6807  34.8199  34.9157  35.0722  35.4166  35.5184  36.1517  36.4934
+    36.6442  37.2352  37.3606  37.6236  38.0558  39.7075  39.8818  40.2179
+    40.3395  40.9023
+
+          k = 0.3333 0.0000-0.3333 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5593-973.5579-951.2364-951.2363-928.0345-285.1175
+  -285.1174-230.8842-230.8828-191.8091-172.4135-172.4134-111.2878-111.2821
+  -102.3827-102.3827 -46.5985   7.5709   9.9845  11.4072  12.8257  13.5494
+    13.9916  14.7031  15.2509  16.0200  16.7879  16.8180  17.4159  18.7407
+    19.6500  20.0295  20.6477  21.3933  22.2460  22.2820  22.8625  23.6664
+    23.9871  24.4128  24.8853  25.2152  25.2439  26.0526  26.8251  26.9612
+    27.7584  27.9142  28.6551  28.9838  29.4404  29.9378  29.9539  30.2782
+    30.8617  31.1747  32.1409  32.9245  32.9765  33.6032  33.7702  34.7135
+    34.7865  35.2673  35.6053  35.7053  36.1149  36.4254  36.7857  37.1145
+    38.1270  38.4096  39.1708  39.1753  39.5307  40.1084  40.1664  40.2450
+    40.5390  40.6524
+
+          k =-0.3333 0.0000-0.3333 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5593-973.5579-951.2364-951.2363-928.0345-285.1175
+  -285.1174-230.8842-230.8828-191.8091-172.4135-172.4134-111.2878-111.2821
+  -102.3827-102.3827 -46.5985   7.5709   9.9845  11.4072  12.8257  13.5494
+    13.9916  14.7031  15.2509  16.0200  16.7879  16.8180  17.4159  18.7407
+    19.6500  20.0295  20.6477  21.3933  22.2460  22.2819  22.8625  23.6664
+    23.9871  24.4128  24.8853  25.2152  25.2439  26.0526  26.8251  26.9612
+    27.7584  27.9142  28.6551  28.9838  29.4404  29.9378  29.9539  30.2782
+    30.8617  31.1748  32.1409  32.9245  32.9765  33.6032  33.7702  34.7135
+    34.7865  35.2673  35.6053  35.7053  36.1149  36.4253  36.7857  37.1145
+    38.1269  38.4096  39.1708  39.1752  39.5307  40.1083  40.1663  40.2449
+    40.5390  40.6520
+
+          k = 0.3333-0.3333 0.0000 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5593-973.5579-951.2363-951.2363-928.0346-285.1175
+  -285.1174-230.8842-230.8828-191.8093-172.4135-172.4135-111.2878-111.2821
+  -102.3828-102.3828 -46.5881   8.1654   9.8706  11.1225  12.4710  13.4762
+    14.5830  15.1035  15.8062  15.9316  16.4139  16.4309  18.0648  18.4828
+    18.5613  19.0064  19.6025  21.0099  21.9557  22.3642  22.8345  23.2062
+    23.7198  24.6848  24.7721  25.6022  25.7490  26.0104  27.2557  28.4004
+    28.4318  28.6500  28.9619  29.2473  29.7329  29.7735  30.2598  30.3414
+    31.3274  31.3751  31.6470  32.0896  32.9656  33.2040  33.5247  34.5284
+    35.1000  35.1940  35.5325  35.6368  35.8444  36.1503  36.5157  37.0664
+    38.0654  38.1417  39.1035  39.5001  39.5504  39.6512  39.7535  40.0541
+    40.7476  41.0320
+
+          k = 0.3333-0.3333-0.3333 ( 12932 PWs)   bands (ev):
+
+  ******************-973.5595-973.5579-951.2365-951.2364-928.0346-285.1175
+  -285.1175-230.8842-230.8829-191.8092-172.4135-172.4135-111.2878-111.2821
+  -102.3827-102.3827 -46.5983   8.2968  10.0747  11.1614  12.1700  12.7110
+    12.9880  14.6126  15.3173  16.3024  17.4617  17.6779  18.3244  19.2747
+    19.7360  19.8360  20.8605  21.7832  22.0636  22.2553  22.5772  22.8377
+    23.1522  24.3038  24.6481  24.9122  25.5725  26.2765  26.4837  27.1396
+    27.3725  27.8162  28.4936  28.6094  28.6402  29.3501  30.2358  30.3070
+    31.2666  32.1822  32.3792  32.9564  33.2401  33.6537  33.6557  34.2092
+    34.8554  35.0141  35.7494  35.8526  36.5552  37.0145  37.4689  37.9607
+    38.1016  38.1341  38.4862  38.4937  39.0658  39.4739  39.9286  40.5971
+    40.7323  40.9702
+
+ ------ SPIN DOWN ----------
+
+
+          k = 0.0000 0.0000 0.0000 ( 12965 PWs)   bands (ev):
+
+  ******************-973.5596-973.5583-951.2369-951.2369-928.0348-285.1177
+  -285.1177-230.8839-230.8825-191.8096-172.4130-172.4130-111.2820-111.2782
+  -102.3807-102.3807 -46.5837   6.7035  11.1853  12.0832  12.7178  12.7178
+    14.1418  15.3460  16.1282  16.2553  16.2553  17.1602  18.1466  18.3305
+    18.8779  18.8779  19.0951  19.0952  19.1067  22.1120  23.3285  23.3285
+    23.5631  23.7829  24.5524  24.5524  24.7384  28.3388  28.4434  29.6856
+    29.7354  30.0232  30.0232  30.1227  30.9225  31.0522  31.0522  31.8654
+    31.8654  32.0911  32.1201  32.1201  32.4593  32.6422  33.2428  33.9411
+    34.1700  34.6654  34.6654  35.3815  35.7712  36.2605  36.2605  37.1144
+    37.2606  37.2606  37.8813  38.0693  38.2454  38.2455  38.4481  38.7621
+    38.7951  38.9863
+
+          k = 0.0000 0.0000 0.3333 ( 12913 PWs)   bands (ev):
+
+  ******************-973.5594-973.5582-951.2368-951.2368-928.0347-285.1177
+  -285.1177-230.8839-230.8825-191.8093-172.4130-172.4129-111.2820-111.2782
+  -102.3806-102.3806 -46.5938   6.8358  10.8880  11.3596  12.9007  12.9007
+    14.2014  15.0762  15.0762  15.7368  16.2561  17.5324  18.1068  18.8779
+    18.8780  19.3392  20.6554  20.6554  20.7523  21.7754  22.7761  22.7761
+    23.4259  24.3603  24.9611  25.5686  26.4934  26.4934  27.6718  27.6718
+    28.1308  28.5313  29.0174  29.2912  29.4683  30.7947  30.7947  31.3548
+    31.3548  31.7034  31.8954  32.0236  32.0236  33.3189  34.2417  34.4566
+    34.4566  34.7341  34.8684  34.8710  35.7760  35.7760  36.2658  36.2658
+    36.2781  36.8477  37.3438  39.3616  39.3617  39.3625  39.4275  39.4754
+    40.0833  40.7138
+
+          k = 0.0000 0.3333 0.3333 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5594-973.5581-951.2367-951.2367-928.0347-285.1177
+  -285.1176-230.8839-230.8825-191.8092-172.4129-172.4129-111.2820-111.2782
+  -102.3806-102.3806 -46.5936   7.4725   9.8894  11.3720  12.7860  13.3568
+    13.8988  14.5475  15.2061  15.8845  16.6789  16.7666  17.3481  18.6893
+    19.5980  20.0035  20.5299  21.3301  22.1576  22.2524  22.7691  23.6117
+    23.9395  24.3394  24.8203  25.0929  25.1638  25.9986  26.7365  26.9400
+    27.6808  27.8424  28.5992  28.8923  29.3860  29.8675  29.8784  30.2407
+    30.8209  31.1344  32.0265  32.8801  32.9074  33.5295  33.7259  34.6554
+    34.6938  35.2038  35.4923  35.6467  36.0504  36.3849  36.7345  37.0695
+    38.0532  38.3594  39.0977  39.1219  39.4815  40.0104  40.1073  40.1712
+    40.5092  40.5997
+
+          k = 0.3333 0.3333 0.3333 ( 12932 PWs)   bands (ev):
+
+  ******************-973.5596-973.5582-951.2368-951.2368-928.0348-285.1177
+  -285.1177-230.8839-230.8826-191.8093-172.4130-172.4129-111.2820-111.2782
+  -102.3806-102.3806 -46.5934   8.1979   9.9920  11.0555  12.0985  12.5661
+    12.9536  14.5248  15.2383  16.1680  17.4056  17.6128  18.1638  19.2169
+    19.6878  19.7680  20.7917  21.7210  22.0006  22.1858  22.4575  22.8040
+    23.0669  24.2318  24.6116  24.8591  25.4864  26.1879  26.4302  27.0802
+    27.2942  27.7632  28.4449  28.5168  28.5774  29.2983  30.1873  30.2035
+    31.1967  32.1312  32.3103  32.8921  33.1793  33.6018  33.6081  34.1370
+    34.7928  34.9680  35.6764  35.7595  36.4854  36.9295  37.3896  37.9031
+    38.0488  38.0764  38.4281  38.4368  39.0068  39.4178  39.8717  40.5377
+    40.6486  40.9150
+
+          k = 0.3333 0.0000 0.0000 ( 12913 PWs)   bands (ev):
+
+  ******************-973.5595-973.5582-951.2368-951.2367-928.0348-285.1177
+  -285.1177-230.8839-230.8825-191.8095-172.4130-172.4129-111.2820-111.2782
+  -102.3807-102.3807 -46.5835   7.3472   9.6950  12.3788  13.1827  13.6794
+    14.4292  14.5699  14.6989  15.6610  16.2485  17.0545  17.5520  18.2706
+    18.6200  19.7694  20.4733  20.4964  20.6132  21.2246  21.4656  22.0926
+    24.8244  24.8275  25.4592  25.7032  26.2106  26.7957  26.8401  27.7384
+    28.7500  28.9443  29.8166  30.1887  30.3626  30.3685  30.7979  30.8143
+    31.0769  31.5379  32.0168  32.3931  32.8921  33.2756  33.8364  33.9999
+    34.5723  34.6958  34.8371  35.0072  35.2858  35.4676  36.0987  36.4170
+    36.6199  37.1874  37.2698  37.5863  38.0062  39.6384  39.8345  40.1477
+    40.1979  40.8440
+
+          k = 0.0000 0.3333 0.0000 ( 12913 PWs)   bands (ev):
+
+  ******************-973.5595-973.5582-951.2368-951.2367-928.0348-285.1177
+  -285.1177-230.8839-230.8825-191.8095-172.4130-172.4129-111.2820-111.2782
+  -102.3807-102.3807 -46.5835   7.3472   9.6950  12.3788  13.1827  13.6794
+    14.4292  14.5699  14.6988  15.6610  16.2486  17.0545  17.5520  18.2706
+    18.6200  19.7694  20.4733  20.4964  20.6132  21.2246  21.4656  22.0926
+    24.8244  24.8275  25.4592  25.7032  26.2106  26.7957  26.8401  27.7384
+    28.7500  28.9443  29.8166  30.1887  30.3626  30.3685  30.7979  30.8143
+    31.0769  31.5379  32.0168  32.3931  32.8921  33.2756  33.8364  33.9999
+    34.5723  34.6958  34.8371  35.0072  35.2858  35.4676  36.0987  36.4170
+    36.6199  37.1874  37.2698  37.5863  38.0062  39.6384  39.8343  40.1479
+    40.1980  40.8439
+
+          k = 0.3333 0.0000-0.3333 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5594-973.5581-951.2367-951.2367-928.0347-285.1177
+  -285.1176-230.8839-230.8825-191.8092-172.4129-172.4129-111.2820-111.2782
+  -102.3806-102.3806 -46.5936   7.4726   9.8894  11.3720  12.7860  13.3568
+    13.8988  14.5475  15.2061  15.8845  16.6789  16.7666  17.3481  18.6893
+    19.5980  20.0035  20.5299  21.3302  22.1576  22.2524  22.7690  23.6117
+    23.9395  24.3395  24.8203  25.0929  25.1638  25.9986  26.7366  26.9400
+    27.6808  27.8424  28.5992  28.8923  29.3860  29.8675  29.8784  30.2407
+    30.8209  31.1344  32.0265  32.8801  32.9074  33.5295  33.7259  34.6554
+    34.6938  35.2038  35.4923  35.6467  36.0504  36.3849  36.7345  37.0695
+    38.0532  38.3593  39.0977  39.1219  39.4816  40.0104  40.1074  40.1714
+    40.5092  40.5999
+
+          k =-0.3333 0.0000-0.3333 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5594-973.5581-951.2367-951.2367-928.0347-285.1177
+  -285.1176-230.8839-230.8825-191.8092-172.4129-172.4129-111.2820-111.2782
+  -102.3806-102.3806 -46.5936   7.4726   9.8894  11.3720  12.7860  13.3568
+    13.8988  14.5475  15.2061  15.8845  16.6789  16.7666  17.3481  18.6893
+    19.5980  20.0035  20.5299  21.3302  22.1576  22.2524  22.7691  23.6117
+    23.9395  24.3394  24.8203  25.0929  25.1638  25.9986  26.7365  26.9400
+    27.6808  27.8424  28.5992  28.8923  29.3860  29.8675  29.8784  30.2407
+    30.8209  31.1344  32.0265  32.8801  32.9074  33.5295  33.7259  34.6554
+    34.6938  35.2038  35.4923  35.6467  36.0504  36.3849  36.7345  37.0695
+    38.0532  38.3593  39.0977  39.1218  39.4815  40.0102  40.1073  40.1712
+    40.5091  40.5995
+
+          k = 0.3333-0.3333 0.0000 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5594-973.5582-951.2367-951.2366-928.0348-285.1177
+  -285.1176-230.8839-230.8825-191.8095-172.4129-172.4129-111.2820-111.2782
+  -102.3807-102.3807 -46.5833   8.0727   9.7939  11.0051  12.3317  13.4018
+    14.5242  15.0439  15.7491  15.8993  16.2843  16.3105  17.9118  18.3937
+    18.4875  18.9299  19.5699  20.9809  21.9071  22.2549  22.7647  23.1250
+    23.6417  24.5996  24.7219  25.5658  25.7228  25.9359  27.1852  28.3443
+    28.3572  28.5546  28.8791  29.1789  29.6750  29.7131  30.2182  30.2538
+    31.2823  31.2907  31.5846  32.0627  32.8844  33.0970  33.4353  34.4727
+    35.0307  35.1376  35.4528  35.5893  35.7842  36.1134  36.4337  36.9817
+    38.0134  38.0863  39.0505  39.4436  39.4992  39.6030  39.6891  39.9770
+    40.6774  40.9985
+
+          k = 0.3333-0.3333-0.3333 ( 12932 PWs)   bands (ev):
+
+  ******************-973.5596-973.5582-951.2368-951.2368-928.0348-285.1177
+  -285.1177-230.8839-230.8826-191.8093-172.4130-172.4129-111.2820-111.2782
+  -102.3806-102.3806 -46.5934   8.1979   9.9920  11.0555  12.0985  12.5661
+    12.9536  14.5248  15.2383  16.1680  17.4056  17.6128  18.1638  19.2169
+    19.6878  19.7680  20.7917  21.7210  22.0006  22.1858  22.4575  22.8040
+    23.0669  24.2319  24.6116  24.8591  25.4864  26.1879  26.4302  27.0802
+    27.2942  27.7632  28.4449  28.5168  28.5774  29.2984  30.1873  30.2035
+    31.1967  32.1312  32.3103  32.8921  33.1793  33.6018  33.6081  34.1370
+    34.7928  34.9680  35.6764  35.7595  36.4854  36.9295  37.3896  37.9031
+    38.0488  38.0764  38.4281  38.4368  39.0068  39.4178  39.8718  40.5377
+    40.6485  40.9150
+
+     the Fermi energy is    13.4887 ev
+
+!    total energy              =   35979.24110430 Ry
+     Harris-Foulkes estimate   =   35979.24110433 Ry
+     estimated scf accuracy    <          3.8E-09 Ry
+
+     The total energy is the sum of the following terms:
+
+     one-electron contribution =   -1990.14937996 Ry
+     hartree contribution      =     386.35133044 Ry
+     xc contribution           =     -62.10283377 Ry
+     ewald contribution        =   37645.14197550 Ry
+     smearing contrib. (-TS)   =       0.00001208 Ry
+
+     total magnetization       =    -0.30 Bohr mag/cell
+     absolute magnetization    =     0.32 Bohr mag/cell
+
+     convergence has been achieved in  12 iterations
+
+     Magnetic moment per site:
+     atom:    1    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    2    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    3    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    4    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    5    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    6    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    7    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    8    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    9    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:   10    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:   11    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:   12    charge:    0.0000    magn:    0.0000    constr:    0.0000
+
+     total cpu time spent up to now is    14799.5 secs
+
+     End of self-consistent calculation
+
+ ------ SPIN UP ------------
+
+
+          k = 0.0000 0.0000 0.0000 ( 12965 PWs)   bands (ev):
+
+  ******************-973.5595-973.5580-951.2365-951.2365-928.0347-285.1175
+  -285.1175-230.8843-230.8829-191.8094-172.4136-172.4135-111.2878-111.2821
+  -102.3828-102.3828 -46.5885   6.7970  11.2071  12.1325  12.8993  12.8993
+    14.1867  15.3564  16.3570  16.3570  16.3730  17.1948  18.1383  18.4532
+    18.9620  18.9620  19.1399  19.1741  19.1742  22.2268  23.3904  23.3904
+    23.6231  23.8201  24.5803  24.5803  24.7457  28.4166  28.6054  29.6830
+    29.8130  30.0941  30.0942  30.1552  30.9803  31.1751  31.1751  31.9684
+    31.9685  32.1171  32.2082  32.2082  32.4813  32.6529  33.2677  33.9712
+    34.2363  34.7710  34.7710  35.4952  35.9227  36.3293  36.3293  37.2262
+    37.3391  37.3391  37.9271  38.0877  38.3058  38.3058  38.5522  38.7640
+    38.8258  39.0288
+
+          k = 0.0000 0.0000 0.3333 ( 12913 PWs)   bands (ev):
+
+  ******************-973.5593-973.5579-951.2364-951.2364-928.0345-285.1175
+  -285.1175-230.8842-230.8828-191.8091-172.4135-172.4135-111.2878-111.2821
+  -102.3827-102.3827 -46.5987   6.9352  10.9251  11.3841  13.0923  13.0923
+    14.2032  15.1603  15.1603  15.7811  16.5118  17.6434  18.1499  18.9582
+    18.9582  19.3810  20.7271  20.7271  20.7500  21.7929  22.8426  22.8426
+    23.4816  24.4781  25.0404  25.5658  26.5656  26.5656  27.7320  27.7320
+    28.1571  28.6968  29.0325  29.3279  29.5760  30.9067  30.9067  31.4558
+    31.4558  31.7763  31.9454  32.1269  32.1270  33.3476  34.3282  34.5133
+    34.5133  34.7448  34.8928  34.9691  35.8238  35.8238  36.3103  36.3161
+    36.3161  36.8521  37.3968  39.3863  39.4195  39.4195  39.5016  39.5379
+    40.0974  40.6443
+
+          k = 0.0000 0.3333 0.3333 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5593-973.5579-951.2364-951.2363-928.0345-285.1175
+  -285.1174-230.8842-230.8828-191.8091-172.4135-172.4134-111.2878-111.2821
+  -102.3827-102.3827 -46.5985   7.5709   9.9845  11.4072  12.8257  13.5494
+    13.9916  14.7031  15.2509  16.0200  16.7879  16.8180  17.4159  18.7407
+    19.6500  20.0295  20.6477  21.3932  22.2460  22.2820  22.8625  23.6664
+    23.9872  24.4128  24.8853  25.2152  25.2439  26.0526  26.8251  26.9612
+    27.7584  27.9142  28.6551  28.9838  29.4404  29.9378  29.9539  30.2782
+    30.8617  31.1748  32.1409  32.9245  32.9765  33.6032  33.7702  34.7135
+    34.7865  35.2673  35.6053  35.7053  36.1148  36.4253  36.7857  37.1145
+    38.1269  38.4096  39.1708  39.1752  39.5307  40.1084  40.1663  40.2451
+    40.5390  40.6518
+
+          k = 0.3333 0.3333 0.3333 ( 12932 PWs)   bands (ev):
+
+  ******************-973.5595-973.5579-951.2365-951.2364-928.0346-285.1175
+  -285.1175-230.8842-230.8829-191.8092-172.4135-172.4135-111.2878-111.2821
+  -102.3827-102.3827 -46.5983   8.2968  10.0747  11.1614  12.1700  12.7110
+    12.9880  14.6126  15.3173  16.3024  17.4617  17.6779  18.3244  19.2747
+    19.7360  19.8360  20.8605  21.7832  22.0636  22.2553  22.5772  22.8376
+    23.1522  24.3038  24.6481  24.9122  25.5725  26.2765  26.4837  27.1396
+    27.3725  27.8162  28.4936  28.6094  28.6402  29.3501  30.2358  30.3070
+    31.2666  32.1822  32.3792  32.9564  33.2401  33.6537  33.6557  34.2092
+    34.8554  35.0141  35.7494  35.8526  36.5552  37.0145  37.4689  37.9607
+    38.1016  38.1341  38.4862  38.4937  39.0658  39.4739  39.9286  40.5970
+    40.7319  40.9698
+
+          k = 0.3333 0.0000 0.0000 ( 12913 PWs)   bands (ev):
+
+  ******************-973.5594-973.5579-951.2364-951.2363-928.0347-285.1175
+  -285.1174-230.8842-230.8828-191.8094-172.4135-172.4135-111.2878-111.2821
+  -102.3828-102.3828 -46.5883   7.4396   9.7836  12.4212  13.3671  13.7672
+    14.4916  14.7427  14.7438  15.7117  16.3044  17.1992  17.6695  18.3015
+    18.6712  19.8494  20.5213  20.5780  20.7245  21.2842  21.4955  22.1346
+    24.8833  24.9610  25.5411  25.7689  26.2611  26.8530  26.9026  27.7618
+    28.8217  29.0409  29.9141  30.2389  30.4106  30.4262  30.8494  30.8842
+    31.1229  31.5747  32.0473  32.4734  32.9850  33.3095  33.9204  34.0377
+    34.6807  34.8199  34.9157  35.0722  35.4166  35.5184  36.1517  36.4934
+    36.6441  37.2351  37.3606  37.6235  38.0558  39.7075  39.8818  40.2179
+    40.3393  40.9025
+
+          k = 0.0000 0.3333 0.0000 ( 12913 PWs)   bands (ev):
+
+  ******************-973.5594-973.5579-951.2364-951.2363-928.0347-285.1175
+  -285.1174-230.8842-230.8828-191.8094-172.4135-172.4135-111.2878-111.2821
+  -102.3828-102.3828 -46.5883   7.4396   9.7836  12.4212  13.3671  13.7672
+    14.4916  14.7427  14.7438  15.7117  16.3044  17.1992  17.6695  18.3015
+    18.6712  19.8494  20.5213  20.5780  20.7245  21.2842  21.4955  22.1346
+    24.8833  24.9610  25.5411  25.7689  26.2611  26.8530  26.9026  27.7618
+    28.8217  29.0409  29.9141  30.2389  30.4106  30.4262  30.8494  30.8842
+    31.1229  31.5747  32.0473  32.4734  32.9851  33.3095  33.9204  34.0377
+    34.6807  34.8199  34.9157  35.0722  35.4166  35.5184  36.1517  36.4934
+    36.6442  37.2352  37.3606  37.6236  38.0558  39.7075  39.8818  40.2179
+    40.3395  40.9023
+
+          k = 0.3333 0.0000-0.3333 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5593-973.5579-951.2364-951.2363-928.0345-285.1175
+  -285.1174-230.8842-230.8828-191.8091-172.4135-172.4134-111.2878-111.2821
+  -102.3827-102.3827 -46.5985   7.5709   9.9845  11.4072  12.8257  13.5494
+    13.9916  14.7031  15.2509  16.0200  16.7879  16.8180  17.4159  18.7407
+    19.6500  20.0295  20.6477  21.3933  22.2460  22.2820  22.8625  23.6664
+    23.9871  24.4128  24.8853  25.2152  25.2439  26.0526  26.8251  26.9612
+    27.7584  27.9142  28.6551  28.9838  29.4404  29.9378  29.9539  30.2782
+    30.8617  31.1747  32.1409  32.9245  32.9765  33.6032  33.7702  34.7135
+    34.7865  35.2673  35.6053  35.7053  36.1149  36.4254  36.7857  37.1145
+    38.1270  38.4096  39.1708  39.1753  39.5307  40.1084  40.1664  40.2450
+    40.5390  40.6524
+
+          k =-0.3333 0.0000-0.3333 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5593-973.5579-951.2364-951.2363-928.0345-285.1175
+  -285.1174-230.8842-230.8828-191.8091-172.4135-172.4134-111.2878-111.2821
+  -102.3827-102.3827 -46.5985   7.5709   9.9845  11.4072  12.8257  13.5494
+    13.9916  14.7031  15.2509  16.0200  16.7879  16.8180  17.4159  18.7407
+    19.6500  20.0295  20.6477  21.3933  22.2460  22.2819  22.8625  23.6664
+    23.9871  24.4128  24.8853  25.2152  25.2439  26.0526  26.8251  26.9612
+    27.7584  27.9142  28.6551  28.9838  29.4404  29.9378  29.9539  30.2782
+    30.8617  31.1748  32.1409  32.9245  32.9765  33.6032  33.7702  34.7135
+    34.7865  35.2673  35.6053  35.7053  36.1149  36.4253  36.7857  37.1145
+    38.1269  38.4096  39.1708  39.1752  39.5307  40.1083  40.1663  40.2449
+    40.5390  40.6520
+
+          k = 0.3333-0.3333 0.0000 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5593-973.5579-951.2363-951.2363-928.0346-285.1175
+  -285.1174-230.8842-230.8828-191.8093-172.4135-172.4135-111.2878-111.2821
+  -102.3828-102.3828 -46.5881   8.1654   9.8706  11.1225  12.4710  13.4762
+    14.5830  15.1035  15.8062  15.9316  16.4139  16.4309  18.0648  18.4828
+    18.5613  19.0064  19.6025  21.0099  21.9557  22.3642  22.8345  23.2062
+    23.7198  24.6848  24.7721  25.6022  25.7490  26.0104  27.2557  28.4004
+    28.4318  28.6500  28.9619  29.2473  29.7329  29.7735  30.2598  30.3414
+    31.3274  31.3751  31.6470  32.0896  32.9656  33.2040  33.5247  34.5284
+    35.1000  35.1940  35.5325  35.6368  35.8444  36.1503  36.5157  37.0664
+    38.0654  38.1417  39.1035  39.5001  39.5504  39.6512  39.7535  40.0541
+    40.7476  41.0320
+
+          k = 0.3333-0.3333-0.3333 ( 12932 PWs)   bands (ev):
+
+  ******************-973.5595-973.5579-951.2365-951.2364-928.0346-285.1175
+  -285.1175-230.8842-230.8829-191.8092-172.4135-172.4135-111.2878-111.2821
+  -102.3827-102.3827 -46.5983   8.2968  10.0747  11.1614  12.1700  12.7110
+    12.9880  14.6126  15.3173  16.3024  17.4617  17.6779  18.3244  19.2747
+    19.7360  19.8360  20.8605  21.7832  22.0636  22.2553  22.5772  22.8377
+    23.1522  24.3038  24.6481  24.9122  25.5725  26.2765  26.4837  27.1396
+    27.3725  27.8162  28.4936  28.6094  28.6402  29.3501  30.2358  30.3070
+    31.2666  32.1822  32.3792  32.9564  33.2401  33.6537  33.6557  34.2092
+    34.8554  35.0141  35.7494  35.8526  36.5552  37.0145  37.4689  37.9607
+    38.1016  38.1341  38.4862  38.4937  39.0658  39.4739  39.9286  40.5971
+    40.7323  40.9702
+
+ ------ SPIN DOWN ----------
+
+
+          k = 0.0000 0.0000 0.0000 ( 12965 PWs)   bands (ev):
+
+  ******************-973.5596-973.5583-951.2369-951.2369-928.0348-285.1177
+  -285.1177-230.8839-230.8825-191.8096-172.4130-172.4130-111.2820-111.2782
+  -102.3807-102.3807 -46.5837   6.7035  11.1853  12.0832  12.7178  12.7178
+    14.1418  15.3460  16.1282  16.2553  16.2553  17.1602  18.1466  18.3305
+    18.8779  18.8779  19.0951  19.0952  19.1067  22.1120  23.3285  23.3285
+    23.5631  23.7829  24.5524  24.5524  24.7384  28.3388  28.4434  29.6856
+    29.7354  30.0232  30.0232  30.1227  30.9225  31.0522  31.0522  31.8654
+    31.8654  32.0911  32.1201  32.1201  32.4593  32.6422  33.2428  33.9411
+    34.1700  34.6654  34.6654  35.3815  35.7712  36.2605  36.2605  37.1144
+    37.2606  37.2606  37.8813  38.0693  38.2454  38.2455  38.4481  38.7621
+    38.7951  38.9863
+
+          k = 0.0000 0.0000 0.3333 ( 12913 PWs)   bands (ev):
+
+  ******************-973.5594-973.5582-951.2368-951.2368-928.0347-285.1177
+  -285.1177-230.8839-230.8825-191.8093-172.4130-172.4129-111.2820-111.2782
+  -102.3806-102.3806 -46.5938   6.8358  10.8880  11.3596  12.9007  12.9007
+    14.2014  15.0762  15.0762  15.7368  16.2561  17.5324  18.1068  18.8779
+    18.8780  19.3392  20.6554  20.6554  20.7523  21.7754  22.7761  22.7761
+    23.4259  24.3603  24.9611  25.5686  26.4934  26.4934  27.6718  27.6718
+    28.1308  28.5313  29.0174  29.2912  29.4683  30.7947  30.7947  31.3548
+    31.3548  31.7034  31.8954  32.0236  32.0236  33.3189  34.2417  34.4566
+    34.4566  34.7341  34.8684  34.8710  35.7760  35.7760  36.2658  36.2658
+    36.2781  36.8477  37.3438  39.3616  39.3617  39.3625  39.4275  39.4754
+    40.0833  40.7138
+
+          k = 0.0000 0.3333 0.3333 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5594-973.5581-951.2367-951.2367-928.0347-285.1177
+  -285.1176-230.8839-230.8825-191.8092-172.4129-172.4129-111.2820-111.2782
+  -102.3806-102.3806 -46.5936   7.4725   9.8894  11.3720  12.7860  13.3568
+    13.8988  14.5475  15.2061  15.8845  16.6789  16.7666  17.3481  18.6893
+    19.5980  20.0035  20.5299  21.3301  22.1576  22.2524  22.7691  23.6117
+    23.9395  24.3394  24.8203  25.0929  25.1638  25.9986  26.7365  26.9400
+    27.6808  27.8424  28.5992  28.8923  29.3860  29.8675  29.8784  30.2407
+    30.8209  31.1344  32.0265  32.8801  32.9074  33.5295  33.7259  34.6554
+    34.6938  35.2038  35.4923  35.6467  36.0504  36.3849  36.7345  37.0695
+    38.0532  38.3594  39.0977  39.1219  39.4815  40.0104  40.1073  40.1712
+    40.5092  40.5997
+
+          k = 0.3333 0.3333 0.3333 ( 12932 PWs)   bands (ev):
+
+  ******************-973.5596-973.5582-951.2368-951.2368-928.0348-285.1177
+  -285.1177-230.8839-230.8826-191.8093-172.4130-172.4129-111.2820-111.2782
+  -102.3806-102.3806 -46.5934   8.1979   9.9920  11.0555  12.0985  12.5661
+    12.9536  14.5248  15.2383  16.1680  17.4056  17.6128  18.1638  19.2169
+    19.6878  19.7680  20.7917  21.7210  22.0006  22.1858  22.4575  22.8040
+    23.0669  24.2318  24.6116  24.8591  25.4864  26.1879  26.4302  27.0802
+    27.2942  27.7632  28.4449  28.5168  28.5774  29.2983  30.1873  30.2035
+    31.1967  32.1312  32.3103  32.8921  33.1793  33.6018  33.6081  34.1370
+    34.7928  34.9680  35.6764  35.7595  36.4854  36.9295  37.3896  37.9031
+    38.0488  38.0764  38.4281  38.4368  39.0068  39.4178  39.8717  40.5377
+    40.6486  40.9150
+
+          k = 0.3333 0.0000 0.0000 ( 12913 PWs)   bands (ev):
+
+  ******************-973.5595-973.5582-951.2368-951.2367-928.0348-285.1177
+  -285.1177-230.8839-230.8825-191.8095-172.4130-172.4129-111.2820-111.2782
+  -102.3807-102.3807 -46.5835   7.3472   9.6950  12.3788  13.1827  13.6794
+    14.4292  14.5699  14.6989  15.6610  16.2485  17.0545  17.5520  18.2706
+    18.6200  19.7694  20.4733  20.4964  20.6132  21.2246  21.4656  22.0926
+    24.8244  24.8275  25.4592  25.7032  26.2106  26.7957  26.8401  27.7384
+    28.7500  28.9443  29.8166  30.1887  30.3626  30.3685  30.7979  30.8143
+    31.0769  31.5379  32.0168  32.3931  32.8921  33.2756  33.8364  33.9999
+    34.5723  34.6958  34.8371  35.0072  35.2858  35.4676  36.0987  36.4170
+    36.6199  37.1874  37.2698  37.5863  38.0062  39.6384  39.8345  40.1477
+    40.1979  40.8440
+
+          k = 0.0000 0.3333 0.0000 ( 12913 PWs)   bands (ev):
+
+  ******************-973.5595-973.5582-951.2368-951.2367-928.0348-285.1177
+  -285.1177-230.8839-230.8825-191.8095-172.4130-172.4129-111.2820-111.2782
+  -102.3807-102.3807 -46.5835   7.3472   9.6950  12.3788  13.1827  13.6794
+    14.4292  14.5699  14.6988  15.6610  16.2486  17.0545  17.5520  18.2706
+    18.6200  19.7694  20.4733  20.4964  20.6132  21.2246  21.4656  22.0926
+    24.8244  24.8275  25.4592  25.7032  26.2106  26.7957  26.8401  27.7384
+    28.7500  28.9443  29.8166  30.1887  30.3626  30.3685  30.7979  30.8143
+    31.0769  31.5379  32.0168  32.3931  32.8921  33.2756  33.8364  33.9999
+    34.5723  34.6958  34.8371  35.0072  35.2858  35.4676  36.0987  36.4170
+    36.6199  37.1874  37.2698  37.5863  38.0062  39.6384  39.8343  40.1479
+    40.1980  40.8439
+
+          k = 0.3333 0.0000-0.3333 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5594-973.5581-951.2367-951.2367-928.0347-285.1177
+  -285.1176-230.8839-230.8825-191.8092-172.4129-172.4129-111.2820-111.2782
+  -102.3806-102.3806 -46.5936   7.4726   9.8894  11.3720  12.7860  13.3568
+    13.8988  14.5475  15.2061  15.8845  16.6789  16.7666  17.3481  18.6893
+    19.5980  20.0035  20.5299  21.3302  22.1576  22.2524  22.7690  23.6117
+    23.9395  24.3395  24.8203  25.0929  25.1638  25.9986  26.7366  26.9400
+    27.6808  27.8424  28.5992  28.8923  29.3860  29.8675  29.8784  30.2407
+    30.8209  31.1344  32.0265  32.8801  32.9074  33.5295  33.7259  34.6554
+    34.6938  35.2038  35.4923  35.6467  36.0504  36.3849  36.7345  37.0695
+    38.0532  38.3593  39.0977  39.1219  39.4816  40.0104  40.1074  40.1714
+    40.5092  40.5999
+
+          k =-0.3333 0.0000-0.3333 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5594-973.5581-951.2367-951.2367-928.0347-285.1177
+  -285.1176-230.8839-230.8825-191.8092-172.4129-172.4129-111.2820-111.2782
+  -102.3806-102.3806 -46.5936   7.4726   9.8894  11.3720  12.7860  13.3568
+    13.8988  14.5475  15.2061  15.8845  16.6789  16.7666  17.3481  18.6893
+    19.5980  20.0035  20.5299  21.3302  22.1576  22.2524  22.7691  23.6117
+    23.9395  24.3394  24.8203  25.0929  25.1638  25.9986  26.7365  26.9400
+    27.6808  27.8424  28.5992  28.8923  29.3860  29.8675  29.8784  30.2407
+    30.8209  31.1344  32.0265  32.8801  32.9074  33.5295  33.7259  34.6554
+    34.6938  35.2038  35.4923  35.6467  36.0504  36.3849  36.7345  37.0695
+    38.0532  38.3593  39.0977  39.1218  39.4815  40.0102  40.1073  40.1712
+    40.5091  40.5995
+
+          k = 0.3333-0.3333 0.0000 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5594-973.5582-951.2367-951.2366-928.0348-285.1177
+  -285.1176-230.8839-230.8825-191.8095-172.4129-172.4129-111.2820-111.2782
+  -102.3807-102.3807 -46.5833   8.0727   9.7939  11.0051  12.3317  13.4018
+    14.5242  15.0439  15.7491  15.8993  16.2843  16.3105  17.9118  18.3937
+    18.4875  18.9299  19.5699  20.9809  21.9071  22.2549  22.7647  23.1250
+    23.6417  24.5996  24.7219  25.5658  25.7228  25.9359  27.1852  28.3443
+    28.3572  28.5546  28.8791  29.1789  29.6750  29.7131  30.2182  30.2538
+    31.2823  31.2907  31.5846  32.0627  32.8844  33.0970  33.4353  34.4727
+    35.0307  35.1376  35.4528  35.5893  35.7842  36.1134  36.4337  36.9817
+    38.0134  38.0863  39.0505  39.4436  39.4992  39.6030  39.6891  39.9770
+    40.6774  40.9985
+
+          k = 0.3333-0.3333-0.3333 ( 12932 PWs)   bands (ev):
+
+  ******************-973.5596-973.5582-951.2368-951.2368-928.0348-285.1177
+  -285.1177-230.8839-230.8826-191.8093-172.4130-172.4129-111.2820-111.2782
+  -102.3806-102.3806 -46.5934   8.1979   9.9920  11.0555  12.0985  12.5661
+    12.9536  14.5248  15.2383  16.1680  17.4056  17.6128  18.1638  19.2169
+    19.6878  19.7680  20.7917  21.7210  22.0006  22.1858  22.4575  22.8040
+    23.0669  24.2319  24.6116  24.8591  25.4864  26.1879  26.4302  27.0802
+    27.2942  27.7632  28.4449  28.5168  28.5774  29.2984  30.1873  30.2035
+    31.1967  32.1312  32.3103  32.8921  33.1793  33.6018  33.6081  34.1370
+    34.7928  34.9680  35.6764  35.7595  36.4854  36.9295  37.3896  37.9031
+    38.0488  38.0764  38.4281  38.4368  39.0068  39.4178  39.8718  40.5377
+    40.6485  40.9150
+
+     the Fermi energy is    13.4887 ev
+
+!    total energy              =   35979.24110430 Ry
+     Harris-Foulkes estimate   =   35979.24110433 Ry
+     estimated scf accuracy    <          3.8E-09 Ry
+
+     The total energy is the sum of the following terms:
+
+     one-electron contribution =   -1990.14937996 Ry
+     hartree contribution      =     386.35133044 Ry
+     xc contribution           =     -62.10283377 Ry
+     ewald contribution        =   37645.14197550 Ry
+     smearing contrib. (-TS)   =       0.00001208 Ry
+
+     total magnetization       =    -0.30 Bohr mag/cell
+     absolute magnetization    =     0.32 Bohr mag/cell
+
+     convergence has been achieved in  12 iterations
+
+     Magnetic moment per site:
+     atom:    1    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    2    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    3    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    4    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    5    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    6    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    7    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    8    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    9    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:   10    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:   11    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:   12    charge:    0.0000    magn:    0.0000    constr:    0.0000
+
+     total cpu time spent up to now is    14803.5 secs
+
+     End of self-consistent calculation
+
+ ------ SPIN UP ------------
+
+
+          k = 0.0000 0.0000 0.0000 ( 12965 PWs)   bands (ev):
+
+  ******************-973.5595-973.5580-951.2365-951.2365-928.0347-285.1175
+  -285.1175-230.8843-230.8829-191.8094-172.4136-172.4135-111.2878-111.2821
+  -102.3828-102.3828 -46.5885   6.7970  11.2071  12.1325  12.8993  12.8993
+    14.1867  15.3564  16.3570  16.3570  16.3730  17.1948  18.1383  18.4532
+    18.9620  18.9620  19.1399  19.1741  19.1742  22.2268  23.3904  23.3904
+    23.6231  23.8201  24.5803  24.5803  24.7457  28.4166  28.6054  29.6830
+    29.8130  30.0941  30.0942  30.1552  30.9803  31.1751  31.1751  31.9684
+    31.9685  32.1171  32.2082  32.2082  32.4813  32.6529  33.2677  33.9712
+    34.2363  34.7710  34.7710  35.4952  35.9227  36.3293  36.3293  37.2262
+    37.3391  37.3391  37.9271  38.0877  38.3058  38.3058  38.5522  38.7640
+    38.8258  39.0288
+
+          k = 0.0000 0.0000 0.3333 ( 12913 PWs)   bands (ev):
+
+  ******************-973.5593-973.5579-951.2364-951.2364-928.0345-285.1175
+  -285.1175-230.8842-230.8828-191.8091-172.4135-172.4135-111.2878-111.2821
+  -102.3827-102.3827 -46.5987   6.9352  10.9251  11.3841  13.0923  13.0923
+    14.2032  15.1603  15.1603  15.7811  16.5118  17.6434  18.1499  18.9582
+    18.9582  19.3810  20.7271  20.7271  20.7500  21.7929  22.8426  22.8426
+    23.4816  24.4781  25.0404  25.5658  26.5656  26.5656  27.7320  27.7320
+    28.1571  28.6968  29.0325  29.3279  29.5760  30.9067  30.9067  31.4558
+    31.4558  31.7763  31.9454  32.1269  32.1270  33.3476  34.3282  34.5133
+    34.5133  34.7448  34.8928  34.9691  35.8238  35.8238  36.3103  36.3161
+    36.3161  36.8521  37.3968  39.3863  39.4195  39.4195  39.5016  39.5379
+    40.0974  40.6443
+
+          k = 0.0000 0.3333 0.3333 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5593-973.5579-951.2364-951.2363-928.0345-285.1175
+  -285.1174-230.8842-230.8828-191.8091-172.4135-172.4134-111.2878-111.2821
+  -102.3827-102.3827 -46.5985   7.5709   9.9845  11.4072  12.8257  13.5494
+    13.9916  14.7031  15.2509  16.0200  16.7879  16.8180  17.4159  18.7407
+    19.6500  20.0295  20.6477  21.3932  22.2460  22.2820  22.8625  23.6664
+    23.9872  24.4128  24.8853  25.2152  25.2439  26.0526  26.8251  26.9612
+    27.7584  27.9142  28.6551  28.9838  29.4404  29.9378  29.9539  30.2782
+    30.8617  31.1748  32.1409  32.9245  32.9765  33.6032  33.7702  34.7135
+    34.7865  35.2673  35.6053  35.7053  36.1148  36.4253  36.7857  37.1145
+    38.1269  38.4096  39.1708  39.1752  39.5307  40.1084  40.1663  40.2451
+    40.5390  40.6518
+
+          k = 0.3333 0.3333 0.3333 ( 12932 PWs)   bands (ev):
+
+  ******************-973.5595-973.5579-951.2365-951.2364-928.0346-285.1175
+  -285.1175-230.8842-230.8829-191.8092-172.4135-172.4135-111.2878-111.2821
+  -102.3827-102.3827 -46.5983   8.2968  10.0747  11.1614  12.1700  12.7110
+    12.9880  14.6126  15.3173  16.3024  17.4617  17.6779  18.3244  19.2747
+    19.7360  19.8360  20.8605  21.7832  22.0636  22.2553  22.5772  22.8376
+    23.1522  24.3038  24.6481  24.9122  25.5725  26.2765  26.4837  27.1396
+    27.3725  27.8162  28.4936  28.6094  28.6402  29.3501  30.2358  30.3070
+    31.2666  32.1822  32.3792  32.9564  33.2401  33.6537  33.6557  34.2092
+    34.8554  35.0141  35.7494  35.8526  36.5552  37.0145  37.4689  37.9607
+    38.1016  38.1341  38.4862  38.4937  39.0658  39.4739  39.9286  40.5970
+    40.7319  40.9698
+
+          k = 0.3333 0.0000 0.0000 ( 12913 PWs)   bands (ev):
+
+  ******************-973.5594-973.5579-951.2364-951.2363-928.0347-285.1175
+  -285.1174-230.8842-230.8828-191.8094-172.4135-172.4135-111.2878-111.2821
+  -102.3828-102.3828 -46.5883   7.4396   9.7836  12.4212  13.3671  13.7672
+    14.4916  14.7427  14.7438  15.7117  16.3044  17.1992  17.6695  18.3015
+    18.6712  19.8494  20.5213  20.5780  20.7245  21.2842  21.4955  22.1346
+    24.8833  24.9610  25.5411  25.7689  26.2611  26.8530  26.9026  27.7618
+    28.8217  29.0409  29.9141  30.2389  30.4106  30.4262  30.8494  30.8842
+    31.1229  31.5747  32.0473  32.4734  32.9850  33.3095  33.9204  34.0377
+    34.6807  34.8199  34.9157  35.0722  35.4166  35.5184  36.1517  36.4934
+    36.6441  37.2351  37.3606  37.6235  38.0558  39.7075  39.8818  40.2179
+    40.3393  40.9025
+
+          k = 0.0000 0.3333 0.0000 ( 12913 PWs)   bands (ev):
+
+  ******************-973.5594-973.5579-951.2364-951.2363-928.0347-285.1175
+  -285.1174-230.8842-230.8828-191.8094-172.4135-172.4135-111.2878-111.2821
+  -102.3828-102.3828 -46.5883   7.4396   9.7836  12.4212  13.3671  13.7672
+    14.4916  14.7427  14.7438  15.7117  16.3044  17.1992  17.6695  18.3015
+    18.6712  19.8494  20.5213  20.5780  20.7245  21.2842  21.4955  22.1346
+    24.8833  24.9610  25.5411  25.7689  26.2611  26.8530  26.9026  27.7618
+    28.8217  29.0409  29.9141  30.2389  30.4106  30.4262  30.8494  30.8842
+    31.1229  31.5747  32.0473  32.4734  32.9851  33.3095  33.9204  34.0377
+    34.6807  34.8199  34.9157  35.0722  35.4166  35.5184  36.1517  36.4934
+    36.6442  37.2352  37.3606  37.6236  38.0558  39.7075  39.8818  40.2179
+    40.3395  40.9023
+
+          k = 0.3333 0.0000-0.3333 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5593-973.5579-951.2364-951.2363-928.0345-285.1175
+  -285.1174-230.8842-230.8828-191.8091-172.4135-172.4134-111.2878-111.2821
+  -102.3827-102.3827 -46.5985   7.5709   9.9845  11.4072  12.8257  13.5494
+    13.9916  14.7031  15.2509  16.0200  16.7879  16.8180  17.4159  18.7407
+    19.6500  20.0295  20.6477  21.3933  22.2460  22.2820  22.8625  23.6664
+    23.9871  24.4128  24.8853  25.2152  25.2439  26.0526  26.8251  26.9612
+    27.7584  27.9142  28.6551  28.9838  29.4404  29.9378  29.9539  30.2782
+    30.8617  31.1747  32.1409  32.9245  32.9765  33.6032  33.7702  34.7135
+    34.7865  35.2673  35.6053  35.7053  36.1149  36.4254  36.7857  37.1145
+    38.1270  38.4096  39.1708  39.1753  39.5307  40.1084  40.1664  40.2450
+    40.5390  40.6524
+
+          k =-0.3333 0.0000-0.3333 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5593-973.5579-951.2364-951.2363-928.0345-285.1175
+  -285.1174-230.8842-230.8828-191.8091-172.4135-172.4134-111.2878-111.2821
+  -102.3827-102.3827 -46.5985   7.5709   9.9845  11.4072  12.8257  13.5494
+    13.9916  14.7031  15.2509  16.0200  16.7879  16.8180  17.4159  18.7407
+    19.6500  20.0295  20.6477  21.3933  22.2460  22.2819  22.8625  23.6664
+    23.9871  24.4128  24.8853  25.2152  25.2439  26.0526  26.8251  26.9612
+    27.7584  27.9142  28.6551  28.9838  29.4404  29.9378  29.9539  30.2782
+    30.8617  31.1748  32.1409  32.9245  32.9765  33.6032  33.7702  34.7135
+    34.7865  35.2673  35.6053  35.7053  36.1149  36.4253  36.7857  37.1145
+    38.1269  38.4096  39.1708  39.1752  39.5307  40.1083  40.1663  40.2449
+    40.5390  40.6520
+
+          k = 0.3333-0.3333 0.0000 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5593-973.5579-951.2363-951.2363-928.0346-285.1175
+  -285.1174-230.8842-230.8828-191.8093-172.4135-172.4135-111.2878-111.2821
+  -102.3828-102.3828 -46.5881   8.1654   9.8706  11.1225  12.4710  13.4762
+    14.5830  15.1035  15.8062  15.9316  16.4139  16.4309  18.0648  18.4828
+    18.5613  19.0064  19.6025  21.0099  21.9557  22.3642  22.8345  23.2062
+    23.7198  24.6848  24.7721  25.6022  25.7490  26.0104  27.2557  28.4004
+    28.4318  28.6500  28.9619  29.2473  29.7329  29.7735  30.2598  30.3414
+    31.3274  31.3751  31.6470  32.0896  32.9656  33.2040  33.5247  34.5284
+    35.1000  35.1940  35.5325  35.6368  35.8444  36.1503  36.5157  37.0664
+    38.0654  38.1417  39.1035  39.5001  39.5504  39.6512  39.7535  40.0541
+    40.7476  41.0320
+
+          k = 0.3333-0.3333-0.3333 ( 12932 PWs)   bands (ev):
+
+  ******************-973.5595-973.5579-951.2365-951.2364-928.0346-285.1175
+  -285.1175-230.8842-230.8829-191.8092-172.4135-172.4135-111.2878-111.2821
+  -102.3827-102.3827 -46.5983   8.2968  10.0747  11.1614  12.1700  12.7110
+    12.9880  14.6126  15.3173  16.3024  17.4617  17.6779  18.3244  19.2747
+    19.7360  19.8360  20.8605  21.7832  22.0636  22.2553  22.5772  22.8377
+    23.1522  24.3038  24.6481  24.9122  25.5725  26.2765  26.4837  27.1396
+    27.3725  27.8162  28.4936  28.6094  28.6402  29.3501  30.2358  30.3070
+    31.2666  32.1822  32.3792  32.9564  33.2401  33.6537  33.6557  34.2092
+    34.8554  35.0141  35.7494  35.8526  36.5552  37.0145  37.4689  37.9607
+    38.1016  38.1341  38.4862  38.4937  39.0658  39.4739  39.9286  40.5971
+    40.7323  40.9702
+
+ ------ SPIN DOWN ----------
+
+
+          k = 0.0000 0.0000 0.0000 ( 12965 PWs)   bands (ev):
+
+  ******************-973.5596-973.5583-951.2369-951.2369-928.0348-285.1177
+  -285.1177-230.8839-230.8825-191.8096-172.4130-172.4130-111.2820-111.2782
+  -102.3807-102.3807 -46.5837   6.7035  11.1853  12.0832  12.7178  12.7178
+    14.1418  15.3460  16.1282  16.2553  16.2553  17.1602  18.1466  18.3305
+    18.8779  18.8779  19.0951  19.0952  19.1067  22.1120  23.3285  23.3285
+    23.5631  23.7829  24.5524  24.5524  24.7384  28.3388  28.4434  29.6856
+    29.7354  30.0232  30.0232  30.1227  30.9225  31.0522  31.0522  31.8654
+    31.8654  32.0911  32.1201  32.1201  32.4593  32.6422  33.2428  33.9411
+    34.1700  34.6654  34.6654  35.3815  35.7712  36.2605  36.2605  37.1144
+    37.2606  37.2606  37.8813  38.0693  38.2454  38.2455  38.4481  38.7621
+    38.7951  38.9863
+
+          k = 0.0000 0.0000 0.3333 ( 12913 PWs)   bands (ev):
+
+  ******************-973.5594-973.5582-951.2368-951.2368-928.0347-285.1177
+  -285.1177-230.8839-230.8825-191.8093-172.4130-172.4129-111.2820-111.2782
+  -102.3806-102.3806 -46.5938   6.8358  10.8880  11.3596  12.9007  12.9007
+    14.2014  15.0762  15.0762  15.7368  16.2561  17.5324  18.1068  18.8779
+    18.8780  19.3392  20.6554  20.6554  20.7523  21.7754  22.7761  22.7761
+    23.4259  24.3603  24.9611  25.5686  26.4934  26.4934  27.6718  27.6718
+    28.1308  28.5313  29.0174  29.2912  29.4683  30.7947  30.7947  31.3548
+    31.3548  31.7034  31.8954  32.0236  32.0236  33.3189  34.2417  34.4566
+    34.4566  34.7341  34.8684  34.8710  35.7760  35.7760  36.2658  36.2658
+    36.2781  36.8477  37.3438  39.3616  39.3617  39.3625  39.4275  39.4754
+    40.0833  40.7138
+
+          k = 0.0000 0.3333 0.3333 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5594-973.5581-951.2367-951.2367-928.0347-285.1177
+  -285.1176-230.8839-230.8825-191.8092-172.4129-172.4129-111.2820-111.2782
+  -102.3806-102.3806 -46.5936   7.4725   9.8894  11.3720  12.7860  13.3568
+    13.8988  14.5475  15.2061  15.8845  16.6789  16.7666  17.3481  18.6893
+    19.5980  20.0035  20.5299  21.3301  22.1576  22.2524  22.7691  23.6117
+    23.9395  24.3394  24.8203  25.0929  25.1638  25.9986  26.7365  26.9400
+    27.6808  27.8424  28.5992  28.8923  29.3860  29.8675  29.8784  30.2407
+    30.8209  31.1344  32.0265  32.8801  32.9074  33.5295  33.7259  34.6554
+    34.6938  35.2038  35.4923  35.6467  36.0504  36.3849  36.7345  37.0695
+    38.0532  38.3594  39.0977  39.1219  39.4815  40.0104  40.1073  40.1712
+    40.5092  40.5997
+
+          k = 0.3333 0.3333 0.3333 ( 12932 PWs)   bands (ev):
+
+  ******************-973.5596-973.5582-951.2368-951.2368-928.0348-285.1177
+  -285.1177-230.8839-230.8826-191.8093-172.4130-172.4129-111.2820-111.2782
+  -102.3806-102.3806 -46.5934   8.1979   9.9920  11.0555  12.0985  12.5661
+    12.9536  14.5248  15.2383  16.1680  17.4056  17.6128  18.1638  19.2169
+    19.6878  19.7680  20.7917  21.7210  22.0006  22.1858  22.4575  22.8040
+    23.0669  24.2318  24.6116  24.8591  25.4864  26.1879  26.4302  27.0802
+    27.2942  27.7632  28.4449  28.5168  28.5774  29.2983  30.1873  30.2035
+    31.1967  32.1312  32.3103  32.8921  33.1793  33.6018  33.6081  34.1370
+    34.7928  34.9680  35.6764  35.7595  36.4854  36.9295  37.3896  37.9031
+    38.0488  38.0764  38.4281  38.4368  39.0068  39.4178  39.8717  40.5377
+    40.6486  40.9150
+
+          k = 0.3333 0.0000 0.0000 ( 12913 PWs)   bands (ev):
+
+  ******************-973.5595-973.5582-951.2368-951.2367-928.0348-285.1177
+  -285.1177-230.8839-230.8825-191.8095-172.4130-172.4129-111.2820-111.2782
+  -102.3807-102.3807 -46.5835   7.3472   9.6950  12.3788  13.1827  13.6794
+    14.4292  14.5699  14.6989  15.6610  16.2485  17.0545  17.5520  18.2706
+    18.6200  19.7694  20.4733  20.4964  20.6132  21.2246  21.4656  22.0926
+    24.8244  24.8275  25.4592  25.7032  26.2106  26.7957  26.8401  27.7384
+    28.7500  28.9443  29.8166  30.1887  30.3626  30.3685  30.7979  30.8143
+    31.0769  31.5379  32.0168  32.3931  32.8921  33.2756  33.8364  33.9999
+    34.5723  34.6958  34.8371  35.0072  35.2858  35.4676  36.0987  36.4170
+    36.6199  37.1874  37.2698  37.5863  38.0062  39.6384  39.8345  40.1477
+    40.1979  40.8440
+
+          k = 0.0000 0.3333 0.0000 ( 12913 PWs)   bands (ev):
+
+  ******************-973.5595-973.5582-951.2368-951.2367-928.0348-285.1177
+  -285.1177-230.8839-230.8825-191.8095-172.4130-172.4129-111.2820-111.2782
+  -102.3807-102.3807 -46.5835   7.3472   9.6950  12.3788  13.1827  13.6794
+    14.4292  14.5699  14.6988  15.6610  16.2486  17.0545  17.5520  18.2706
+    18.6200  19.7694  20.4733  20.4964  20.6132  21.2246  21.4656  22.0926
+    24.8244  24.8275  25.4592  25.7032  26.2106  26.7957  26.8401  27.7384
+    28.7500  28.9443  29.8166  30.1887  30.3626  30.3685  30.7979  30.8143
+    31.0769  31.5379  32.0168  32.3931  32.8921  33.2756  33.8364  33.9999
+    34.5723  34.6958  34.8371  35.0072  35.2858  35.4676  36.0987  36.4170
+    36.6199  37.1874  37.2698  37.5863  38.0062  39.6384  39.8343  40.1479
+    40.1980  40.8439
+
+          k = 0.3333 0.0000-0.3333 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5594-973.5581-951.2367-951.2367-928.0347-285.1177
+  -285.1176-230.8839-230.8825-191.8092-172.4129-172.4129-111.2820-111.2782
+  -102.3806-102.3806 -46.5936   7.4726   9.8894  11.3720  12.7860  13.3568
+    13.8988  14.5475  15.2061  15.8845  16.6789  16.7666  17.3481  18.6893
+    19.5980  20.0035  20.5299  21.3302  22.1576  22.2524  22.7690  23.6117
+    23.9395  24.3395  24.8203  25.0929  25.1638  25.9986  26.7366  26.9400
+    27.6808  27.8424  28.5992  28.8923  29.3860  29.8675  29.8784  30.2407
+    30.8209  31.1344  32.0265  32.8801  32.9074  33.5295  33.7259  34.6554
+    34.6938  35.2038  35.4923  35.6467  36.0504  36.3849  36.7345  37.0695
+    38.0532  38.3593  39.0977  39.1219  39.4816  40.0104  40.1074  40.1714
+    40.5092  40.5999
+
+          k =-0.3333 0.0000-0.3333 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5594-973.5581-951.2367-951.2367-928.0347-285.1177
+  -285.1176-230.8839-230.8825-191.8092-172.4129-172.4129-111.2820-111.2782
+  -102.3806-102.3806 -46.5936   7.4726   9.8894  11.3720  12.7860  13.3568
+    13.8988  14.5475  15.2061  15.8845  16.6789  16.7666  17.3481  18.6893
+    19.5980  20.0035  20.5299  21.3302  22.1576  22.2524  22.7691  23.6117
+    23.9395  24.3394  24.8203  25.0929  25.1638  25.9986  26.7365  26.9400
+    27.6808  27.8424  28.5992  28.8923  29.3860  29.8675  29.8784  30.2407
+    30.8209  31.1344  32.0265  32.8801  32.9074  33.5295  33.7259  34.6554
+    34.6938  35.2038  35.4923  35.6467  36.0504  36.3849  36.7345  37.0695
+    38.0532  38.3593  39.0977  39.1218  39.4815  40.0102  40.1073  40.1712
+    40.5091  40.5995
+
+          k = 0.3333-0.3333 0.0000 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5594-973.5582-951.2367-951.2366-928.0348-285.1177
+  -285.1176-230.8839-230.8825-191.8095-172.4129-172.4129-111.2820-111.2782
+  -102.3807-102.3807 -46.5833   8.0727   9.7939  11.0051  12.3317  13.4018
+    14.5242  15.0439  15.7491  15.8993  16.2843  16.3105  17.9118  18.3937
+    18.4875  18.9299  19.5699  20.9809  21.9071  22.2549  22.7647  23.1250
+    23.6417  24.5996  24.7219  25.5658  25.7228  25.9359  27.1852  28.3443
+    28.3572  28.5546  28.8791  29.1789  29.6750  29.7131  30.2182  30.2538
+    31.2823  31.2907  31.5846  32.0627  32.8844  33.0970  33.4353  34.4727
+    35.0307  35.1376  35.4528  35.5893  35.7842  36.1134  36.4337  36.9817
+    38.0134  38.0863  39.0505  39.4436  39.4992  39.6030  39.6891  39.9770
+    40.6774  40.9985
+
+          k = 0.3333-0.3333-0.3333 ( 12932 PWs)   bands (ev):
+
+  ******************-973.5596-973.5582-951.2368-951.2368-928.0348-285.1177
+  -285.1177-230.8839-230.8826-191.8093-172.4130-172.4129-111.2820-111.2782
+  -102.3806-102.3806 -46.5934   8.1979   9.9920  11.0555  12.0985  12.5661
+    12.9536  14.5248  15.2383  16.1680  17.4056  17.6128  18.1638  19.2169
+    19.6878  19.7680  20.7917  21.7210  22.0006  22.1858  22.4575  22.8040
+    23.0669  24.2319  24.6116  24.8591  25.4864  26.1879  26.4302  27.0802
+    27.2942  27.7632  28.4449  28.5168  28.5774  29.2984  30.1873  30.2035
+    31.1967  32.1312  32.3103  32.8921  33.1793  33.6018  33.6081  34.1370
+    34.7928  34.9680  35.6764  35.7595  36.4854  36.9295  37.3896  37.9031
+    38.0488  38.0764  38.4281  38.4368  39.0068  39.4178  39.8718  40.5377
+    40.6485  40.9150
+
+     the Fermi energy is    13.4887 ev
+
+!    total energy              =   35979.24110430 Ry
+     Harris-Foulkes estimate   =   35979.24110433 Ry
+     estimated scf accuracy    <          3.8E-09 Ry
+
+     The total energy is the sum of the following terms:
+
+     one-electron contribution =   -1990.14937996 Ry
+     hartree contribution      =     386.35133044 Ry
+     xc contribution           =     -62.10283377 Ry
+     ewald contribution        =   37645.14197550 Ry
+     smearing contrib. (-TS)   =       0.00001208 Ry
+
+     total magnetization       =    -0.30 Bohr mag/cell
+     absolute magnetization    =     0.32 Bohr mag/cell
+
+     convergence has been achieved in  12 iterations
+
+     Magnetic moment per site:
+     atom:    1    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    2    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    3    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    4    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    5    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    6    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    7    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    8    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:    9    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:   10    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:   11    charge:    0.0000    magn:    0.0000    constr:    0.0000
+     atom:   12    charge:    0.0000    magn:    0.0000    constr:    0.0000
+
+     total cpu time spent up to now is    14816.6 secs
+
+     End of self-consistent calculation
+
+ ------ SPIN UP ------------
+
+
+          k = 0.0000 0.0000 0.0000 ( 12965 PWs)   bands (ev):
+
+  ******************-973.5595-973.5580-951.2365-951.2365-928.0347-285.1175
+  -285.1175-230.8843-230.8829-191.8094-172.4136-172.4135-111.2878-111.2821
+  -102.3828-102.3828 -46.5885   6.7970  11.2071  12.1325  12.8993  12.8993
+    14.1867  15.3564  16.3570  16.3570  16.3730  17.1948  18.1383  18.4532
+    18.9620  18.9620  19.1399  19.1741  19.1742  22.2268  23.3904  23.3904
+    23.6231  23.8201  24.5803  24.5803  24.7457  28.4166  28.6054  29.6830
+    29.8130  30.0941  30.0942  30.1552  30.9803  31.1751  31.1751  31.9684
+    31.9685  32.1171  32.2082  32.2082  32.4813  32.6529  33.2677  33.9712
+    34.2363  34.7710  34.7710  35.4952  35.9227  36.3293  36.3293  37.2262
+    37.3391  37.3391  37.9271  38.0877  38.3058  38.3058  38.5522  38.7640
+    38.8258  39.0288
+
+          k = 0.0000 0.0000 0.3333 ( 12913 PWs)   bands (ev):
+
+  ******************-973.5593-973.5579-951.2364-951.2364-928.0345-285.1175
+  -285.1175-230.8842-230.8828-191.8091-172.4135-172.4135-111.2878-111.2821
+  -102.3827-102.3827 -46.5987   6.9352  10.9251  11.3841  13.0923  13.0923
+    14.2032  15.1603  15.1603  15.7811  16.5118  17.6434  18.1499  18.9582
+    18.9582  19.3810  20.7271  20.7271  20.7500  21.7929  22.8426  22.8426
+    23.4816  24.4781  25.0404  25.5658  26.5656  26.5656  27.7320  27.7320
+    28.1571  28.6968  29.0325  29.3279  29.5760  30.9067  30.9067  31.4558
+    31.4558  31.7763  31.9454  32.1269  32.1270  33.3476  34.3282  34.5133
+    34.5133  34.7448  34.8928  34.9691  35.8238  35.8238  36.3103  36.3161
+    36.3161  36.8521  37.3968  39.3863  39.4195  39.4195  39.5016  39.5379
+    40.0974  40.6443
+
+          k = 0.0000 0.3333 0.3333 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5593-973.5579-951.2364-951.2363-928.0345-285.1175
+  -285.1174-230.8842-230.8828-191.8091-172.4135-172.4134-111.2878-111.2821
+  -102.3827-102.3827 -46.5985   7.5709   9.9845  11.4072  12.8257  13.5494
+    13.9916  14.7031  15.2509  16.0200  16.7879  16.8180  17.4159  18.7407
+    19.6500  20.0295  20.6477  21.3932  22.2460  22.2820  22.8625  23.6664
+    23.9872  24.4128  24.8853  25.2152  25.2439  26.0526  26.8251  26.9612
+    27.7584  27.9142  28.6551  28.9838  29.4404  29.9378  29.9539  30.2782
+    30.8617  31.1748  32.1409  32.9245  32.9765  33.6032  33.7702  34.7135
+    34.7865  35.2673  35.6053  35.7053  36.1148  36.4253  36.7857  37.1145
+    38.1269  38.4096  39.1708  39.1752  39.5307  40.1084  40.1663  40.2451
+    40.5390  40.6518
+
+          k = 0.3333 0.3333 0.3333 ( 12932 PWs)   bands (ev):
+
+  ******************-973.5595-973.5579-951.2365-951.2364-928.0346-285.1175
+  -285.1175-230.8842-230.8829-191.8092-172.4135-172.4135-111.2878-111.2821
+  -102.3827-102.3827 -46.5983   8.2968  10.0747  11.1614  12.1700  12.7110
+    12.9880  14.6126  15.3173  16.3024  17.4617  17.6779  18.3244  19.2747
+    19.7360  19.8360  20.8605  21.7832  22.0636  22.2553  22.5772  22.8376
+    23.1522  24.3038  24.6481  24.9122  25.5725  26.2765  26.4837  27.1396
+    27.3725  27.8162  28.4936  28.6094  28.6402  29.3501  30.2358  30.3070
+    31.2666  32.1822  32.3792  32.9564  33.2401  33.6537  33.6557  34.2092
+    34.8554  35.0141  35.7494  35.8526  36.5552  37.0145  37.4689  37.9607
+    38.1016  38.1341  38.4862  38.4937  39.0658  39.4739  39.9286  40.5970
+    40.7319  40.9698
+
+          k = 0.3333 0.0000 0.0000 ( 12913 PWs)   bands (ev):
+
+  ******************-973.5594-973.5579-951.2364-951.2363-928.0347-285.1175
+  -285.1174-230.8842-230.8828-191.8094-172.4135-172.4135-111.2878-111.2821
+  -102.3828-102.3828 -46.5883   7.4396   9.7836  12.4212  13.3671  13.7672
+    14.4916  14.7427  14.7438  15.7117  16.3044  17.1992  17.6695  18.3015
+    18.6712  19.8494  20.5213  20.5780  20.7245  21.2842  21.4955  22.1346
+    24.8833  24.9610  25.5411  25.7689  26.2611  26.8530  26.9026  27.7618
+    28.8217  29.0409  29.9141  30.2389  30.4106  30.4262  30.8494  30.8842
+    31.1229  31.5747  32.0473  32.4734  32.9850  33.3095  33.9204  34.0377
+    34.6807  34.8199  34.9157  35.0722  35.4166  35.5184  36.1517  36.4934
+    36.6441  37.2351  37.3606  37.6235  38.0558  39.7075  39.8818  40.2179
+    40.3393  40.9025
+
+          k = 0.0000 0.3333 0.0000 ( 12913 PWs)   bands (ev):
+
+  ******************-973.5594-973.5579-951.2364-951.2363-928.0347-285.1175
+  -285.1174-230.8842-230.8828-191.8094-172.4135-172.4135-111.2878-111.2821
+  -102.3828-102.3828 -46.5883   7.4396   9.7836  12.4212  13.3671  13.7672
+    14.4916  14.7427  14.7438  15.7117  16.3044  17.1992  17.6695  18.3015
+    18.6712  19.8494  20.5213  20.5780  20.7245  21.2842  21.4955  22.1346
+    24.8833  24.9610  25.5411  25.7689  26.2611  26.8530  26.9026  27.7618
+    28.8217  29.0409  29.9141  30.2389  30.4106  30.4262  30.8494  30.8842
+    31.1229  31.5747  32.0473  32.4734  32.9851  33.3095  33.9204  34.0377
+    34.6807  34.8199  34.9157  35.0722  35.4166  35.5184  36.1517  36.4934
+    36.6442  37.2352  37.3606  37.6236  38.0558  39.7075  39.8818  40.2179
+    40.3395  40.9023
+
+          k = 0.3333 0.0000-0.3333 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5593-973.5579-951.2364-951.2363-928.0345-285.1175
+  -285.1174-230.8842-230.8828-191.8091-172.4135-172.4134-111.2878-111.2821
+  -102.3827-102.3827 -46.5985   7.5709   9.9845  11.4072  12.8257  13.5494
+    13.9916  14.7031  15.2509  16.0200  16.7879  16.8180  17.4159  18.7407
+    19.6500  20.0295  20.6477  21.3933  22.2460  22.2820  22.8625  23.6664
+    23.9871  24.4128  24.8853  25.2152  25.2439  26.0526  26.8251  26.9612
+    27.7584  27.9142  28.6551  28.9838  29.4404  29.9378  29.9539  30.2782
+    30.8617  31.1747  32.1409  32.9245  32.9765  33.6032  33.7702  34.7135
+    34.7865  35.2673  35.6053  35.7053  36.1149  36.4254  36.7857  37.1145
+    38.1270  38.4096  39.1708  39.1753  39.5307  40.1084  40.1664  40.2450
+    40.5390  40.6524
+
+          k =-0.3333 0.0000-0.3333 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5593-973.5579-951.2364-951.2363-928.0345-285.1175
+  -285.1174-230.8842-230.8828-191.8091-172.4135-172.4134-111.2878-111.2821
+  -102.3827-102.3827 -46.5985   7.5709   9.9845  11.4072  12.8257  13.5494
+    13.9916  14.7031  15.2509  16.0200  16.7879  16.8180  17.4159  18.7407
+    19.6500  20.0295  20.6477  21.3933  22.2460  22.2819  22.8625  23.6664
+    23.9871  24.4128  24.8853  25.2152  25.2439  26.0526  26.8251  26.9612
+    27.7584  27.9142  28.6551  28.9838  29.4404  29.9378  29.9539  30.2782
+    30.8617  31.1748  32.1409  32.9245  32.9765  33.6032  33.7702  34.7135
+    34.7865  35.2673  35.6053  35.7053  36.1149  36.4253  36.7857  37.1145
+    38.1269  38.4096  39.1708  39.1752  39.5307  40.1083  40.1663  40.2449
+    40.5390  40.6520
+
+          k = 0.3333-0.3333 0.0000 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5593-973.5579-951.2363-951.2363-928.0346-285.1175
+  -285.1174-230.8842-230.8828-191.8093-172.4135-172.4135-111.2878-111.2821
+  -102.3828-102.3828 -46.5881   8.1654   9.8706  11.1225  12.4710  13.4762
+    14.5830  15.1035  15.8062  15.9316  16.4139  16.4309  18.0648  18.4828
+    18.5613  19.0064  19.6025  21.0099  21.9557  22.3642  22.8345  23.2062
+    23.7198  24.6848  24.7721  25.6022  25.7490  26.0104  27.2557  28.4004
+    28.4318  28.6500  28.9619  29.2473  29.7329  29.7735  30.2598  30.3414
+    31.3274  31.3751  31.6470  32.0896  32.9656  33.2040  33.5247  34.5284
+    35.1000  35.1940  35.5325  35.6368  35.8444  36.1503  36.5157  37.0664
+    38.0654  38.1417  39.1035  39.5001  39.5504  39.6512  39.7535  40.0541
+    40.7476  41.0320
+
+          k = 0.3333-0.3333-0.3333 ( 12932 PWs)   bands (ev):
+
+  ******************-973.5595-973.5579-951.2365-951.2364-928.0346-285.1175
+  -285.1175-230.8842-230.8829-191.8092-172.4135-172.4135-111.2878-111.2821
+  -102.3827-102.3827 -46.5983   8.2968  10.0747  11.1614  12.1700  12.7110
+    12.9880  14.6126  15.3173  16.3024  17.4617  17.6779  18.3244  19.2747
+    19.7360  19.8360  20.8605  21.7832  22.0636  22.2553  22.5772  22.8377
+    23.1522  24.3038  24.6481  24.9122  25.5725  26.2765  26.4837  27.1396
+    27.3725  27.8162  28.4936  28.6094  28.6402  29.3501  30.2358  30.3070
+    31.2666  32.1822  32.3792  32.9564  33.2401  33.6537  33.6557  34.2092
+    34.8554  35.0141  35.7494  35.8526  36.5552  37.0145  37.4689  37.9607
+    38.1016  38.1341  38.4862  38.4937  39.0658  39.4739  39.9286  40.5971
+    40.7323  40.9702
+
+ ------ SPIN DOWN ----------
+
+
+          k = 0.0000 0.0000 0.0000 ( 12965 PWs)   bands (ev):
+
+  ******************-973.5596-973.5583-951.2369-951.2369-928.0348-285.1177
+  -285.1177-230.8839-230.8825-191.8096-172.4130-172.4130-111.2820-111.2782
+  -102.3807-102.3807 -46.5837   6.7035  11.1853  12.0832  12.7178  12.7178
+    14.1418  15.3460  16.1282  16.2553  16.2553  17.1602  18.1466  18.3305
+    18.8779  18.8779  19.0951  19.0952  19.1067  22.1120  23.3285  23.3285
+    23.5631  23.7829  24.5524  24.5524  24.7384  28.3388  28.4434  29.6856
+    29.7354  30.0232  30.0232  30.1227  30.9225  31.0522  31.0522  31.8654
+    31.8654  32.0911  32.1201  32.1201  32.4593  32.6422  33.2428  33.9411
+    34.1700  34.6654  34.6654  35.3815  35.7712  36.2605  36.2605  37.1144
+    37.2606  37.2606  37.8813  38.0693  38.2454  38.2455  38.4481  38.7621
+    38.7951  38.9863
+
+          k = 0.0000 0.0000 0.3333 ( 12913 PWs)   bands (ev):
+
+  ******************-973.5594-973.5582-951.2368-951.2368-928.0347-285.1177
+  -285.1177-230.8839-230.8825-191.8093-172.4130-172.4129-111.2820-111.2782
+  -102.3806-102.3806 -46.5938   6.8358  10.8880  11.3596  12.9007  12.9007
+    14.2014  15.0762  15.0762  15.7368  16.2561  17.5324  18.1068  18.8779
+    18.8780  19.3392  20.6554  20.6554  20.7523  21.7754  22.7761  22.7761
+    23.4259  24.3603  24.9611  25.5686  26.4934  26.4934  27.6718  27.6718
+    28.1308  28.5313  29.0174  29.2912  29.4683  30.7947  30.7947  31.3548
+    31.3548  31.7034  31.8954  32.0236  32.0236  33.3189  34.2417  34.4566
+    34.4566  34.7341  34.8684  34.8710  35.7760  35.7760  36.2658  36.2658
+    36.2781  36.8477  37.3438  39.3616  39.3617  39.3625  39.4275  39.4754
+    40.0833  40.7138
+
+          k = 0.0000 0.3333 0.3333 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5594-973.5581-951.2367-951.2367-928.0347-285.1177
+  -285.1176-230.8839-230.8825-191.8092-172.4129-172.4129-111.2820-111.2782
+  -102.3806-102.3806 -46.5936   7.4725   9.8894  11.3720  12.7860  13.3568
+    13.8988  14.5475  15.2061  15.8845  16.6789  16.7666  17.3481  18.6893
+    19.5980  20.0035  20.5299  21.3301  22.1576  22.2524  22.7691  23.6117
+    23.9395  24.3394  24.8203  25.0929  25.1638  25.9986  26.7365  26.9400
+    27.6808  27.8424  28.5992  28.8923  29.3860  29.8675  29.8784  30.2407
+    30.8209  31.1344  32.0265  32.8801  32.9074  33.5295  33.7259  34.6554
+    34.6938  35.2038  35.4923  35.6467  36.0504  36.3849  36.7345  37.0695
+    38.0532  38.3594  39.0977  39.1219  39.4815  40.0104  40.1073  40.1712
+    40.5092  40.5997
+
+          k = 0.3333 0.3333 0.3333 ( 12932 PWs)   bands (ev):
+
+  ******************-973.5596-973.5582-951.2368-951.2368-928.0348-285.1177
+  -285.1177-230.8839-230.8826-191.8093-172.4130-172.4129-111.2820-111.2782
+  -102.3806-102.3806 -46.5934   8.1979   9.9920  11.0555  12.0985  12.5661
+    12.9536  14.5248  15.2383  16.1680  17.4056  17.6128  18.1638  19.2169
+    19.6878  19.7680  20.7917  21.7210  22.0006  22.1858  22.4575  22.8040
+    23.0669  24.2318  24.6116  24.8591  25.4864  26.1879  26.4302  27.0802
+    27.2942  27.7632  28.4449  28.5168  28.5774  29.2983  30.1873  30.2035
+    31.1967  32.1312  32.3103  32.8921  33.1793  33.6018  33.6081  34.1370
+    34.7928  34.9680  35.6764  35.7595  36.4854  36.9295  37.3896  37.9031
+    38.0488  38.0764  38.4281  38.4368  39.0068  39.4178  39.8717  40.5377
+    40.6486  40.9150
+
+          k = 0.3333 0.0000 0.0000 ( 12913 PWs)   bands (ev):
+
+  ******************-973.5595-973.5582-951.2368-951.2367-928.0348-285.1177
+  -285.1177-230.8839-230.8825-191.8095-172.4130-172.4129-111.2820-111.2782
+  -102.3807-102.3807 -46.5835   7.3472   9.6950  12.3788  13.1827  13.6794
+    14.4292  14.5699  14.6989  15.6610  16.2485  17.0545  17.5520  18.2706
+    18.6200  19.7694  20.4733  20.4964  20.6132  21.2246  21.4656  22.0926
+    24.8244  24.8275  25.4592  25.7032  26.2106  26.7957  26.8401  27.7384
+    28.7500  28.9443  29.8166  30.1887  30.3626  30.3685  30.7979  30.8143
+    31.0769  31.5379  32.0168  32.3931  32.8921  33.2756  33.8364  33.9999
+    34.5723  34.6958  34.8371  35.0072  35.2858  35.4676  36.0987  36.4170
+    36.6199  37.1874  37.2698  37.5863  38.0062  39.6384  39.8345  40.1477
+    40.1979  40.8440
+
+          k = 0.0000 0.3333 0.0000 ( 12913 PWs)   bands (ev):
+
+  ******************-973.5595-973.5582-951.2368-951.2367-928.0348-285.1177
+  -285.1177-230.8839-230.8825-191.8095-172.4130-172.4129-111.2820-111.2782
+  -102.3807-102.3807 -46.5835   7.3472   9.6950  12.3788  13.1827  13.6794
+    14.4292  14.5699  14.6988  15.6610  16.2486  17.0545  17.5520  18.2706
+    18.6200  19.7694  20.4733  20.4964  20.6132  21.2246  21.4656  22.0926
+    24.8244  24.8275  25.4592  25.7032  26.2106  26.7957  26.8401  27.7384
+    28.7500  28.9443  29.8166  30.1887  30.3626  30.3685  30.7979  30.8143
+    31.0769  31.5379  32.0168  32.3931  32.8921  33.2756  33.8364  33.9999
+    34.5723  34.6958  34.8371  35.0072  35.2858  35.4676  36.0987  36.4170
+    36.6199  37.1874  37.2698  37.5863  38.0062  39.6384  39.8343  40.1479
+    40.1980  40.8439
+
+          k = 0.3333 0.0000-0.3333 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5594-973.5581-951.2367-951.2367-928.0347-285.1177
+  -285.1176-230.8839-230.8825-191.8092-172.4129-172.4129-111.2820-111.2782
+  -102.3806-102.3806 -46.5936   7.4726   9.8894  11.3720  12.7860  13.3568
+    13.8988  14.5475  15.2061  15.8845  16.6789  16.7666  17.3481  18.6893
+    19.5980  20.0035  20.5299  21.3302  22.1576  22.2524  22.7690  23.6117
+    23.9395  24.3395  24.8203  25.0929  25.1638  25.9986  26.7366  26.9400
+    27.6808  27.8424  28.5992  28.8923  29.3860  29.8675  29.8784  30.2407
+    30.8209  31.1344  32.0265  32.8801  32.9074  33.5295  33.7259  34.6554
+    34.6938  35.2038  35.4923  35.6467  36.0504  36.3849  36.7345  37.0695
+    38.0532  38.3593  39.0977  39.1219  39.4816  40.0104  40.1074  40.1714
+    40.5092  40.5999
+
+          k =-0.3333 0.0000-0.3333 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5594-973.5581-951.2367-951.2367-928.0347-285.1177
+  -285.1176-230.8839-230.8825-191.8092-172.4129-172.4129-111.2820-111.2782
+  -102.3806-102.3806 -46.5936   7.4726   9.8894  11.3720  12.7860  13.3568
+    13.8988  14.5475  15.2061  15.8845  16.6789  16.7666  17.3481  18.6893
+    19.5980  20.0035  20.5299  21.3302  22.1576  22.2524  22.7691  23.6117
+    23.9395  24.3394  24.8203  25.0929  25.1638  25.9986  26.7365  26.9400
+    27.6808  27.8424  28.5992  28.8923  29.3860  29.8675  29.8784  30.2407
+    30.8209  31.1344  32.0265  32.8801  32.9074  33.5295  33.7259  34.6554
+    34.6938  35.2038  35.4923  35.6467  36.0504  36.3849  36.7345  37.0695
+    38.0532  38.3593  39.0977  39.1218  39.4815  40.0102  40.1073  40.1712
+    40.5091  40.5995
+
+          k = 0.3333-0.3333 0.0000 ( 12888 PWs)   bands (ev):
+
+  ******************-973.5594-973.5582-951.2367-951.2366-928.0348-285.1177
+  -285.1176-230.8839-230.8825-191.8095-172.4129-172.4129-111.2820-111.2782
+  -102.3807-102.3807 -46.5833   8.0727   9.7939  11.0051  12.3317  13.4018
+    14.5242  15.0439  15.7491  15.8993  16.2843  16.3105  17.9118  18.3937
+    18.4875  18.9299  19.5699  20.9809  21.9071  22.2549  22.7647  23.1250
+    23.6417  24.5996  24.7219  25.5658  25.7228  25.9359  27.1852  28.3443
+    28.3572  28.5546  28.8791  29.1789  29.6750  29.7131  30.2182  30.2538
+    31.2823  31.2907  31.5846  32.0627  32.8844  33.0970  33.4353  34.4727
+    35.0307  35.1376  35.4528  35.5893  35.7842  36.1134  36.4337  36.9817
+    38.0134  38.0863  39.0505  39.4436  39.4992  39.6030  39.6891  39.9770
+    40.6774  40.9985
+
+          k = 0.3333-0.3333-0.3333 ( 12932 PWs)   bands (ev):
+
+  ******************-973.5596-973.5582-951.2368-951.2368-928.0348-285.1177
+  -285.1177-230.8839-230.8826-191.8093-172.4130-172.4129-111.2820-111.2782
+  -102.3806-102.3806 -46.5934   8.1979   9.9920  11.0555  12.0985  12.5661
+    12.9536  14.5248  15.2383  16.1680  17.4056  17.6128  18.1638  19.2169
+    19.6878  19.7680  20.7917  21.7210  22.0006  22.1858  22.4575  22.8040
+    23.0669  24.2319  24.6116  24.8591  25.4864  26.1879  26.4302  27.0802
+    27.2942  27.7632  28.4449  28.5168  28.5774  29.2984  30.1873  30.2035
+    31.1967  32.1312  32.3103  32.8921  33.1793  33.6018  33.6081  34.1370
+    34.7928  34.9680  35.6764  35.7595  36.4854  36.9295  37.3896  37.9031
+    38.0488  38.0764  38.4281  38.4368  39.0068  39.4178  39.8718  40.5377
+    40.6485  40.9150
+
+     the Fermi energy is    13.4887 ev
+
+!    total energy              =   35979.24110430 Ry
+     Harris-Foulkes estimate   =   35979.24110433 Ry
+     estimated scf accuracy    <          3.8E-09 Ry
+
+     The total energy is the sum of the following terms:
+
+     one-electron contribution =   -1990.14937996 Ry
+     hartree contribution      =     386.35133044 Ry
+     xc contribution           =     -62.10283377 Ry
+     ewald contribution        =   37645.14197550 Ry
+     smearing contrib. (-TS)   =       0.00001208 Ry
+
+     total magnetization       =    -0.30 Bohr mag/cell
+     absolute magnetization    =     0.32 Bohr mag/cell
+
+     convergence has been achieved in  12 iterations
+
+     Forces acting on atoms (cartesian axes, Ry/au):
+
+     atom    1 type  2   force = **************    0.00000000**************
+     atom    2 type  2   force = **************    0.00000000 -104.37943605
+     atom    3 type  2   force =    -1.42993135****************************
+     atom    4 type  2   force =    -0.9175412859519.47571572 -104.37943020
+     atom    5 type  2   force =    -1.42993135****************************
+     atom    6 type  2   force =    -0.91754128************** -104.37943020
+     atom    7 type  2   force = **************    0.00000000**************
+     atom    8 type  2   force = 59519.85787572    0.00000000 -104.37944666
+     atom    9 type  2   force = **************    0.00000000**************
+     atom   10 type  2   force =    -1.42993266****************************
+     atom   11 type  2   force =    -1.42993266****************************
+     atom   12 type  2   force = **************    0.00000000**************
+
+     Total force = ************     Total SCF correction =     0.000050
+
+
+     Computing stress (Cartesian axis) and pressure
+
+
+     Forces acting on atoms (cartesian axes, Ry/au):
+
+     atom    1 type  2   force = **************    0.00000000**************
+     atom    2 type  2   force = **************    0.00000000 -104.37943605
+     atom    3 type  2   force =    -1.42993135****************************
+     atom    4 type  2   force =    -0.9175412859519.47571572 -104.37943020
+     atom    5 type  2   force =    -1.42993135****************************
+     atom    6 type  2   force =    -0.91754128************** -104.37943020
+     atom    7 type  2   force = **************    0.00000000**************
+     atom    8 type  2   force = 59519.85787572    0.00000000 -104.37944666
+     atom    9 type  2   force = **************    0.00000000**************
+     atom   10 type  2   force =    -1.42993266****************************
+     atom   11 type  2   force =    -1.42993266****************************
+     atom   12 type  2   force = **************    0.00000000**************
+
+     Total force = ************     Total SCF correction =     0.000050
+
+
+     Computing stress (Cartesian axis) and pressure
+
+
+     Forces acting on atoms (cartesian axes, Ry/au):
+
+     atom    1 type  2   force = **************    0.00000000**************
+     atom    2 type  2   force = **************    0.00000000 -104.37943605
+     atom    3 type  2   force =    -1.42993135****************************
+     atom    4 type  2   force =    -0.9175412859519.47571572 -104.37943020
+     atom    5 type  2   force =    -1.42993135****************************
+     atom    6 type  2   force =    -0.91754128************** -104.37943020
+     atom    7 type  2   force = **************    0.00000000**************
+     atom    8 type  2   force = 59519.85787572    0.00000000 -104.37944666
+     atom    9 type  2   force = **************    0.00000000**************
+     atom   10 type  2   force =    -1.42993266****************************
+     atom   11 type  2   force =    -1.42993266****************************
+     atom   12 type  2   force = **************    0.00000000**************
+
+     Total force = ************     Total SCF correction =     0.000050
+
+
+     Computing stress (Cartesian axis) and pressure
+
+
+     Forces acting on atoms (cartesian axes, Ry/au):
+
+     atom    1 type  2   force = **************    0.00000000**************
+     atom    2 type  2   force = **************    0.00000000 -104.37943605
+     atom    3 type  2   force =    -1.42993135****************************
+     atom    4 type  2   force =    -0.9175412859519.47571572 -104.37943020
+     atom    5 type  2   force =    -1.42993135****************************
+     atom    6 type  2   force =    -0.91754128************** -104.37943020
+     atom    7 type  2   force = **************    0.00000000**************
+     atom    8 type  2   force = 59519.85787572    0.00000000 -104.37944666
+     atom    9 type  2   force = **************    0.00000000**************
+     atom   10 type  2   force =    -1.42993266****************************
+     atom   11 type  2   force =    -1.42993266****************************
+     atom   12 type  2   force = **************    0.00000000**************
+
+     Total force = ************     Total SCF correction =     0.000050
+
+
+     Computing stress (Cartesian axis) and pressure
+
+          total   stress  (Ry/bohr**3)                   (kbar)     P=********
+  11.90676355   0.00000000   0.00000002    1751545.09      0.00      0.00
+   0.00000000  11.90736680   0.00000000          0.001751633.84      0.00
+   0.00000002   0.00000000  12.27309932          0.00      0.001805434.94
+
+
+     BFGS Geometry Optimization
+
+     number of scf cycles    =   1
+     number of bfgs steps    =   0
+
+     enthalpy new            =   35979.2411043001 Ry
+
+     new trust radius        =       0.5000000000 bohr
+     new conv_thr            =       0.0000000100 Ry
+
+     new unit-cell volume =   1070.77517 a.u.^3 (   158.67251 Ang^3 )
+     density =     17.59660 g/cm^3
+
+CELL_PARAMETERS (bohr)
+  10.230507161   0.000000000   0.000000000
+   0.000000000  10.230507425   0.000000000
+   0.000000000   0.000000000  10.230667121
+
+ATOMIC_POSITIONS (angstrom)
+Ce      -0.100015497   0.000000000  -0.245009056
+Ce      -0.053825090   0.000000000  26.015130868
+Ce      10.839507253  10.939526515  -0.245009605
+Ce      10.839507716  10.893335230  26.015130868
+Ce      10.839507253 -10.939526515  -0.245009605
+Ce      10.839507716 -10.893335230  26.015130868
+Ce      21.779034174   0.000000000  -0.245010909
+Ce      21.732842841   0.000000000  26.015130868
+Ce      -0.100015439   0.000000000   5.664941466
+Ce      10.839507253  10.939526457   5.664942015
+Ce      10.839507253 -10.939526457   5.664942015
+Ce      21.779034116   0.000000000   5.664943319
+
+
+
+     Writing output data file ceo2.save
+          total   stress  (Ry/bohr**3)                   (kbar)     P=********
+  11.90676355   0.00000000   0.00000002    1751545.09      0.00      0.00
+   0.00000000  11.90736680   0.00000000          0.001751633.84      0.00
+   0.00000002   0.00000000  12.27309932          0.00      0.001805434.94
+
+
+     number of scf cycles    =   2
+     number of bfgs steps    =   1
+
+     enthalpy old            =   35979.2411043001 Ry
+     enthalpy new            =   35979.2411043001 Ry
+
+     CASE: enthalpy_new > enthalpy_old
+
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine bfgs (1):
+      step_old is NOT normalized
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+-------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code.. Per user-direction, the job has been aborted.
+-------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[42941,1],3]
+  Exit code:    1
+--------------------------------------------------------------------------
